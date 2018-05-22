@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE country-specific-fields PUBLIC
+ "-//SuccessFactors, Inc.//DTD Country Specific Field Configuration//EN"
+ "http://svn/viewvc/svn/V4/trunk/src/com/sf/dtd/country-specific-fields.dtd?view=co">
+<country-specific-fields>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <country id="BRA">
+    <format-group id="national-id">
+      <format id="RG">
+        <instruction>Registro Geral</instruction>
+        <instruction xml:lang="ar-SA">السجل العام</instruction>
+        <instruction xml:lang="bg-BG">Registro Geral</instruction>
+        <instruction xml:lang="bs-BS">Registro Geral</instruction>
+        <instruction xml:lang="bs-ID">Registro Geral</instruction>
+        <instruction xml:lang="cs-CZ">Registro Geral</instruction>
+        <instruction xml:lang="cy-GB">Registro Geral</instruction>
+        <instruction xml:lang="da-DK">Identitetskort</instruction>
+        <instruction xml:lang="de-CH">Ausweis</instruction>
+        <instruction xml:lang="de-DE">Ausweis</instruction>
+        <instruction xml:lang="el-GR">Registro Geral</instruction>
+        <instruction xml:lang="en-GB">RG - Identity Card</instruction>
+        <instruction xml:lang="es-ES">Registro Geral</instruction>
+        <instruction xml:lang="es-MX">Registro Geral</instruction>
+        <instruction xml:lang="fi-FI">Registro Geral</instruction>
+        <instruction xml:lang="fr-CA">Carte d'identité (Brésil)</instruction>
+        <instruction xml:lang="fr-FR">Carte d'identité civile</instruction>
+        <instruction xml:lang="he-IL">תעודת זהות של ברזיל</instruction>
+        <instruction xml:lang="hi-IN">Registro Geral</instruction>
+        <instruction xml:lang="hr-HR">Broj Registro Geral</instruction>
+        <instruction xml:lang="hu-HU">Registro Geral személyi igazolvány</instruction>
+        <instruction xml:lang="it-IT">Registro Geral</instruction>
+        <instruction xml:lang="ja-JP">街路</instruction>
+        <instruction xml:lang="ko-KR">Registro Geral</instruction>
+        <instruction xml:lang="nb-NO">Registro Geral</instruction>
+        <instruction xml:lang="nl-NL">Registro Geral</instruction>
+        <instruction xml:lang="pl-PL">Registro Geral</instruction>
+        <instruction xml:lang="pt-BR">Registro Geral (RG)</instruction>
+        <instruction xml:lang="pt-PT">Registo Geral</instruction>
+        <instruction xml:lang="ro-RO">Registrul General</instruction>
+        <instruction xml:lang="ru-RU">Регистрационный номер</instruction>
+        <instruction xml:lang="sk-SK">Registro Geral</instruction>
+        <instruction xml:lang="sl-SI">Številka Registro Geral</instruction>
+        <instruction xml:lang="sr-RS">Lična karta</instruction>
+        <instruction xml:lang="sv-SE">Registro Geral</instruction>
+        <instruction xml:lang="th-TH">Registro Geral</instruction>
+        <instruction xml:lang="tr-TR">Registro Geral</instruction>
+        <instruction xml:lang="uk-UA">Registro Geral</instruction>
+        <instruction xml:lang="vi-VN">Registro Geral</instruction>
+        <instruction xml:lang="zh-CN">国民身份证</instruction>
+        <instruction xml:lang="zh-TW">身分證</instruction>
+        <display-format></display-format>
+        <reg-ex>^[A-Z0-9-]{5,14}$</reg-ex>
+      </format>
+      <format id="CTPS">
+        <instruction>Employment Registration Book (CTPS)</instruction>
+        <instruction xml:lang="ar-SA">دفتر تسجيل التوظيف (CTPS)</instruction>
+        <instruction xml:lang="bg-BG">Регистър на заетостта (CTPS)</instruction>
+        <instruction xml:lang="bs-BS">Buku Pendaftaran Pekerja (CTPS)</instruction>
+        <instruction xml:lang="bs-ID">Buku Registrasi Ketenagakerjaan</instruction>
+        <instruction xml:lang="cs-CZ">Kniha registrace zaměstnání (CTPS)</instruction>
+        <instruction xml:lang="cy-GB">Llyfr Cofrestru Cyflogaeth (CTPS)</instruction>
+        <instruction xml:lang="da-DK">Ansættelsesregistreringsbog (CTPS)</instruction>
+        <instruction xml:lang="de-CH">Arbeitsausweis (CTPS)</instruction>
+        <instruction xml:lang="de-DE">Arbeitsausweis (CTPS)</instruction>
+        <instruction xml:lang="el-GR">Βιβλίο Εγγραφών Απασχόλησης (CTPS)</instruction>
+        <instruction xml:lang="en-GB">Employment Registration Book (CTPS)</instruction>
+        <instruction xml:lang="es-ES">Libro de registro de empleo (CTPS)</instruction>
+        <instruction xml:lang="es-MX">Libro de registro de empleo (CTPS)</instruction>
+        <instruction xml:lang="fi-FI">Työrekisterikortti (CTPS)</instruction>
+        <instruction xml:lang="fr-CA">Livre d'enregistrement d'emploi (CTPS)</instruction>
+        <instruction xml:lang="fr-FR">Carte de travail (CTPS)</instruction>
+        <instruction xml:lang="he-IL">חוברת רישום העסקה (CTPS)</instruction>
+        <instruction xml:lang="hi-IN">रोजगार पंजीकरण बही (CTPS)</instruction>
+        <instruction xml:lang="hr-HR">Radna knjižica (CTPS)</instruction>
+        <instruction xml:lang="hu-HU">CTPS – munkakönyv</instruction>
+        <instruction xml:lang="it-IT">Scheda di registrazione occupazione (CTPS)</instruction>
+        <instruction xml:lang="ja-JP">労働社会保障手帳 (CTPS)</instruction>
+        <instruction xml:lang="ko-KR">고용 등록 장부(CTPS)</instruction>
+        <instruction xml:lang="nb-NO">Employment Registration Book (CTPS)</instruction>
+        <instruction xml:lang="nl-NL">Dienstverbandregistratie (CTPS)</instruction>
+        <instruction xml:lang="pl-PL">Rejestr zatrudnienia (CTPS)</instruction>
+        <instruction xml:lang="pt-BR">Carteira de Trabalho e Previdência Social (CTPS)</instruction>
+        <instruction xml:lang="pt-PT">Carteira de Trabalho e Previdência Social (CTPS)</instruction>
+        <instruction xml:lang="ro-RO">Carte de muncă (CTPS)</instruction>
+        <instruction xml:lang="ru-RU">Реестр трудоустройства (CTPS)</instruction>
+        <instruction xml:lang="sk-SK">Zamestnanecká registračná kniha (CTPS)</instruction>
+        <instruction xml:lang="sl-SI">Evidenca registracije zaposlitve (CTPS)</instruction>
+        <instruction xml:lang="sr-RS">Evidencija zaposlenja (CTPS)</instruction>
+        <instruction xml:lang="sv-SE">Bok för registrering av anställda (CTPS)</instruction>
+        <instruction xml:lang="th-TH">สมุดทะเบียนการจ้างงาน (CTPS)</instruction>
+        <instruction xml:lang="tr-TR">İstihdam Kayıt Defteri (CTPS)</instruction>
+        <instruction xml:lang="uk-UA">Книга реєстрації працевлаштування (CTPS)</instruction>
+        <instruction xml:lang="vi-VN">Sổ đăng ký việc làm (CTPS)</instruction>
+        <instruction xml:lang="zh-CN">雇用登记簿 (CTPS)</instruction>
+        <instruction xml:lang="zh-TW">雇用登記簿 (CTPS)</instruction>
+        <display-format>*-*</display-format>
+        <reg-ex>^[\d]{3,10}-[\d]{3,6}$</reg-ex>
+      </format>
+      <format id="CPF">
+        <instruction>Cadastro de Pessoa Física (CPF)</instruction>
+        <instruction xml:lang="ar-SA">رقم تعريف دافع الضرائب الفردي (CPF)</instruction>
+        <instruction xml:lang="bg-BG">Индивидуален идентификационен номер на данъкоплатец</instruction>
+        <instruction xml:lang="bs-BS">Nombor Pengenalan Pembayar cukai Individu (CPF)</instruction>
+        <instruction xml:lang="bs-ID">Nomor Identitas Wajib Pajak Individu (CPF)</instruction>
+        <instruction xml:lang="cs-CZ">Daňové identifikační číslo individuálního plátce (CPF)</instruction>
+        <instruction xml:lang="cy-GB">Rhif Adnabod Trethdalwr Unigol (CPF)</instruction>
+        <instruction xml:lang="da-DK">Individuelt identifikationsnummer for skatteborger (CPF)</instruction>
+        <instruction xml:lang="de-CH">Persönliche Steuernummer (CPF)</instruction>
+        <instruction xml:lang="de-DE">Persönliche Steuernummer (CPF)</instruction>
+        <instruction xml:lang="el-GR">Αριθμός Φορολογικού Μητρώωου Ατόμου (CPF)</instruction>
+        <instruction xml:lang="en-GB">Individual Taxpayer Identification Number (CPF)</instruction>
+        <instruction xml:lang="es-ES">Número de identificación personal del contribuyente (CPF)</instruction>
+        <instruction xml:lang="es-MX">Número de identificación personal del contribuyente (CPF)</instruction>
+        <instruction xml:lang="fi-FI">Henkilökohtainen verotunnus (CPF)</instruction>
+        <instruction xml:lang="fr-CA">Numéro d'identification du contribuable individuel (CPF)</instruction>
+        <instruction xml:lang="fr-FR">Numéro d'identification fiscale individuel (CPF)</instruction>
+        <instruction xml:lang="he-IL">מספר זיהוי של משלם מס יחיד (CPF)</instruction>
+        <instruction xml:lang="hi-IN">व्यक्तिगत करदाता पहचान संख्या (CPF)</instruction>
+        <instruction xml:lang="hr-HR">Osobni identifikacijski broj (OIB)</instruction>
+        <instruction xml:lang="hu-HU">CPF – személyes adóazonosító szám</instruction>
+        <instruction xml:lang="it-IT">Codice fiscale individuale del contribuente (CPF)</instruction>
+        <instruction xml:lang="ja-JP">個人所得納税者番号 (CPF)</instruction>
+        <instruction xml:lang="ko-KR">개인 납세자 번호(CPF)</instruction>
+        <instruction xml:lang="nb-NO">Individual Taxpayer Identification Number (CPF)</instruction>
+        <instruction xml:lang="nl-NL">Individueel belastingnummer (CPF)</instruction>
+        <instruction xml:lang="pl-PL">Indywidualny numer identyfikacyjny płatnika podatku (CPF)</instruction>
+        <instruction xml:lang="pt-BR">Cadastro de Pessoas Físicas (CPF)</instruction>
+        <instruction xml:lang="pt-PT">Cadastro de Pessoas Físicas (CPF)</instruction>
+        <instruction xml:lang="ro-RO">Număr de identificare individual pentru contribuabili (CPF)</instruction>
+        <instruction xml:lang="ru-RU">Индивидуальный идентификационный номер налогоплательщика (CPF)</instruction>
+        <instruction xml:lang="sk-SK">Jednotlivé IČ DPH (CPF)</instruction>
+        <instruction xml:lang="sl-SI">Davčna številka fizične osebe (CPF)</instruction>
+        <instruction xml:lang="sr-RS">Individualni identifikacioni broj poreskog obveznika (CPF)</instruction>
+        <instruction xml:lang="sv-SE">Individuellt skattenummer (CPF)</instruction>
+        <instruction xml:lang="th-TH">เลขประจำตัวผู้เสียภาษีเฉพาะบุคคล (CPF)</instruction>
+        <instruction xml:lang="tr-TR">Bireysel Vergi Kimlik Numarası (CPF)</instruction>
+        <instruction xml:lang="uk-UA">Індивідуальний ідентифікаційний номер платника податків (CPF)</instruction>
+        <instruction xml:lang="vi-VN">Mã số người nộp thuế cá nhân (CPF)</instruction>
+        <instruction xml:lang="zh-CN">个人纳税人识别号 (CPF)</instruction>
+        <instruction xml:lang="zh-TW">個別納稅人身分識別號碼 (CPF)</instruction>
+        <display-format>NNN.NNN.NNN-NN</display-format>
+        <reg-ex>^[\d]{3}.[\d]{3}.[\d]{3}-[\d]{2}$</reg-ex>
+      </format>
+      <format id="PIS">
+        <instruction>Social Integration Program (PIS)</instruction>
+        <instruction xml:lang="ar-SA">برنامج التكافل الاجتماعي (PIS)</instruction>
+        <instruction xml:lang="bg-BG">Програма за социална интеграция (PIS)</instruction>
+        <instruction xml:lang="bs-BS">Program Penyepaduan Sosial (PIS)</instruction>
+        <instruction xml:lang="bs-ID">Program Integrasi Sosial (PIS)</instruction>
+        <instruction xml:lang="cs-CZ">Program sociální integrace (PIS)</instruction>
+        <instruction xml:lang="cy-GB">Rhaglen Integreiddio Cymdeithasol (PIS)</instruction>
+        <instruction xml:lang="da-DK">Program til social integration (PIS)</instruction>
+        <instruction xml:lang="de-CH">Sozialintegrationsabgabe (PIS)</instruction>
+        <instruction xml:lang="de-DE">Sozialintegrationsabgabe (PIS)</instruction>
+        <instruction xml:lang="el-GR">Πρόγραμμα Κοινωνικής Ενσωμάτωσης (PIS)</instruction>
+        <instruction xml:lang="en-GB">Social Integration Programme (PIS)</instruction>
+        <instruction xml:lang="es-ES">Programa de integración social (PIS)</instruction>
+        <instruction xml:lang="es-MX">Programa de integración social (PIS)</instruction>
+        <instruction xml:lang="fi-FI">Sosiaalinen integraatio-ohjelma (PIS)</instruction>
+        <instruction xml:lang="fr-CA">Programme d'intégration sociale (PIS)</instruction>
+        <instruction xml:lang="fr-FR">Programme d'intégration sociale (PIS)</instruction>
+        <instruction xml:lang="he-IL">תוכנית לאינטגרציה חברתית (PIS)</instruction>
+        <instruction xml:lang="hi-IN">सामाजिक एकीकरण कार्यक्रम (PIS)</instruction>
+        <instruction xml:lang="hr-HR">Program socijalne integracije (PIS)</instruction>
+        <instruction xml:lang="hu-HU">PIS – Társadalmi integrációs program</instruction>
+        <instruction xml:lang="it-IT">Programma di integrazione sociale (PIS)</instruction>
+        <instruction xml:lang="ja-JP">社会統合計画 (PIS)</instruction>
+        <instruction xml:lang="ko-KR">사회 통합 프로그램(PIS)</instruction>
+        <instruction xml:lang="nb-NO">Social Integration Program (PIS)</instruction>
+        <instruction xml:lang="nl-NL">Sociaal integratieprogramma (PIS)</instruction>
+        <instruction xml:lang="pl-PL">Program integracyjno-socjalny (PIS)</instruction>
+        <instruction xml:lang="pt-BR">Programa de Integração Social (PIS)</instruction>
+        <instruction xml:lang="pt-PT">Programa de Integração Social (PIS)</instruction>
+        <instruction xml:lang="ro-RO">Program de integrare socială (PIS)</instruction>
+        <instruction xml:lang="ru-RU">Программа социальной интеграции (PIS)</instruction>
+        <instruction xml:lang="sk-SK">Sociálny integračný program (PIS)</instruction>
+        <instruction xml:lang="sl-SI">Program socialnih prispevkov  (PIS)</instruction>
+        <instruction xml:lang="sr-RS">Program socijalne integracije (PIS)</instruction>
+        <instruction xml:lang="sv-SE">Socialt integrationsprogram (PIS)</instruction>
+        <instruction xml:lang="th-TH">โครงการจัดเก็บภาษีสวัสดิการทางสังคม (PIS)</instruction>
+        <instruction xml:lang="tr-TR">Sosyal Entegrasyon Programı (PIS)</instruction>
+        <instruction xml:lang="uk-UA">Програма соціальної інтеграції (PIS)</instruction>
+        <instruction xml:lang="vi-VN">Chương trình tích hợp xã hội (PIS)</instruction>
+        <instruction xml:lang="zh-CN">社会融合计划 (PIS)</instruction>
+        <instruction xml:lang="zh-TW">社會整合計劃 (PIS)</instruction>
+        <display-format>NNN.NNNNN.NN-N</display-format>
+        <reg-ex>^[\d]{3}.[\d]{5}.[\d]{2}-[\d]{1}$</reg-ex>
+      </format>
+      <format id="TE">
+        <instruction>Título de Eleitor</instruction>
+        <instruction xml:lang="pt-BR">Título de Eleitor</instruction>
+        <display-format></display-format>
+        <reg-ex>^[A-Z0-9-]{5,15}$</reg-ex>
+      </format>
+      <format id="CRES">
+        <instruction>Certificado de Reservista</instruction>
+        <instruction xml:lang="pt-BR">Certificado de Reservista</instruction>
+        <display-format></display-format>
+        <reg-ex>^[A-Z0-9-]{5,12}$</reg-ex>
+      </format>
+      <format id="RNE">
+        <instruction>Carteira de Identidade de Estrangeiro</instruction>
+        <instruction xml:lang="pt-BR">Carteira de Identidade de Estrangeiro (RNE)</instruction>
+        <display-format>*</display-format>
+        <reg-ex>^[A-Z0-9]{1,20}$</reg-ex>
+      </format>
+      <format id="PAS">
+        <instruction>Passaporte</instruction>
+        <instruction xml:lang="pt-BR">Passaporte</instruction>
+        <display-format>*</display-format>
+        <reg-ex>^[A-Z0-9]{1,15}$</reg-ex>
+      </format>
+      <format id="VTE">
+        <instruction>Visto de Trabalho para Estrangeiro</instruction>
+        <instruction xml:lang="pt-BR">Visto de Trabalho para Estrangeiro</instruction>
+        <display-format>*</display-format>
+        <reg-ex>^[A-Z0-9]{1,15}$</reg-ex>
+      </format>
+      <format id="CNH">
+        <instruction>Habilitação</instruction>
+        <instruction xml:lang="pt-BR">Habilitação (CNH)</instruction>
+        <display-format></display-format>
+        <reg-ex>^[A-Z0-9-]{5,12}$</reg-ex>
+      </format>
+      <format id="NIT">
+        <instruction>NIT</instruction>
+        <instruction xml:lang="pt-BR">NIT</instruction>
+        <display-format>N.NNN.NNN.NNN-N</display-format>
+        <reg-ex>^[\d]{1}.[\d]{3}.[\d]{3}.[\d]{3}-[\d]{1}$</reg-ex>
+      </format>
+      <format id="CNS">
+        <instruction>Carteira Nacional de Saúde</instruction>
+        <instruction xml:lang="pt-BR">Carteira Nacional de Saúde</instruction>
+        <display-format>NNN NNNN NNNN NNNN</display-format>
+        <reg-ex>^[\d]{3} [\d]{4} [\d]{4} [\d]{4}$</reg-ex>
+      </format>
+      <format id="CR">
+        <instruction>Órgão de Classe</instruction>
+        <instruction xml:lang="pt-BR">Órgão de Classe</instruction>
+        <display-format>NNNNN-NNN</display-format>
+        <reg-ex>^[\d]{5}-[\d]{3}$</reg-ex>
+      </format>
+      <format id="DNI">
+        <instruction>DNI</instruction>
+        <instruction xml:lang="pt-BR">Documento Nacional de Identidade (DNI)</instruction>
+        <display-format>NNN.NNN.NNN-NN</display-format>
+        <reg-ex>^[\d]{3}.[\d]{3}.[\d]{3}-[\d]{2}$</reg-ex>
+      </format>
+    </format-group>
+    <hris-element id="homeAddress">
+      <trigger-rule event="onSave" rule="CWIT_OBJ_HOMEADDRESS_ONSAVE"/>
+      <hris-field max-length="256" id="zip-code" visibility="both" required="true">
+        <label>Postal Code</label>
+        <label xml:lang="ar-SA">الرمز البريدي</label>
+        <label xml:lang="bg-BG">Пощенски код</label>
+        <label xml:lang="bs-BS">Poskod</label>
+        <label xml:lang="bs-ID">Kode Pos</label>
+        <label xml:lang="cs-CZ">PSČ</label>
+        <label xml:lang="cy-GB">Cod Post</label>
+        <label xml:lang="da-DK">Postnummer</label>
+        <label xml:lang="de-CH">Postleitzahl</label>
+        <label xml:lang="de-DE">Postleitzahl</label>
+        <label xml:lang="el-GR">Ταχ.Κωδ.</label>
+        <label xml:lang="en-GB">Postal Code</label>
+        <label xml:lang="es-ES">Código postal</label>
+        <label xml:lang="es-MX">Código postal</label>
+        <label xml:lang="fi-FI">Postinumero</label>
+        <label xml:lang="fr-CA">Code postal</label>
+        <label xml:lang="fr-FR">Code postal</label>
+        <label xml:lang="he-IL">מיקוד</label>
+        <label xml:lang="hi-IN">पोस्टल कोड</label>
+        <label xml:lang="hr-HR">Poštanski broj</label>
+        <label xml:lang="hu-HU">Irányítószám</label>
+        <label xml:lang="it-IT">CAP</label>
+        <label xml:lang="ja-JP">郵便番号</label>
+        <label xml:lang="ko-KR">우편번호</label>
+        <label xml:lang="nb-NO">Postnummer</label>
+        <label xml:lang="nl-NL">Postcode</label>
+        <label xml:lang="pl-PL">Kod pocztowy</label>
+        <label xml:lang="pt-BR">CEP</label>
+        <label xml:lang="pt-PT">Código postal</label>
+        <label xml:lang="ro-RO">Cod poştal</label>
+        <label xml:lang="ru-RU">Почтовый индекс</label>
+        <label xml:lang="sk-SK">PSČ</label>
+        <label xml:lang="sl-SI">Poštna številka</label>
+        <label xml:lang="sr-RS">Poštanski broj</label>
+        <label xml:lang="sv-SE">Postnummer</label>
+        <label xml:lang="th-TH">รหัสไปรษณีย์</label>
+        <label xml:lang="tr-TR">Posta Kodu</label>
+        <label xml:lang="uk-UA">Поштовий індекс</label>
+        <label xml:lang="vi-VN">Mã bưu điện</label>
+        <label xml:lang="zh-CN">邮政编码</label>
+        <label xml:lang="zh-TW">郵遞區號</label>
+        <label xml:lang="en-US">Postal Code</label>
+        <trigger-rule event="onChange" rule="CWIT_FIELD_POSTALCODE_ONCHANGE"/>
+      </hris-field>
+      <hris-field max-length="60" id="address1" visibility="both">
+        <label>Street</label>
+        <label xml:lang="ar-SA">الشارع</label>
+        <label xml:lang="bg-BG">Улица</label>
+        <label xml:lang="bs-BS">Jalan</label>
+        <label xml:lang="bs-ID">Jalan</label>
+        <label xml:lang="cs-CZ">Ulice</label>
+        <label xml:lang="cy-GB">Stryd</label>
+        <label xml:lang="da-DK">Gade/vej</label>
+        <label xml:lang="de-CH">Straße</label>
+        <label xml:lang="de-DE">Straße</label>
+        <label xml:lang="el-GR">Οδός </label>
+        <label xml:lang="en-GB">Street</label>
+        <label xml:lang="es-ES">Calle</label>
+        <label xml:lang="es-MX">Calle</label>
+        <label xml:lang="fi-FI">Katu</label>
+        <label xml:lang="fr-CA">Rue</label>
+        <label xml:lang="fr-FR">Rue</label>
+        <label xml:lang="he-IL">רחוב</label>
+        <label xml:lang="hi-IN">गली</label>
+        <label xml:lang="hr-HR">Ulica</label>
+        <label xml:lang="hu-HU">Utca</label>
+        <label xml:lang="it-IT">Via</label>
+        <label xml:lang="ja-JP">地名</label>
+        <label xml:lang="ko-KR">상세 주소</label>
+        <label xml:lang="nb-NO">Gate</label>
+        <label xml:lang="nl-NL">Straat</label>
+        <label xml:lang="pl-PL">Ulica</label>
+        <label xml:lang="pt-BR">Tipo de Logradouro</label>
+        <label xml:lang="pt-PT">Rua</label>
+        <label xml:lang="ro-RO">Stradă</label>
+        <label xml:lang="ru-RU">Улица</label>
+        <label xml:lang="sk-SK">Ulica</label>
+        <label xml:lang="sl-SI">Ulica</label>
+        <label xml:lang="sr-RS">Ulica</label>
+        <label xml:lang="sv-SE">Gata</label>
+        <label xml:lang="th-TH">ถนน</label>
+        <label xml:lang="tr-TR">Sokak</label>
+        <label xml:lang="uk-UA">Вулиця</label>
+        <label xml:lang="vi-VN">Đường</label>
+        <label xml:lang="zh-CN">街道</label>
+        <label xml:lang="zh-TW">街道</label>
+        <label xml:lang="en-US">Street</label>
+        <picklist id="tipoLogradouro"/>
+      </hris-field>
+      <hris-field max-length="256" id="address2" visibility="both">
+        <label>House Number</label>
+        <label xml:lang="ar-SA">رقم المنزل</label>
+        <label xml:lang="bg-BG">Номер на дом</label>
+        <label xml:lang="bs-BS">Nombor Rumah</label>
+        <label xml:lang="bs-ID">Nomor Rumah</label>
+        <label xml:lang="cs-CZ">Číslo domu</label>
+        <label xml:lang="cy-GB">Rhif Tŷ</label>
+        <label xml:lang="da-DK">Husnummer</label>
+        <label xml:lang="de-CH">Hausnummer</label>
+        <label xml:lang="de-DE">Hausnummer</label>
+        <label xml:lang="el-GR">Αριθμός Οικίας </label>
+        <label xml:lang="en-GB">House Number</label>
+        <label xml:lang="es-ES">Número particular</label>
+        <label xml:lang="es-MX">Número particular</label>
+        <label xml:lang="fi-FI">Talon numero</label>
+        <label xml:lang="fr-CA">Numéro de rue</label>
+        <label xml:lang="fr-FR">Numéro de rue</label>
+        <label xml:lang="he-IL">מספר בית</label>
+        <label xml:lang="hi-IN">गृह संख्या</label>
+        <label xml:lang="hr-HR">Kućni broj</label>
+        <label xml:lang="hu-HU">Házszám</label>
+        <label xml:lang="it-IT">Numero civico</label>
+        <label xml:lang="ja-JP">番地 - 号</label>
+        <label xml:lang="ko-KR">번지</label>
+        <label xml:lang="nb-NO">Gatenummer</label>
+        <label xml:lang="nl-NL">Huisnummer</label>
+        <label xml:lang="pl-PL">Numer domu</label>
+        <label xml:lang="pt-BR">Logradouro</label>
+        <label xml:lang="pt-PT">Número</label>
+        <label xml:lang="ro-RO">Numă casă</label>
+        <label xml:lang="ru-RU">Номер дома</label>
+        <label xml:lang="sk-SK">Číslo domu</label>
+        <label xml:lang="sl-SI">Hišna številka</label>
+        <label xml:lang="sr-RS">Kućni broj</label>
+        <label xml:lang="sv-SE">Husnummer</label>
+        <label xml:lang="th-TH">เลขที่บ้าน</label>
+        <label xml:lang="tr-TR">Konut Numarası</label>
+        <label xml:lang="uk-UA">Номер будинку</label>
+        <label xml:lang="vi-VN">Số nhà</label>
+        <label xml:lang="zh-CN">门牌号</label>
+        <label xml:lang="zh-TW">門牌號碼</label>
+        <label xml:lang="en-US">House Number</label>
+      </hris-field>
+      <hris-field max-length="256" id="address3" visibility="both">
+        <label>Extra Address Line</label>
+        <label xml:lang="ar-SA">سطر عنوان إضافي</label>
+        <label xml:lang="bg-BG">Ред за допълнителен адрес</label>
+        <label xml:lang="bs-BS">Baris Alamat Tambahan</label>
+        <label xml:lang="bs-ID">Baris Alamat Tambahan</label>
+        <label xml:lang="cs-CZ">Další řádek adresy</label>
+        <label xml:lang="cy-GB">Llinell ychwanegol yn y cyfeiriad</label>
+        <label xml:lang="da-DK">Ekstra adresselinje</label>
+        <label xml:lang="de-CH">Zusätzliche Adresszeile</label>
+        <label xml:lang="de-DE">Zusätzliche Adresszeile</label>
+        <label xml:lang="el-GR">Πρόσθετη Γραμμή Δ/νσης </label>
+        <label xml:lang="en-GB">Extra Address Line</label>
+        <label xml:lang="es-ES">Línea dirección adicional</label>
+        <label xml:lang="es-MX">Línea dirección adicional</label>
+        <label xml:lang="fi-FI">Ylimääräinen osoiterivi</label>
+        <label xml:lang="fr-CA">Ligne d'adresse supplémentaire</label>
+        <label xml:lang="fr-FR">Ligne d'adresse supplémentaire</label>
+        <label xml:lang="he-IL">שורת כתובת נוספת</label>
+        <label xml:lang="hi-IN">अतिरिक्त पता पंक्ति</label>
+        <label xml:lang="hr-HR">Dodatna adresna linija</label>
+        <label xml:lang="hu-HU">Kiegészítő címsor</label>
+        <label xml:lang="it-IT">Riga indirizzo supplementare</label>
+        <label xml:lang="ja-JP">予備住所行</label>
+        <label xml:lang="ko-KR">추가 주소란</label>
+        <label xml:lang="nb-NO">Ekstra adresselinje</label>
+        <label xml:lang="nl-NL">Extra adresregel</label>
+        <label xml:lang="pl-PL">Dodatkowa linia adresu</label>
+        <label xml:lang="pt-BR">Número do logradouro</label>
+        <label xml:lang="pt-PT">Linha de endereço adicional</label>
+        <label xml:lang="ro-RO">Linie de adresă suplimentară</label>
+        <label xml:lang="ru-RU">Дополнительная строка адреса</label>
+        <label xml:lang="sk-SK">Ďalší riadok adresy</label>
+        <label xml:lang="sl-SI">Dodatna vrstica naslova</label>
+        <label xml:lang="sr-RS">Dodatni red adrese</label>
+        <label xml:lang="sv-SE">Extra adressrad</label>
+        <label xml:lang="th-TH">บรรทัดที่อยู่เพิ่มเติม</label>
+        <label xml:lang="tr-TR">Ek Adres Satırı</label>
+        <label xml:lang="uk-UA">Рядок додаткової адреси</label>
+        <label xml:lang="vi-VN">Dòng địa chỉ thêm</label>
+        <label xml:lang="zh-CN">附加地址行</label>
+        <label xml:lang="zh-TW">額外地址行</label>
+        <label xml:lang="en-US">Extra Address Line</label>
+      </hris-field>
+      <hris-field max-length="256" id="province" visibility="both">
+        <label>Address 4</label>
+        <label xml:lang="ar-SA">العنوان 4</label>
+        <label xml:lang="bg-BG">Адрес 4</label>
+        <label xml:lang="bs-BS">Alamat 4</label>
+        <label xml:lang="bs-ID">Alamat 4</label>
+        <label xml:lang="cs-CZ">Adresa 4</label>
+        <label xml:lang="cy-GB">Cyfeiriad 4</label>
+        <label xml:lang="da-DK">Adresse 4</label>
+        <label xml:lang="de-CH">Adresse 4</label>
+        <label xml:lang="de-DE">Adresse 4</label>
+        <label xml:lang="el-GR">Δ/νση 4 </label>
+        <label xml:lang="en-GB">Address 4</label>
+        <label xml:lang="es-ES">Dirección 4</label>
+        <label xml:lang="es-MX">Dirección 4</label>
+        <label xml:lang="fi-FI">Osoite 4</label>
+        <label xml:lang="fr-CA">Adresse 4</label>
+        <label xml:lang="fr-FR">Adresse 4</label>
+        <label xml:lang="he-IL">כתובת 4</label>
+        <label xml:lang="hi-IN">पता 4</label>
+        <label xml:lang="hr-HR">Adresa 4</label>
+        <label xml:lang="hu-HU">Cím 4. sor</label>
+        <label xml:lang="it-IT">Indirizzo 4</label>
+        <label xml:lang="ja-JP">住所 4</label>
+        <label xml:lang="ko-KR">주소 4</label>
+        <label xml:lang="nb-NO">Adresse 4</label>
+        <label xml:lang="nl-NL">Adres 4</label>
+        <label xml:lang="pl-PL">Adres 4</label>
+        <label xml:lang="pt-BR">Complemento do logradouro</label>
+        <label xml:lang="pt-PT">Endereço 4</label>
+        <label xml:lang="ro-RO">Adresă 4</label>
+        <label xml:lang="ru-RU">Адрес 4</label>
+        <label xml:lang="sk-SK">Adresa 4</label>
+        <label xml:lang="sl-SI">Naslov 4</label>
+        <label xml:lang="sr-RS">Adresa 4</label>
+        <label xml:lang="sv-SE">Adress 4</label>
+        <label xml:lang="th-TH">ที่อยู่ 4</label>
+        <label xml:lang="tr-TR">Adres 4</label>
+        <label xml:lang="uk-UA">Адреса 4</label>
+        <label xml:lang="vi-VN">Địa chỉ 4</label>
+        <label xml:lang="zh-CN">地址 4</label>
+        <label xml:lang="zh-TW">地址 4</label>
+        <label xml:lang="en-US">Address 4</label>
+      </hris-field>
+      <hris-field max-length="256" id="address4" visibility="both">
+        <label>Neighborhood</label>
+        <label xml:lang="ar-SA">الجوار</label>
+        <label xml:lang="bg-BG">Квартал</label>
+        <label xml:lang="bs-BS">Kejiranan</label>
+        <label xml:lang="bs-ID">Lingkungan</label>
+        <label xml:lang="cs-CZ">Čtvrť</label>
+        <label xml:lang="cy-GB">Cymdogaeth</label>
+        <label xml:lang="da-DK">Egn</label>
+        <label xml:lang="de-CH">Stadtteil</label>
+        <label xml:lang="de-DE">Stadtteil</label>
+        <label xml:lang="el-GR">Γειτονιά </label>
+        <label xml:lang="en-GB">Neighbourhood</label>
+        <label xml:lang="es-ES">Barrio</label>
+        <label xml:lang="es-MX">Barrio</label>
+        <label xml:lang="fi-FI">Alue</label>
+        <label xml:lang="fr-CA">Voisinage</label>
+        <label xml:lang="fr-FR">Quartier</label>
+        <label xml:lang="he-IL">שכונה</label>
+        <label xml:lang="hi-IN">पड़ोस</label>
+        <label xml:lang="hr-HR">Okolica</label>
+        <label xml:lang="hu-HU">Szomszédság</label>
+        <label xml:lang="it-IT">Quartiere</label>
+        <label xml:lang="ja-JP">近隣地域</label>
+        <label xml:lang="ko-KR">인접 지역</label>
+        <label xml:lang="nb-NO">Område</label>
+        <label xml:lang="nl-NL">Buurt</label>
+        <label xml:lang="pl-PL">Sąsiedztwo</label>
+        <label xml:lang="pt-BR">Bairro</label>
+        <label xml:lang="pt-PT">Bairro</label>
+        <label xml:lang="ro-RO">Cartier</label>
+        <label xml:lang="ru-RU">Район</label>
+        <label xml:lang="sk-SK">Okolie</label>
+        <label xml:lang="sl-SI">Soseska</label>
+        <label xml:lang="sr-RS">Četvrt</label>
+        <label xml:lang="sv-SE">Omgivning</label>
+        <label xml:lang="th-TH">สถานที่ใกล้เคียง</label>
+        <label xml:lang="tr-TR">Mahalle</label>
+        <label xml:lang="uk-UA">Район</label>
+        <label xml:lang="vi-VN">Vùng lân cận</label>
+        <label xml:lang="zh-CN">社区</label>
+        <label xml:lang="zh-TW">鄰里</label>
+        <label xml:lang="en-US">Neighborhood</label>
+      </hris-field>
+      <hris-field max-length="256" id="city" visibility="both">
+        <label>City</label>
+        <label xml:lang="ar-SA">المدينة</label>
+        <label xml:lang="bg-BG">Град</label>
+        <label xml:lang="bs-BS">Bandar</label>
+        <label xml:lang="bs-ID">Kota</label>
+        <label xml:lang="cs-CZ">Město</label>
+        <label xml:lang="cy-GB">Dinas</label>
+        <label xml:lang="da-DK">By</label>
+        <label xml:lang="de-CH">Ort</label>
+        <label xml:lang="de-DE">Ort</label>
+        <label xml:lang="el-GR">Πόλη </label>
+        <label xml:lang="en-GB">City</label>
+        <label xml:lang="es-ES">Ciudad</label>
+        <label xml:lang="es-MX">Ciudad</label>
+        <label xml:lang="fi-FI">Paikkakunta</label>
+        <label xml:lang="fr-CA">Ville</label>
+        <label xml:lang="fr-FR">Ville</label>
+        <label xml:lang="he-IL">עיר</label>
+        <label xml:lang="hi-IN">शहर</label>
+        <label xml:lang="hr-HR">Grad</label>
+        <label xml:lang="hu-HU">Város</label>
+        <label xml:lang="it-IT">Città</label>
+        <label xml:lang="ja-JP">市町村</label>
+        <label xml:lang="ko-KR">시</label>
+        <label xml:lang="nb-NO">By/sted</label>
+        <label xml:lang="nl-NL">Plaats</label>
+        <label xml:lang="pl-PL">Miejscowość</label>
+        <label xml:lang="pt-BR">Cidade</label>
+        <label xml:lang="pt-PT">Cidade</label>
+        <label xml:lang="ro-RO">Localitate</label>
+        <label xml:lang="ru-RU">Город</label>
+        <label xml:lang="sk-SK">Mesto</label>
+        <label xml:lang="sl-SI">Mesto</label>
+        <label xml:lang="sr-RS">Grad</label>
+        <label xml:lang="sv-SE">Stad</label>
+        <label xml:lang="th-TH">เมือง</label>
+        <label xml:lang="tr-TR">Şehir</label>
+        <label xml:lang="uk-UA">Місто</label>
+        <label xml:lang="vi-VN">Thành phố</label>
+        <label xml:lang="zh-CN">市</label>
+        <label xml:lang="zh-TW">城市</label>
+        <label xml:lang="en-US">City</label>
+      </hris-field>
+      <hris-field max-length="256" id="state" visibility="both">
+        <label>State</label>
+        <label xml:lang="ar-SA">الولاية</label>
+        <label xml:lang="bg-BG">Щат</label>
+        <label xml:lang="bs-BS">Negeri</label>
+        <label xml:lang="bs-ID">Negara Bagian</label>
+        <label xml:lang="cs-CZ">Stát</label>
+        <label xml:lang="cy-GB">Talaith</label>
+        <label xml:lang="da-DK">Distrikt</label>
+        <label xml:lang="de-CH">Bundesstaat</label>
+        <label xml:lang="de-DE">Bundesstaat</label>
+        <label xml:lang="el-GR">Πολιτεία </label>
+        <label xml:lang="en-GB">State</label>
+        <label xml:lang="es-ES">Estado</label>
+        <label xml:lang="es-MX">Estado</label>
+        <label xml:lang="fi-FI">Osavaltio</label>
+        <label xml:lang="fr-CA">État</label>
+        <label xml:lang="fr-FR">État</label>
+        <label xml:lang="he-IL">מדינה</label>
+        <label xml:lang="hi-IN">राज्य</label>
+        <label xml:lang="hr-HR">Država</label>
+        <label xml:lang="hu-HU">Állam</label>
+        <label xml:lang="it-IT">Stato</label>
+        <label xml:lang="ja-JP">州</label>
+        <label xml:lang="ko-KR">주</label>
+        <label xml:lang="nb-NO">Delstat</label>
+        <label xml:lang="nl-NL">Staat</label>
+        <label xml:lang="pl-PL">Stan</label>
+        <label xml:lang="pt-BR">Estado</label>
+        <label xml:lang="pt-PT">Estado</label>
+        <label xml:lang="ro-RO">Stat</label>
+        <label xml:lang="ru-RU">Штат</label>
+        <label xml:lang="sk-SK">Štát</label>
+        <label xml:lang="sl-SI">Zvezna država</label>
+        <label xml:lang="sr-RS">Država</label>
+        <label xml:lang="sv-SE">Delstat</label>
+        <label xml:lang="th-TH">รัฐ</label>
+        <label xml:lang="tr-TR">Eyalet</label>
+        <label xml:lang="uk-UA">Штат</label>
+        <label xml:lang="vi-VN">Bang</label>
+        <label xml:lang="zh-CN">州</label>
+        <label xml:lang="zh-TW">州</label>
+        <label xml:lang="en-US">State</label>
+        <picklist id="STATE_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="country" visibility="both" required="true">
+        <label>Country</label>
+        <label xml:lang="ar-SA">الدولة</label>
+        <label xml:lang="bg-BG">Държава</label>
+        <label xml:lang="bs-BS">Negara</label>
+        <label xml:lang="bs-ID">Negara</label>
+        <label xml:lang="cs-CZ">Země</label>
+        <label xml:lang="cy-GB">Gwlad</label>
+        <label xml:lang="da-DK">Land</label>
+        <label xml:lang="de-CH">Land</label>
+        <label xml:lang="de-DE">Land</label>
+        <label xml:lang="el-GR">Χώρα </label>
+        <label xml:lang="en-GB">Country</label>
+        <label xml:lang="es-ES">País</label>
+        <label xml:lang="es-MX">País</label>
+        <label xml:lang="fi-FI">Maa</label>
+        <label xml:lang="fr-CA">Pays</label>
+        <label xml:lang="fr-FR">Pays</label>
+        <label xml:lang="he-IL">ארץ</label>
+        <label xml:lang="hi-IN">देश</label>
+        <label xml:lang="hr-HR">Država</label>
+        <label xml:lang="hu-HU">Ország</label>
+        <label xml:lang="it-IT">Paese</label>
+        <label xml:lang="ja-JP">国</label>
+        <label xml:lang="ko-KR">국가</label>
+        <label xml:lang="nb-NO">Land</label>
+        <label xml:lang="nl-NL">Land</label>
+        <label xml:lang="pl-PL">Kraj</label>
+        <label xml:lang="pt-BR">País</label>
+        <label xml:lang="pt-PT">País</label>
+        <label xml:lang="ro-RO">Ţară</label>
+        <label xml:lang="ru-RU">Страна</label>
+        <label xml:lang="sk-SK">Štát</label>
+        <label xml:lang="sl-SI">Država</label>
+        <label xml:lang="sr-RS">Zemlja</label>
+        <label xml:lang="sv-SE">Land</label>
+        <label xml:lang="th-TH">ประเทศ</label>
+        <label xml:lang="tr-TR">Ülke</label>
+        <label xml:lang="uk-UA">Країна</label>
+        <label xml:lang="vi-VN">Quốc gia</label>
+        <label xml:lang="zh-CN">国家</label>
+        <label xml:lang="zh-TW">國家</label>
+        <label xml:lang="en-US">Country</label>
+      </hris-field>
+    </hris-element>
+    <hris-element id="globalInfo">
+      <hris-field id="genericDate1" visibility="none">
+        <label xml:lang="pt-BR">Data de conhecimento</label>
+        <label xml:lang="en-US">Date Learned</label>
+        <label>Date Learned</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericString4" visibility="none">
+        <label xml:lang="pt-BR">Autoridade emissora</label>
+        <label xml:lang="en-US">Issuing Authority</label>
+        <label>Issuing Authority</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericString2" visibility="none">
+        <label xml:lang="pt-BR">Deficiência Fisica</label>
+        <label xml:lang="en-US">Challenge Group</label>
+        <label>Challenge Group</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="38" id="genericString21" visibility="none">
+        <label xml:lang="pt-BR">Deficiência Visual</label>
+        <label xml:lang="en-US">Degree of Challenge</label>
+        <label>Degree of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString3" visibility="none">
+        <label xml:lang="pt-BR">Deficiência Auditiva</label>
+        <label xml:lang="en-US">Type of Challenge</label>
+        <label>Type of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString22" visibility="none">
+        <label xml:lang="pt-BR">Deficiência Mental</label>
+        <label xml:lang="en-US">Type of Challenge</label>
+        <label>Type of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString23" visibility="none">
+        <label xml:lang="pt-BR">Deficiência Intelectual</label>
+        <label xml:lang="en-US">Type of Challenge</label>
+        <label>Type of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString24" visibility="none">
+        <label xml:lang="pt-BR">Reabilitado</label>
+        <label xml:lang="en-US">Type of Challenge</label>
+        <label>Type of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString25" visibility="none">
+        <label xml:lang="pt-BR">Preenche cota de pessoas com deficiência?</label>
+        <label xml:lang="en-US">Type of Challenge</label>
+        <label>Type of Challenge</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString5" visibility="none">
+        <label xml:lang="pt-BR">Observação</label>
+        <label xml:lang="en-US">Reference Number</label>
+        <label>Reference Number</label>
+      </hris-field>
+      <hris-field id="genericString1" visibility="none">
+        <label>Religion</label>
+        <label xml:lang="ar-SA">الديانة</label>
+        <label xml:lang="bg-BG">Религия</label>
+        <label xml:lang="bs-BS">Agama</label>
+        <label xml:lang="bs-ID">Agama</label>
+        <label xml:lang="cs-CZ">Náboženství</label>
+        <label xml:lang="cy-GB">Crefydd</label>
+        <label xml:lang="da-DK">Religion</label>
+        <label xml:lang="de-CH">Religion</label>
+        <label xml:lang="de-DE">Religion</label>
+        <label xml:lang="el-GR">Θρησκεία </label>
+        <label xml:lang="en-GB">Religion</label>
+        <label xml:lang="es-ES">Religión</label>
+        <label xml:lang="es-MX">Religión</label>
+        <label xml:lang="fi-FI">Uskonto</label>
+        <label xml:lang="fr-CA">Religion</label>
+        <label xml:lang="fr-FR">Religion</label>
+        <label xml:lang="he-IL">דת</label>
+        <label xml:lang="hi-IN">धर्म</label>
+        <label xml:lang="hr-HR">Vjeroispovijest</label>
+        <label xml:lang="hu-HU">Vallás</label>
+        <label xml:lang="it-IT">Religione</label>
+        <label xml:lang="ja-JP">宗教</label>
+        <label xml:lang="ko-KR">종교</label>
+        <label xml:lang="nb-NO">Religion</label>
+        <label xml:lang="nl-NL">Religie</label>
+        <label xml:lang="pl-PL">Religia</label>
+        <label xml:lang="pt-BR">Religião</label>
+        <label xml:lang="pt-PT">Religião</label>
+        <label xml:lang="ro-RO">Religie</label>
+        <label xml:lang="ru-RU">Религия</label>
+        <label xml:lang="sk-SK">Viera</label>
+        <label xml:lang="sl-SI">Veroizpoved</label>
+        <label xml:lang="sr-RS">Religija</label>
+        <label xml:lang="sv-SE">Religion</label>
+        <label xml:lang="th-TH">ศาสนา</label>
+        <label xml:lang="tr-TR">Dini</label>
+        <label xml:lang="uk-UA">Віросповідання</label>
+        <label xml:lang="vi-VN">Tôn giáo</label>
+        <label xml:lang="zh-CN">宗教</label>
+        <label xml:lang="zh-TW">宗教</label>
+        <label xml:lang="en-US">Religion</label>
+        <picklist id="RELIGION_BRA"/>
+      </hris-field>
+      <hris-field max-length="60" id="genericNumber1" visibility="none">
+        <label>Race</label>
+        <label xml:lang="ar-SA">العرق</label>
+        <label xml:lang="bg-BG">Раса</label>
+        <label xml:lang="bs-BS">Bangsa</label>
+        <label xml:lang="bs-ID">Ras</label>
+        <label xml:lang="cs-CZ">Rasa</label>
+        <label xml:lang="cy-GB">Hil</label>
+        <label xml:lang="da-DK">Race</label>
+        <label xml:lang="de-CH">Ethnische Gruppe</label>
+        <label xml:lang="de-DE">Ethnische Gruppe</label>
+        <label xml:lang="el-GR">Φυλή </label>
+        <label xml:lang="en-GB">Ethnicity</label>
+        <label xml:lang="es-ES">Raza</label>
+        <label xml:lang="es-MX">Raza</label>
+        <label xml:lang="fi-FI">Etninen tausta</label>
+        <label xml:lang="fr-CA">Race</label>
+        <label xml:lang="fr-FR">Origine ethnique</label>
+        <label xml:lang="he-IL">גזע</label>
+        <label xml:lang="hi-IN">जाति</label>
+        <label xml:lang="hr-HR">Rasa</label>
+        <label xml:lang="hu-HU">Etnikai csoport</label>
+        <label xml:lang="it-IT">Etnia</label>
+        <label xml:lang="ja-JP">人種</label>
+        <label xml:lang="ko-KR">인종</label>
+        <label xml:lang="nb-NO">Etnisk gruppe</label>
+        <label xml:lang="nl-NL">Ras</label>
+        <label xml:lang="pl-PL">Rasa</label>
+        <label xml:lang="pt-BR">Raça</label>
+        <label xml:lang="pt-PT">Raça/Cor</label>
+        <label xml:lang="ro-RO">Rasă</label>
+        <label xml:lang="ru-RU">Этническая группа</label>
+        <label xml:lang="sk-SK">Rasa</label>
+        <label xml:lang="sl-SI">Etnična skupina</label>
+        <label xml:lang="sr-RS">Rasa</label>
+        <label xml:lang="sv-SE">Etnisk grupp</label>
+        <label xml:lang="th-TH">ชนชาติ</label>
+        <label xml:lang="tr-TR">Irk</label>
+        <label xml:lang="uk-UA">Раса</label>
+        <label xml:lang="vi-VN">Chủng tộc</label>
+        <label xml:lang="zh-CN">民族</label>
+        <label xml:lang="zh-TW">種族</label>
+        <label xml:lang="en-US">Race</label>
+        <picklist id="RACE_BRA"/>
+      </hris-field>
+      <hris-field max-length="3" id="genericNumber2" visibility="none">
+        <label>Number of Children</label>
+        <label xml:lang="ar-SA">عدد الأطفال</label>
+        <label xml:lang="bg-BG">Брой деца</label>
+        <label xml:lang="bs-BS">Bilangan Kanak-kanak</label>
+        <label xml:lang="bs-ID">Jumlah Anak</label>
+        <label xml:lang="cs-CZ">Počet dětí</label>
+        <label xml:lang="cy-GB">Nifer o Blant</label>
+        <label xml:lang="da-DK">Antal børn</label>
+        <label xml:lang="de-CH">Anzahl der Kinder</label>
+        <label xml:lang="de-DE">Anzahl der Kinder</label>
+        <label xml:lang="el-GR">Αριθμός Τέκνων</label>
+        <label xml:lang="en-GB">Number of Children</label>
+        <label xml:lang="es-ES">Número de hijos</label>
+        <label xml:lang="es-MX">Número de hijos</label>
+        <label xml:lang="fi-FI">Lasten lukumäärä</label>
+        <label xml:lang="fr-CA">Nombre d'enfants</label>
+        <label xml:lang="fr-FR">Nombre d'enfants</label>
+        <label xml:lang="he-IL">מספר ילדים</label>
+        <label xml:lang="hi-IN">कुल बच्चे</label>
+        <label xml:lang="hr-HR">Broj djece</label>
+        <label xml:lang="hu-HU">Gyermekek száma</label>
+        <label xml:lang="it-IT">Numero di figli</label>
+        <label xml:lang="ja-JP">子の数</label>
+        <label xml:lang="ko-KR">자녀 수</label>
+        <label xml:lang="nb-NO">Antall barn</label>
+        <label xml:lang="nl-NL">Aantal kinderen</label>
+        <label xml:lang="pl-PL">Liczba dzieci</label>
+        <label xml:lang="pt-BR">Número de Filhos</label>
+        <label xml:lang="pt-PT">Número de filhos</label>
+        <label xml:lang="ro-RO">Număr de copii</label>
+        <label xml:lang="ru-RU">Число детей</label>
+        <label xml:lang="sk-SK">Počet detí</label>
+        <label xml:lang="sl-SI">Število otrok</label>
+        <label xml:lang="sr-RS">Broj dece</label>
+        <label xml:lang="sv-SE">Antal barn</label>
+        <label xml:lang="th-TH">จำนวนบุตร</label>
+        <label xml:lang="tr-TR">Çocuk Sayısı</label>
+        <label xml:lang="uk-UA">Кількість дітей</label>
+        <label xml:lang="vi-VN">Số con cái</label>
+        <label xml:lang="zh-CN">子女数</label>
+        <label xml:lang="zh-TW">子女數量</label>
+        <label xml:lang="en-US">Number of Children</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericNumber3" visibility="none">
+        <label>Naturalized Citizen</label>
+        <label xml:lang="ar-SA">مواطن بالتجنس</label>
+        <label xml:lang="bg-BG">Натурализиран гражданин</label>
+        <label xml:lang="bs-BS">Warganegara Naturalisasi</label>
+        <label xml:lang="bs-ID">Warga Naturalisasi</label>
+        <label xml:lang="cs-CZ">Naturalizovaný občan</label>
+        <label xml:lang="cy-GB">Dinesydd Brodoredig</label>
+        <label xml:lang="da-DK">Naturaliseret statsborger</label>
+        <label xml:lang="de-CH">Staatsbürger durch Einbürgerung</label>
+        <label xml:lang="de-DE">Staatsbürger durch Einbürgerung</label>
+        <label xml:lang="el-GR">Πολίτης με Ιθαγένεια</label>
+        <label xml:lang="en-GB">Naturalised Citizen</label>
+        <label xml:lang="es-ES">Ciudadano nacionalizado</label>
+        <label xml:lang="es-MX">Ciudadano nacionalizado</label>
+        <label xml:lang="fi-FI">Kansalaisuus myönnetty</label>
+        <label xml:lang="fr-CA">Citoyen naturalisé</label>
+        <label xml:lang="fr-FR">Citoyen naturalisé</label>
+        <label xml:lang="he-IL">אדם שהתאזרח</label>
+        <label xml:lang="hi-IN">सामान्य नागरिक</label>
+        <label xml:lang="hr-HR">Naturalizirani građanin</label>
+        <label xml:lang="hu-HU">Honosított állampolgár</label>
+        <label xml:lang="it-IT">Cittadino naturalizzato</label>
+        <label xml:lang="ja-JP">帰化人</label>
+        <label xml:lang="ko-KR">시민권</label>
+        <label xml:lang="nb-NO">Naturalisert statsborger</label>
+        <label xml:lang="nl-NL">Genaturaliseerde burgers</label>
+        <label xml:lang="pl-PL">Obywatel naturalizowany</label>
+        <label xml:lang="pt-BR">Cidadão Naturalizado</label>
+        <label xml:lang="pt-PT">Cidadão naturalizado</label>
+        <label xml:lang="ro-RO">Cetăţean naturalizat</label>
+        <label xml:lang="ru-RU">Принявший гражданство</label>
+        <label xml:lang="sk-SK">Občan s udeleným občianstvom</label>
+        <label xml:lang="sl-SI">Naturalizirani državljan</label>
+        <label xml:lang="sr-RS">Naturalizovani državljanin</label>
+        <label xml:lang="sv-SE">Naturaliserad medborgare</label>
+        <label xml:lang="th-TH">พลเมืองโดยการแปลงสัญชาติ</label>
+        <label xml:lang="tr-TR">Sonradan vatandaşlığa kabul edilmiş</label>
+        <label xml:lang="uk-UA">Натуралізований громадянин</label>
+        <label xml:lang="vi-VN">Nhập quốc tịch</label>
+        <label xml:lang="zh-CN">入籍市民</label>
+        <label xml:lang="zh-TW">歸化公民</label>
+        <label xml:lang="en-US">Naturalized Citizen</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="40" id="genericString7" visibility="none">
+        <label>Name Of Public Notary</label>
+        <label xml:lang="ar-SA">اسم كاتب العدل العام</label>
+        <label xml:lang="bg-BG">Име на нотариус</label>
+        <label xml:lang="bs-BS">Nama Notari Awam</label>
+        <label xml:lang="bs-ID">Nama Notaris Publik</label>
+        <label xml:lang="cs-CZ">Jméno veřejného notáře</label>
+        <label xml:lang="cy-GB">Enw'r Notari Cyhoeddus</label>
+        <label xml:lang="da-DK">Navn på offentlig notar</label>
+        <label xml:lang="de-CH">Name des Notars</label>
+        <label xml:lang="de-DE">Name des Notars</label>
+        <label xml:lang="el-GR">Όνομα Συμβολαιογράφου</label>
+        <label xml:lang="en-GB">Name of Public Notary</label>
+        <label xml:lang="es-ES">Nombre de notario público</label>
+        <label xml:lang="es-MX">Nombre de notario público</label>
+        <label xml:lang="fi-FI">Notaarin nimi</label>
+        <label xml:lang="fr-CA">Nom de notaire public</label>
+        <label xml:lang="fr-FR">Nom du notaire public</label>
+        <label xml:lang="he-IL">שם נוטריון</label>
+        <label xml:lang="hi-IN">सार्वजनिक नोटेरी का नाम</label>
+        <label xml:lang="hr-HR">Ime javnog bilježnika</label>
+        <label xml:lang="hu-HU">Közjegyző neve</label>
+        <label xml:lang="it-IT">Nome del notaio pubblico</label>
+        <label xml:lang="ja-JP">公証人名</label>
+        <label xml:lang="ko-KR">공증인 이름</label>
+        <label xml:lang="nb-NO">Navn på offentlig notarius publicus</label>
+        <label xml:lang="nl-NL">Naam van notaris</label>
+        <label xml:lang="pl-PL">Imię i nazwisko notariusza</label>
+        <label xml:lang="pt-BR">Cartório</label>
+        <label xml:lang="pt-PT">Nome do notário público</label>
+        <label xml:lang="ro-RO">Nume notar public</label>
+        <label xml:lang="ru-RU">Имя нотариуса</label>
+        <label xml:lang="sk-SK">Meno notára</label>
+        <label xml:lang="sl-SI">Ime javnega notarja</label>
+        <label xml:lang="sr-RS">Ime javnog beležnika</label>
+        <label xml:lang="sv-SE">Namn på notarius publicus</label>
+        <label xml:lang="th-TH">ชื่อบุคคลที่ทำหน้าที่รับรองลายมือชื่อ</label>
+        <label xml:lang="tr-TR">Noterin Adı</label>
+        <label xml:lang="uk-UA">Ім'я державного нотаріуса</label>
+        <label xml:lang="vi-VN">Tên công chứng viên </label>
+        <label xml:lang="zh-CN">公证人姓名</label>
+        <label xml:lang="zh-TW">公證人名稱</label>
+        <label xml:lang="en-US">Name Of Public Notary</label>
+      </hris-field>
+      <hris-field id="genericDate2" visibility="none">
+        <label>Vaccination Card Expiration Date</label>
+        <label xml:lang="ar-SA">تاريخ انتهاء صلاحية بطاقة التطعيم</label>
+        <label xml:lang="bg-BG">Дата на изтичане срок на карта за ваксинации</label>
+        <label xml:lang="bs-BS">Tarikh Tamat Tempoh Kad Pemvaksinan</label>
+        <label xml:lang="bs-ID">Tanggal Kedaluwarsa Kartu Vaksinasi</label>
+        <label xml:lang="cs-CZ">Datum vypršení očkovacího průkazu</label>
+        <label xml:lang="cy-GB">Dyddiad y daw Cerdyn Brechu i Ben</label>
+        <label xml:lang="da-DK">Udløbsdato på vaccinationskort</label>
+        <label xml:lang="de-CH">Ablaufdatum des Impfausweises</label>
+        <label xml:lang="de-DE">Ablaufdatum des Impfausweises</label>
+        <label xml:lang="el-GR">Ημ/νία Λήξης Κάρτας Εμβολιασμού </label>
+        <label xml:lang="en-GB">Vaccination Card Expiry Date</label>
+        <label xml:lang="es-ES">Fecha de caducidad de la tarjeta de vacunación</label>
+        <label xml:lang="es-MX">Fecha de caducidad de la tarjeta de vacunación</label>
+        <label xml:lang="fi-FI">Rokotuskortin vanhenemispäivä</label>
+        <label xml:lang="fr-CA">Date d'expiration de la carte de vaccination</label>
+        <label xml:lang="fr-FR">Date d'expiration du carnet de vaccination</label>
+        <label xml:lang="he-IL">תאריך תפוגה של פנקס חיסונים</label>
+        <label xml:lang="hi-IN">टीके के कार्ड का समाप्ति दिनांक</label>
+        <label xml:lang="hr-HR">Datum isteka kartice cijepljenja</label>
+        <label xml:lang="hu-HU">Oltási kártya lejárati dátuma</label>
+        <label xml:lang="it-IT">Data di scadenza libretto delle vaccinazioni</label>
+        <label xml:lang="ja-JP">ワクチンカード有効期限</label>
+        <label xml:lang="ko-KR">예방 접종 카드 만료일</label>
+        <label xml:lang="nb-NO">Utløpsdato på vaksinasjonskort</label>
+        <label xml:lang="nl-NL">Vervaldatum vaccinatiebewijs</label>
+        <label xml:lang="pl-PL">Data wygaśnięcia karty szczepień</label>
+        <label xml:lang="pt-BR">Validade da carteira de vacinação / Comprovante de escolaridade</label>
+        <label xml:lang="pt-PT">Data de fim da validade do boletim de vacinas</label>
+        <label xml:lang="ro-RO">Dată de expirare card de vaccinare</label>
+        <label xml:lang="ru-RU">Срок истечения карты вакцинации</label>
+        <label xml:lang="sk-SK">Dátum ukončenia platnosti očkovacieho preukazu</label>
+        <label xml:lang="sl-SI">Datum poteka potrdila o cepljenju</label>
+        <label xml:lang="sr-RS">Datum isteka kartice vakcinacija</label>
+        <label xml:lang="sv-SE">Förfallodatum för vaccinationskort</label>
+        <label xml:lang="th-TH">วันที่หมดอายุของบัตรฉีดวัคซีน</label>
+        <label xml:lang="tr-TR">Aşı Kartı Geçerlilik Sonu Tarihi</label>
+        <label xml:lang="uk-UA">Строк дії карти вакцинації</label>
+        <label xml:lang="vi-VN">Ngày hết hạn của thẻ tiêm ngừa</label>
+        <label xml:lang="zh-CN">预防接种证到期日期</label>
+        <label xml:lang="zh-TW">疫苗接種卡到期日</label>
+        <label xml:lang="en-US">Vaccination Card Expiration Date</label>
+      </hris-field>
+      <hris-field max-length="32" id="genericNumber5" visibility="none">
+        <label>Birth Registry Office Number</label>
+        <label xml:lang="ar-SA">رقم مكتب تسجيل المواليد</label>
+        <label xml:lang="bg-BG">Номер на служба вписвания на раждане</label>
+        <label xml:lang="bs-BS">Nombor Pejabar Pendaftar Lahir</label>
+        <label xml:lang="bs-ID">Nomor Resmi Pendaftaran Kelahiran</label>
+        <label xml:lang="cs-CZ">Číslo matričního úřadu</label>
+        <label xml:lang="cy-GB">Rhif Swyddfa Cofrestru Genedigaethau</label>
+        <label xml:lang="da-DK">Nummer for fødselsregistreringskontor</label>
+        <label xml:lang="de-CH">Geburtseintragsnummer der Meldebehörde</label>
+        <label xml:lang="de-DE">Geburtseintragsnummer der Meldebehörde</label>
+        <label xml:lang="el-GR">Αριθμός Μητρώου Γέννησης </label>
+        <label xml:lang="en-GB">Birth Registry Office Number</label>
+        <label xml:lang="es-ES">Número de la oficina de registro de nacimientos</label>
+        <label xml:lang="es-MX">Número de la oficina de registro de nacimientos</label>
+        <label xml:lang="fi-FI">Syntymän rekisteröintitoimistonumero</label>
+        <label xml:lang="fr-CA">Numéro du bureau de registre de naissance</label>
+        <label xml:lang="fr-FR">Numéro du bureau d'enregistrement des naissances</label>
+        <label xml:lang="he-IL">מספר משרד לרישום לידה</label>
+        <label xml:lang="hi-IN">जन्म पंजीकरण कार्यालय संख्या</label>
+        <label xml:lang="hr-HR">Broj matičnog ureda rođenja</label>
+        <label xml:lang="hu-HU">Születést bejegyző hivatal száma</label>
+        <label xml:lang="it-IT">Numero ufficio del registro di nascita</label>
+        <label xml:lang="ja-JP">出生登録機関番号</label>
+        <label xml:lang="ko-KR">출생 등록 사무소 번호</label>
+        <label xml:lang="nb-NO">Fødselsnummer</label>
+        <label xml:lang="nl-NL">Nummer geboorteregistratiekantoor</label>
+        <label xml:lang="pl-PL">Numer urzędu rejestrującego urodzenia</label>
+        <label xml:lang="pt-BR">Matrícula</label>
+        <label xml:lang="pt-PT">Nº do registo notarial do nascimento</label>
+        <label xml:lang="ro-RO">Număr oficiu de stare civilă</label>
+        <label xml:lang="ru-RU">Номер отдела регистрации новорожденных</label>
+        <label xml:lang="sk-SK">Číslo matričného úradu</label>
+        <label xml:lang="sl-SI">Številka sobe matičnega urada</label>
+        <label xml:lang="sr-RS">Broj kancelarije matičara</label>
+        <label xml:lang="sv-SE">Nummer på skattemyndighet</label>
+        <label xml:lang="th-TH">เลขสำนักทะเบียนการเกิด</label>
+        <label xml:lang="tr-TR">Nüfus Dairesi Numarası</label>
+        <label xml:lang="uk-UA">Номер відділення реєстрації народження</label>
+        <label xml:lang="vi-VN">Mã cơ quan đăng ký sinh</label>
+        <label xml:lang="zh-CN">出生登记处编号</label>
+        <label xml:lang="zh-TW">出生登記辦公室號碼</label>
+        <label xml:lang="en-US">Birth Registry Office Number</label>
+      </hris-field>
+      <hris-field max-length="10" id="genericNumber6" visibility="none">
+        <label>Entry Ledger Number</label>
+        <label xml:lang="ar-SA">رقم دفتر أستاذ القيد</label>
+        <label xml:lang="bg-BG">Номер на журнал записи</label>
+        <label xml:lang="bs-BS">Nombor Entri Lejar</label>
+        <label xml:lang="bs-ID">Nomor Buku Besar Entri</label>
+        <label xml:lang="cs-CZ">Číslo záznamu v knize</label>
+        <label xml:lang="cy-GB">Rhif Mynediad yn y Cyfriflyfr</label>
+        <label xml:lang="da-DK">Registreringsledgernummer</label>
+        <label xml:lang="de-CH">Eintragungsbuchnummer</label>
+        <label xml:lang="de-DE">Eintragungsbuchnummer</label>
+        <label xml:lang="el-GR">Αριθμός Μητρώου Εισόδου</label>
+        <label xml:lang="en-GB">Entry Ledger Number</label>
+        <label xml:lang="es-ES">Número de libro de la entrada</label>
+        <label xml:lang="es-MX">Número de libro de la entrada</label>
+        <label xml:lang="fi-FI">Merkinnän numero pääkirjassa</label>
+        <label xml:lang="fr-CA">Numéro de livre de l'entrée</label>
+        <label xml:lang="fr-FR">Numéro de livre de l'entrée</label>
+        <label xml:lang="he-IL">מספר ספר חשבונות ראשי של הזנה</label>
+        <label xml:lang="hi-IN">प्रविष्टि लेजर संख्या</label>
+        <label xml:lang="hr-HR">Broj ulazne knjige</label>
+        <label xml:lang="hu-HU">Főkönyvi szám megadása</label>
+        <label xml:lang="it-IT">Numero di inserimento nel registro</label>
+        <label xml:lang="ja-JP">記入帳簿番号</label>
+        <label xml:lang="ko-KR">원장 기입 번호</label>
+        <label xml:lang="nb-NO">Registreringsledgernummer</label>
+        <label xml:lang="nl-NL">Nummer invoeradministratie</label>
+        <label xml:lang="pl-PL">Numer wpisu do księgi</label>
+        <label xml:lang="pt-BR">Número do livro</label>
+        <label xml:lang="pt-PT">Nº do livro de registos</label>
+        <label xml:lang="ro-RO">Număr registru de intrări</label>
+        <label xml:lang="ru-RU">Номер книги регистрации</label>
+        <label xml:lang="sk-SK">Č.účt.knihy evidencie výkonov</label>
+        <label xml:lang="sl-SI">Številka knjige vnosov</label>
+        <label xml:lang="sr-RS">Broj unosa u knjigu</label>
+        <label xml:lang="sv-SE">Journalnummer</label>
+        <label xml:lang="th-TH">เลขบัญชีแยกประเภทข้อมูล</label>
+        <label xml:lang="tr-TR">Giriş Defter Numarası</label>
+        <label xml:lang="uk-UA">Номер книги записів</label>
+        <label xml:lang="vi-VN">Số sổ cái mục nhập</label>
+        <label xml:lang="zh-CN">登记簿编号</label>
+        <label xml:lang="zh-TW">出生登記分類帳號碼</label>
+        <label xml:lang="en-US">Entry Ledger Number</label>
+      </hris-field>
+      <hris-field max-length="5" id="genericNumber7" visibility="none">
+        <label>Entry Sheet Number</label>
+        <label xml:lang="ar-SA">رقم صحيفة القيد</label>
+        <label xml:lang="bg-BG">Номер на ведомост за записи</label>
+        <label xml:lang="bs-BS">Nombor Entri Helaian</label>
+        <label xml:lang="bs-ID">Nomor Lembar Entri</label>
+        <label xml:lang="cs-CZ">Číslo listu záznamu</label>
+        <label xml:lang="cy-GB">Rhif Mynediad ar y Dalen</label>
+        <label xml:lang="da-DK">Registreringsbilagsnummer</label>
+        <label xml:lang="de-CH">Eintragungsblattnummer</label>
+        <label xml:lang="de-DE">Eintragungsblattnummer</label>
+        <label xml:lang="el-GR">Αριθμός Φύλλου Εισόδου</label>
+        <label xml:lang="en-GB">Entry Sheet Number</label>
+        <label xml:lang="es-ES">Número de hoja de la entrada</label>
+        <label xml:lang="es-MX">Número de hoja de la entrada</label>
+        <label xml:lang="fi-FI">Merkinnän numero lomakkeessa</label>
+        <label xml:lang="fr-CA">Numéro de feuille de saisie</label>
+        <label xml:lang="fr-FR">Numéro de feuille de l'entrée</label>
+        <label xml:lang="he-IL">מספר גיליון הזנות</label>
+        <label xml:lang="hi-IN">प्रविष्टि पत्रक संख्या</label>
+        <label xml:lang="hr-HR">Broj ulaznog lista</label>
+        <label xml:lang="hu-HU">Lapszám megadása</label>
+        <label xml:lang="it-IT">Numero foglio di inserimento</label>
+        <label xml:lang="ja-JP">記入シート番号</label>
+        <label xml:lang="ko-KR">입력 시트 번호</label>
+        <label xml:lang="nb-NO">Registreringsskjemanummer</label>
+        <label xml:lang="nl-NL">Nummer invoerformulier</label>
+        <label xml:lang="pl-PL">Numer strony z wpisem</label>
+        <label xml:lang="pt-BR">Número da folha</label>
+        <label xml:lang="pt-PT">Nº da folha de registos</label>
+        <label xml:lang="ro-RO">Număr fişă de intrare</label>
+        <label xml:lang="ru-RU">Номер ведомости регистрации</label>
+        <label xml:lang="sk-SK">Číslo listu evidencie výkonov</label>
+        <label xml:lang="sl-SI">Številka seznama vnosov</label>
+        <label xml:lang="sr-RS">Broj liste unosa</label>
+        <label xml:lang="sv-SE">Nummer på registreringsdokument</label>
+        <label xml:lang="th-TH">เลขใบบันทึกข้อมูล</label>
+        <label xml:lang="tr-TR">Giriş Sayfa Numarası</label>
+        <label xml:lang="uk-UA">Номер аркуша запису</label>
+        <label xml:lang="vi-VN">Số bảng tính mục nhập</label>
+        <label xml:lang="zh-CN">登记单编号</label>
+        <label xml:lang="zh-TW">出生登記表號碼</label>
+        <label xml:lang="en-US">Entry Sheet Number</label>
+      </hris-field>
+      <hris-field max-length="16" id="genericNumber8" visibility="none">
+        <label>Health National Card Number</label>
+        <label xml:lang="ar-SA">رقم البطاقة الوطنية للرعاية الصحية</label>
+        <label xml:lang="bg-BG">Номер на национална здравна карта</label>
+        <label xml:lang="bs-BS">Nombor Kad Nasional Kesihatan</label>
+        <label xml:lang="bs-ID">Nomor Kartu Sehat Nasional</label>
+        <label xml:lang="cs-CZ">Číslo státní zdravotní katy</label>
+        <label xml:lang="cy-GB">Rhif Cerdyn Iechyd Cenedlaethol</label>
+        <label xml:lang="da-DK">Nationalt sygesikringskortnummer</label>
+        <label xml:lang="de-CH">Nummer der Karte der staatlichen Krankenversicherung</label>
+        <label xml:lang="de-DE">Nummer der Karte der staatlichen Krankenversicherung</label>
+        <label xml:lang="el-GR">Αριθμός Εθνικής Κάρτας Υγείας</label>
+        <label xml:lang="en-GB">National Health Card Number</label>
+        <label xml:lang="es-ES">Número de tarjeta sanitaria nacional</label>
+        <label xml:lang="es-MX">Número de tarjeta sanitaria nacional</label>
+        <label xml:lang="fi-FI">Kansallisen terveyskortin numero</label>
+        <label xml:lang="fr-CA">Numéro de carte nationale de santé</label>
+        <label xml:lang="fr-FR">Numéro de carte nationale de santé</label>
+        <label xml:lang="he-IL">מספר כרטיס בריאות לאומי</label>
+        <label xml:lang="hi-IN">स्वास्थय राष्ट्रीय कार्ड संख्या</label>
+        <label xml:lang="hr-HR">Broj nacionalne zdravstvene iskaznice</label>
+        <label xml:lang="hu-HU">Nemzeti egészségügyi kártya</label>
+        <label xml:lang="it-IT">Numero servizio sanitario nazionale</label>
+        <label xml:lang="ja-JP">健康国民カード番号</label>
+        <label xml:lang="ko-KR">국민건강보험증 번호</label>
+        <label xml:lang="nb-NO">Health National Card-nummer</label>
+        <label xml:lang="nl-NL">NHC-nummer</label>
+        <label xml:lang="pl-PL">Numer krajowej karty zdrowia</label>
+        <label xml:lang="pt-BR">Carteira Nacional de Saúde</label>
+        <label xml:lang="pt-PT">Número do cartão nacional de saúde</label>
+        <label xml:lang="ro-RO">Număr carnet naţional de sănătate</label>
+        <label xml:lang="ru-RU">Номер государственной системы здравоохранения</label>
+        <label xml:lang="sk-SK">Číslo karty zdravotného poistenia</label>
+        <label xml:lang="sl-SI">Številka Health National Card Number</label>
+        <label xml:lang="sr-RS">Broj nacionalnog zdravstvenog kartona</label>
+        <label xml:lang="sv-SE">Health National Card-nummer</label>
+        <label xml:lang="th-TH">หมายเลขบัตรประกันสุขภาพ</label>
+        <label xml:lang="tr-TR">Ulusal Sağlık Kartı Numarası</label>
+        <label xml:lang="uk-UA">Номер державної картки медичного страхування</label>
+        <label xml:lang="vi-VN">Số thẻ Y tế Quốc gia</label>
+        <label xml:lang="zh-CN">国民健康证号码</label>
+        <label xml:lang="zh-TW">全國醫療卡號碼</label>
+        <label xml:lang="en-US">Health National Card Number</label>
+      </hris-field>
+      <hris-field max-length="32" id="genericString8" visibility="none">
+        <label>Birth Certificate Register</label>
+        <label xml:lang="ar-SA">سجل شهادات الميلاد</label>
+        <label xml:lang="bg-BG">Регистър на свидетелства за раждане</label>
+        <label xml:lang="bs-BS">Pendaftar Sijil Lahir</label>
+        <label xml:lang="bs-ID">Pendaftaran Akta Kelahiran </label>
+        <label xml:lang="cs-CZ">Rodný list – matrika</label>
+        <label xml:lang="cy-GB">Cofrestr Tystysgrif Geni</label>
+        <label xml:lang="da-DK">Fødselsattest register</label>
+        <label xml:lang="de-CH">Geburtsurkundenverzeichnis</label>
+        <label xml:lang="de-DE">Geburtsurkundenverzeichnis</label>
+        <label xml:lang="el-GR">Μητρώο Πιστοποιητικού Γέννησης </label>
+        <label xml:lang="en-GB">Birth Certificate Register</label>
+        <label xml:lang="es-ES">Registro de la partida de nacimiento</label>
+        <label xml:lang="es-MX">Registro de la partida de nacimiento</label>
+        <label xml:lang="fi-FI">Syntymätodistusrekisteri</label>
+        <label xml:lang="fr-CA">Registre du certificat de naissance</label>
+        <label xml:lang="fr-FR">Registre des certificats de naissance</label>
+        <label xml:lang="he-IL">רישום תעודת לידה</label>
+        <label xml:lang="hi-IN">जन्म प्रमाणपत्र पंजिका</label>
+        <label xml:lang="hr-HR">Registar rodnih listova</label>
+        <label xml:lang="hu-HU">Születési anyakönyvi kivonat</label>
+        <label xml:lang="it-IT">Registro certificato di nascita</label>
+        <label xml:lang="ja-JP">出生証明書登録</label>
+        <label xml:lang="ko-KR">출생 증명서 등록부</label>
+        <label xml:lang="nb-NO">Fødselsattestregister</label>
+        <label xml:lang="nl-NL">Register geboorteakte</label>
+        <label xml:lang="pl-PL">Rejestr aktów urodzeń</label>
+        <label xml:lang="pt-BR">Registro</label>
+        <label xml:lang="pt-PT">Registo de certidão de nascimento</label>
+        <label xml:lang="ro-RO">Registru certificate de naştere</label>
+        <label xml:lang="ru-RU">Реестр свидетельств о рождении</label>
+        <label xml:lang="sk-SK">Matričný úrad</label>
+        <label xml:lang="sl-SI">Rojstna knjiga</label>
+        <label xml:lang="sr-RS">Registar izvoda iz matične knjige rođenih</label>
+        <label xml:lang="sv-SE">Födelseregister</label>
+        <label xml:lang="th-TH">การจดทะเบียนสูติบัตร</label>
+        <label xml:lang="tr-TR">Doğum Belgesi Kaydı</label>
+        <label xml:lang="uk-UA">Реєстр свідоцтв про народження</label>
+        <label xml:lang="vi-VN">Đăng ký giấy khai sinh</label>
+        <label xml:lang="zh-CN">出生证登记簿</label>
+        <label xml:lang="zh-TW">出生證明註冊</label>
+        <label xml:lang="en-US">Birth Certificate Register</label>
+      </hris-field>
+      <hris-field id="genericDate3" visibility="none">
+        <label>Sick Leave Date</label>
+        <label xml:lang="ar-SA">تاريخ الإجازة المرضية</label>
+        <label xml:lang="bg-BG">Дата на отпуск по болест</label>
+        <label xml:lang="bs-BS">Tarikh Cuti Sakit</label>
+        <label xml:lang="bs-ID">Tanggal Cuti Sakit </label>
+        <label xml:lang="cs-CZ">Datum nepřítomnosti ze zdravotních důvodů</label>
+        <label xml:lang="cy-GB">Dyddiad Gwyliau Salwch</label>
+        <label xml:lang="da-DK">Dato for sygefravær</label>
+        <label xml:lang="de-CH">Krankheitstag</label>
+        <label xml:lang="de-DE">Krankheitstag</label>
+        <label xml:lang="el-GR">Ημ/νία Άδειας Ασθενείας </label>
+        <label xml:lang="en-GB">Sick Leave Date</label>
+        <label xml:lang="es-ES">Fecha de baja por enfermedad</label>
+        <label xml:lang="es-MX">Fecha de baja por enfermedad</label>
+        <label xml:lang="fi-FI">Sairausloman päivämäärä</label>
+        <label xml:lang="fr-CA">Date du congé maladie</label>
+        <label xml:lang="fr-FR">Date de congé maladie</label>
+        <label xml:lang="he-IL">תאריך חופשת מחלה</label>
+        <label xml:lang="hi-IN">रुग्णावकाश दिनांक</label>
+        <label xml:lang="hr-HR">Datum bolovanja</label>
+        <label xml:lang="hu-HU">Táppénz kezdeti dátuma</label>
+        <label xml:lang="it-IT">Data assenza per malattia</label>
+        <label xml:lang="ja-JP">傷病休暇日付</label>
+        <label xml:lang="ko-KR">병가일</label>
+        <label xml:lang="nb-NO">Dato for sykefravær</label>
+        <label xml:lang="nl-NL">Datum ziekteverlof</label>
+        <label xml:lang="pl-PL">Data zwolnienia lekarskiego</label>
+        <label xml:lang="pt-BR">Data de baixa</label>
+        <label xml:lang="pt-PT">Data de licença por doença</label>
+        <label xml:lang="ro-RO">Dată concediu medical</label>
+        <label xml:lang="ru-RU">Дата больничного</label>
+        <label xml:lang="sk-SK">Dátum práceneschopnosti</label>
+        <label xml:lang="sl-SI">Datum bolniškega dopusta</label>
+        <label xml:lang="sr-RS">Datum bolovanja</label>
+        <label xml:lang="sv-SE">Datum för sjukfrånvaro</label>
+        <label xml:lang="th-TH">วันที่ลาป่วย</label>
+        <label xml:lang="tr-TR">Hastalık İzin Tarihi</label>
+        <label xml:lang="uk-UA">Дата відпустки за хворобою</label>
+        <label xml:lang="vi-VN">Ngày nghỉ bệnh</label>
+        <label xml:lang="zh-CN">病假日期</label>
+        <label xml:lang="zh-TW">病假日期</label>
+        <label xml:lang="en-US">Sick Leave Date</label>
+      </hris-field>
+      <hris-field id="genericDate4" visibility="none">
+        <label>Certificate Date Of Delivery</label>
+        <label xml:lang="ar-SA">تاريخ الوضع في الشهادة</label>
+        <label xml:lang="bg-BG">Дата на доставка на сертификат</label>
+        <label xml:lang="bs-BS">Tarikh Sijil Penyerahan</label>
+        <label xml:lang="bs-ID"> </label>
+        <label xml:lang="cs-CZ">Datum dodání potvrzení</label>
+        <label xml:lang="cy-GB">Dyddiad Cyflwyno Tystysgrif</label>
+        <label xml:lang="da-DK">Dato for levering af attest</label>
+        <label xml:lang="de-CH">Einreichungsdatum der Urkunde</label>
+        <label xml:lang="de-DE">Einreichungsdatum der Urkunde</label>
+        <label xml:lang="el-GR">Ημ/νία Παράδοσης Πιστοποιητικού</label>
+        <label xml:lang="en-GB">Certificate Date of Delivery</label>
+        <label xml:lang="es-ES">Fecha de entrega del certificado</label>
+        <label xml:lang="es-MX">Fecha de entrega del certificado</label>
+        <label xml:lang="fi-FI">Todistuksen toimituspäivämäärä</label>
+        <label xml:lang="fr-CA">Date de remise du certificat</label>
+        <label xml:lang="fr-FR">Date de délivrance du certificat</label>
+        <label xml:lang="he-IL">תאריך משלוח תעודה</label>
+        <label xml:lang="hi-IN">वितरण का प्रमाणपत्र दिनांक</label>
+        <label xml:lang="hr-HR">Certifikat datum poroda</label>
+        <label xml:lang="hu-HU">Szülési dátum igazolása</label>
+        <label xml:lang="it-IT">Data di consegna certificato</label>
+        <label xml:lang="ja-JP">出産証明書日付</label>
+        <label xml:lang="ko-KR">출산 증명서 일자</label>
+        <label xml:lang="nb-NO">Attest på nedkomstdato</label>
+        <label xml:lang="nl-NL">Leveringsdatum certificaat</label>
+        <label xml:lang="pl-PL">Data dostarczenia zaświadczenia</label>
+        <label xml:lang="pt-BR">Data de entrega da certidão</label>
+        <label xml:lang="pt-PT">Data do parto na certidão</label>
+        <label xml:lang="ro-RO">Dată certificat de naştere</label>
+        <label xml:lang="ru-RU">Дата свидетельства о рождении</label>
+        <label xml:lang="sk-SK">Dátum dodania potvrdenia</label>
+        <label xml:lang="sl-SI">Potrdilo o datumu poroda</label>
+        <label xml:lang="sr-RS">Datum porođaja na izvodu iz matične knjige rođenih</label>
+        <label xml:lang="sv-SE">Förlossningsdatum, bevis</label>
+        <label xml:lang="th-TH">วันที่ในใบรับรองการคลอด</label>
+        <label xml:lang="tr-TR">Teslimat Belge Tarihi</label>
+        <label xml:lang="uk-UA">Дата видачі сертифіката</label>
+        <label xml:lang="vi-VN">Ngày trên giấy chứng nhận giao hàng</label>
+        <label xml:lang="zh-CN">证书提交日期</label>
+        <label xml:lang="zh-TW">分娩日期證明</label>
+        <label xml:lang="en-US">Certificate Date Of Delivery</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericString14" visibility="both">
+        <label>Live Birth Cerfiticate Number</label>
+        <label xml:lang="ar-SA">رقم شهادة الميلاد</label>
+        <label xml:lang="bg-BG">Номер на удостоверение за живородено дете</label>
+        <label xml:lang="bs-BS">Nombor Sijil Kelahiran Hidup</label>
+        <label xml:lang="bs-ID">Nomor Akta Kelahiran</label>
+        <label xml:lang="cs-CZ">Číslo rodného listu</label>
+        <label xml:lang="cy-GB">Rhif Tystysgrif Geni Byw</label>
+        <label xml:lang="da-DK">Fødselsattestnummer</label>
+        <label xml:lang="de-CH">Nummer der Geburtsurkunde über Lebendgeburt</label>
+        <label xml:lang="de-DE">Nummer der Geburtsurkunde über Lebendgeburt</label>
+        <label xml:lang="el-GR">Αριθμός Πιστοποιητικού Γέννησης Ζώντος Νεογνού</label>
+        <label xml:lang="en-GB">Live Birth Certificate Number</label>
+        <label xml:lang="es-ES">Número de certificado de nacimiento</label>
+        <label xml:lang="es-MX">Número de certificado de nacimiento</label>
+        <label xml:lang="fi-FI">Syntymätodistuksen numero</label>
+        <label xml:lang="fr-CA">Numéro de certificat de naissance vivante</label>
+        <label xml:lang="fr-FR">Numéro de certificat de naissance vivante</label>
+        <label xml:lang="he-IL">מספר תעודת לידה של תינוק חי</label>
+        <label xml:lang="hi-IN">उपलब्ध जन्म प्रमाणपत्र की संख्या</label>
+        <label xml:lang="hr-HR">Broj izvoda iz matične knjige rođenih</label>
+        <label xml:lang="hu-HU">Születési anyakönyvi kivonat száma</label>
+        <label xml:lang="it-IT">Numero certificato di nascita</label>
+        <label xml:lang="ja-JP">出生証明書番号</label>
+        <label xml:lang="ko-KR">실제 출생 증명서 번호</label>
+        <label xml:lang="nb-NO">Fødselsattestnummer</label>
+        <label xml:lang="nl-NL">Geboorteaktenummer (levendgeborene)</label>
+        <label xml:lang="pl-PL">Numer świadectwa urodzenia</label>
+        <label xml:lang="pt-BR">Nome da mãe do dependente</label>
+        <label xml:lang="pt-PT">Número de Declaração de Nascido Vivo</label>
+        <label xml:lang="ro-RO">Număr înregistrare nou-născut viu</label>
+        <label xml:lang="ru-RU">Номер свидетельства о рождении</label>
+        <label xml:lang="sk-SK">Číslo rodného listu</label>
+        <label xml:lang="sl-SI">Številka rojstnega lista</label>
+        <label xml:lang="sr-RS">Broj izvoda iz matične knjige rođenih</label>
+        <label xml:lang="sv-SE">Nummer på födelseattest för levande född</label>
+        <label xml:lang="th-TH">หมายเลขสูติบัตร</label>
+        <label xml:lang="tr-TR">Canlı Doğum Sertifkası Numarası</label>
+        <label xml:lang="uk-UA">Номер свідоцтва про народження</label>
+        <label xml:lang="vi-VN">Số giấy chứng nhận khai sinh hiện thời </label>
+        <label xml:lang="zh-CN">活产证编号</label>
+        <label xml:lang="zh-TW">活產證明號碼</label>
+        <label xml:lang="en-US">Live Birth Cerfiticate Number</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericString11" visibility="both">
+        <label>Education Specification</label>
+        <label xml:lang="ar-SA">تخصص التعليم</label>
+        <label xml:lang="bg-BG">Спецификация на образование</label>
+        <label xml:lang="bs-BS">Spesifikasi Pendidikan</label>
+        <label xml:lang="bs-ID">Spesifikasi Pendidikan</label>
+        <label xml:lang="cs-CZ">Specifikace vzdělání</label>
+        <label xml:lang="cy-GB">Manyleb Addysg</label>
+        <label xml:lang="da-DK">Uddannelsesspecifikation</label>
+        <label xml:lang="de-CH">Spezifikation der Bildung</label>
+        <label xml:lang="de-DE">Spezifikation der Bildung</label>
+        <label xml:lang="el-GR">Ειδίκευση Εκπαίδευσης</label>
+        <label xml:lang="en-GB">Education Specification</label>
+        <label xml:lang="es-ES">Especificación de educación</label>
+        <label xml:lang="es-MX">Especificación de educación</label>
+        <label xml:lang="fi-FI">Koulutuksen tarkennus</label>
+        <label xml:lang="fr-CA">Spécification de formation</label>
+        <label xml:lang="fr-FR">Spécification de formation</label>
+        <label xml:lang="he-IL">פירוט השכלה</label>
+        <label xml:lang="hi-IN">शिक्षण विशिष्टता</label>
+        <label xml:lang="hr-HR">Specifikacija obrazovanja</label>
+        <label xml:lang="hu-HU">Végzettség meghatározása</label>
+        <label xml:lang="it-IT">Specifica istruzione</label>
+        <label xml:lang="ja-JP">教育詳細</label>
+        <label xml:lang="ko-KR">교육 스펙</label>
+        <label xml:lang="nb-NO">Utdanning - spesifikasjon</label>
+        <label xml:lang="nl-NL">Opleidingsspecificatie</label>
+        <label xml:lang="pl-PL">Edukacja</label>
+        <label xml:lang="pt-BR">Grau de instrução do dependente</label>
+        <label xml:lang="pt-PT">Especificação de educação</label>
+        <label xml:lang="ro-RO">Specificaţie studii</label>
+        <label xml:lang="ru-RU">Специализация обучения</label>
+        <label xml:lang="sk-SK">Špecifikácia vzdelania</label>
+        <label xml:lang="sl-SI">Specifikacija izobrazbe</label>
+        <label xml:lang="sr-RS">Specifikacija obrazovanja</label>
+        <label xml:lang="sv-SE">Utbildningsspecifikation</label>
+        <label xml:lang="th-TH">ข้อกำหนดด้านการศึกษา</label>
+        <label xml:lang="tr-TR">Eğitim Spesifikasyonu</label>
+        <label xml:lang="uk-UA">Визначення освіти</label>
+        <label xml:lang="vi-VN">Đặc điểm giáo dục</label>
+        <label xml:lang="zh-CN">教育规范</label>
+        <label xml:lang="zh-TW">教育專業科目</label>
+        <label xml:lang="en-US">Education Specification</label>
+        <picklist id="EDUCATIONLEVEL_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString9" visibility="none">
+        <label>Education Level</label>
+        <label xml:lang="ar-SA">مستوى التعليم</label>
+        <label xml:lang="bg-BG">Образователно ниво</label>
+        <label xml:lang="bs-BS">Tahap Pendidikan</label>
+        <label xml:lang="bs-ID">Tingkat Pendidikan</label>
+        <label xml:lang="cs-CZ">Dosažené vzdělání</label>
+        <label xml:lang="cy-GB">Lefel Addysg</label>
+        <label xml:lang="da-DK">Uddannelsesniveau</label>
+        <label xml:lang="de-CH">Bildungsabschluss</label>
+        <label xml:lang="de-DE">Bildungsabschluss</label>
+        <label xml:lang="el-GR">Επίπεδο Εκπαίδευσης</label>
+        <label xml:lang="en-GB">Education Level</label>
+        <label xml:lang="es-ES">Nivel de educación</label>
+        <label xml:lang="es-MX">Nivel de educación</label>
+        <label xml:lang="fi-FI">Koulutustaso</label>
+        <label xml:lang="fr-CA">Niveau d'éducation</label>
+        <label xml:lang="fr-FR">Niveau de diplôme</label>
+        <label xml:lang="he-IL">רמת השכלה</label>
+        <label xml:lang="hi-IN">शिक्षा का स्तर</label>
+        <label xml:lang="hr-HR">Razina obrazovanja</label>
+        <label xml:lang="hu-HU">Végzettségi szint</label>
+        <label xml:lang="it-IT">Livello di istruzione</label>
+        <label xml:lang="ja-JP">卒業区分</label>
+        <label xml:lang="ko-KR">교육 수준</label>
+        <label xml:lang="nb-NO">Utdanningsnivå</label>
+        <label xml:lang="nl-NL">Onderwijsniveau</label>
+        <label xml:lang="pl-PL">Poziom edukacji</label>
+        <label xml:lang="pt-BR">Grau de instrução do dependente</label>
+        <label xml:lang="pt-PT">Nível de escolaridade</label>
+        <label xml:lang="ro-RO">Nivel de studii</label>
+        <label xml:lang="ru-RU">Уровень образования</label>
+        <label xml:lang="sk-SK">Stupeň dosiahnutého vzdelania</label>
+        <label xml:lang="sl-SI">Stopnja izobrazbe</label>
+        <label xml:lang="sr-RS">Nivo obrazovanja</label>
+        <label xml:lang="sv-SE">Utbildningsnivå</label>
+        <label xml:lang="th-TH">ระดับการศึกษา</label>
+        <label xml:lang="tr-TR">Eğitim Düzeyi</label>
+        <label xml:lang="uk-UA">Рівень освіти</label>
+        <label xml:lang="vi-VN">Trình độ học vấn</label>
+        <label xml:lang="zh-CN">教育水平</label>
+        <label xml:lang="zh-TW">教育程度</label>
+        <label xml:lang="en-US">Education Level</label>
+        <picklist id="EDUCATIONLEVEL_BRA"/>
+      </hris-field>
+      <hris-field max-length="15" id="genericNumber9" visibility="both">
+        <label>Eligible For Income Tax Discount</label>
+        <label xml:lang="ar-SA">مؤهل لخصم ضريبة الدخل</label>
+        <label xml:lang="bg-BG">Приемлив за отстъпка за данък върху дохода</label>
+        <label xml:lang="bs-BS">Layak Untuk Diskaun Cukai Pendapatan</label>
+        <label xml:lang="bs-ID">Memenuhi Syarat untuk Diskon Pajak Penghasilan</label>
+        <label xml:lang="cs-CZ">Nárok na slevu na daň z příjmu</label>
+        <label xml:lang="cy-GB">Cymwys i gael Gostyngiad Treth Incwm</label>
+        <label xml:lang="da-DK">Berettiget til nedsat indkomstskat</label>
+        <label xml:lang="de-CH">Berechtigt für Einkommensteuernachlass</label>
+        <label xml:lang="de-DE">Berechtigt für Einkommensteuernachlass</label>
+        <label xml:lang="el-GR">Κατάλληλο Για Έκπτωση Φόρου Εισοδήματος </label>
+        <label xml:lang="en-GB">Eligible for Income Tax Discount</label>
+        <label xml:lang="es-ES">Apto para el descuento por impuesto sobre la renta</label>
+        <label xml:lang="es-MX">Apto para el descuento por impuesto sobre la renta</label>
+        <label xml:lang="fi-FI">Oikeutettu tuloverovähennykseen</label>
+        <label xml:lang="fr-CA">Admissible à l'escompte sur l'impôt sur le revenu</label>
+        <label xml:lang="fr-FR">A droit à une réduction de l'impôt sur le revenu</label>
+        <label xml:lang="he-IL">זכאי להנחה במס הכנסה</label>
+        <label xml:lang="hi-IN">आयकर छूट हेतु योग्य</label>
+        <label xml:lang="hr-HR">Podoban za odbitak od poreza na dohodak</label>
+        <label xml:lang="hu-HU">Jövedelemadó-kedvezményre jogosult</label>
+        <label xml:lang="it-IT">Idoneo per sconto imposta sul reddito</label>
+        <label xml:lang="ja-JP">所得税減額対象</label>
+        <label xml:lang="ko-KR">소득세 할인 대상</label>
+        <label xml:lang="nb-NO">Kvalifisert for rabatt inntektsskatt</label>
+        <label xml:lang="nl-NL">Komt in aanmerking voor inkomstenbelastingkorting</label>
+        <label xml:lang="pl-PL">Uprawnienie do ulgi z tytułu podatku dochodowego</label>
+        <label xml:lang="pt-BR">Dependente para dedução do Imposto de Renda</label>
+        <label xml:lang="pt-PT">Elegível para desconto no imposto sobre o rendimento</label>
+        <label xml:lang="ro-RO">Eligibil pentru scutire impozit pe venit</label>
+        <label xml:lang="ru-RU">Имеет право на скидку с подоходного налога</label>
+        <label xml:lang="sk-SK">Oprávnený na rabat vstupnej DPH</label>
+        <label xml:lang="sl-SI">Upravičen do popusta za dohodnino</label>
+        <label xml:lang="sr-RS">Ispunjava uslove za popust na porez na prihod</label>
+        <label xml:lang="sv-SE">Inkomstskatterabattgrundande</label>
+        <label xml:lang="th-TH">มีสิทธิได้รับส่วนลดภาษีเงินได้</label>
+        <label xml:lang="tr-TR">Gelir Vergisi İndirimi İçin Uygun</label>
+        <label xml:lang="uk-UA">Є право на знижку прибуткового податку</label>
+        <label xml:lang="vi-VN">Đủ tiêu chuẩn cho chiết khấu thuế thu nhập</label>
+        <label xml:lang="zh-CN">有资格享受所得税折扣</label>
+        <label xml:lang="zh-TW">符合所得稅減免資格</label>
+        <label xml:lang="en-US">Eligible For Income Tax Discount</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString6" visibility="none">
+        <label>Live Birth Cerfiticate Number</label>
+        <label xml:lang="ar-SA">رقم شهادة الميلاد</label>
+        <label xml:lang="bg-BG">Номер на удостоверение за живородено дете</label>
+        <label xml:lang="bs-BS">Nombor Sijil Kelahiran Hidup</label>
+        <label xml:lang="bs-ID">Nomor Akta Kelahiran</label>
+        <label xml:lang="cs-CZ">Číslo rodného listu</label>
+        <label xml:lang="cy-GB">Rhif Tystysgrif Geni Byw</label>
+        <label xml:lang="da-DK">Fødselsattestnummer</label>
+        <label xml:lang="de-CH">Nummer der Geburtsurkunde über Lebendgeburt</label>
+        <label xml:lang="de-DE">Nummer der Geburtsurkunde über Lebendgeburt</label>
+        <label xml:lang="el-GR">Αριθμός Πιστοποιητικού Γέννησης Ζώντος Νεογνού</label>
+        <label xml:lang="en-GB">Live Birth Certificate Number</label>
+        <label xml:lang="es-ES">Número de certificado de nacimiento</label>
+        <label xml:lang="es-MX">Número de certificado de nacimiento</label>
+        <label xml:lang="fi-FI">Syntymätodistuksen numero</label>
+        <label xml:lang="fr-CA">Numéro de certificat de naissance vivante</label>
+        <label xml:lang="fr-FR">Numéro de certificat de naissance vivante</label>
+        <label xml:lang="he-IL">מספר תעודת לידה של תינוק חי</label>
+        <label xml:lang="hi-IN">उपलब्ध जन्म प्रमाणपत्र की संख्या</label>
+        <label xml:lang="hr-HR">Broj izvoda iz matične knjige rođenih</label>
+        <label xml:lang="hu-HU">Születési anyakönyvi kivonat száma</label>
+        <label xml:lang="it-IT">Numero certificato di nascita</label>
+        <label xml:lang="ja-JP">出生証明書番号</label>
+        <label xml:lang="ko-KR">실제 출생 증명서 번호</label>
+        <label xml:lang="nb-NO">Fødselsattestnummer</label>
+        <label xml:lang="nl-NL">Geboorteaktenummer (levendgeborene)</label>
+        <label xml:lang="pl-PL">Numer świadectwa urodzenia</label>
+        <label xml:lang="pt-BR">Declaração de Nascido Vivo</label>
+        <label xml:lang="pt-PT">Número de Declaração de Nascido Vivo</label>
+        <label xml:lang="ro-RO">Număr înregistrare nou-născut viu</label>
+        <label xml:lang="ru-RU">Номер свидетельства о рождении</label>
+        <label xml:lang="sk-SK">Číslo rodného listu</label>
+        <label xml:lang="sl-SI">Številka rojstnega lista</label>
+        <label xml:lang="sr-RS">Broj izvoda iz matične knjige rođenih</label>
+        <label xml:lang="sv-SE">Nummer på födelseattest för levande född</label>
+        <label xml:lang="th-TH">หมายเลขสูติบัตร</label>
+        <label xml:lang="tr-TR">Canlı Doğum Sertifkası Numarası</label>
+        <label xml:lang="uk-UA">Номер свідоцтва про народження</label>
+        <label xml:lang="vi-VN">Số giấy chứng nhận khai sinh hiện thời </label>
+        <label xml:lang="zh-CN">活产证编号</label>
+        <label xml:lang="zh-TW">活產證明號碼</label>
+        <label xml:lang="en-US">Live Birth Cerfiticate Number</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericNumber10" visibility="both">
+        <label>Child Allowance</label>
+        <label xml:lang="ar-SA">بدل رعاية طفل</label>
+        <label xml:lang="bg-BG">Детска надбавка</label>
+        <label xml:lang="bs-BS">Elaun Anak</label>
+        <label xml:lang="bs-ID">Tunjangan Anak</label>
+        <label xml:lang="cs-CZ">Přídavek na dítě</label>
+        <label xml:lang="cy-GB">Lwfans Plentyn</label>
+        <label xml:lang="da-DK">Børnetilskud</label>
+        <label xml:lang="de-CH">Kindergeld</label>
+        <label xml:lang="de-DE">Kindergeld</label>
+        <label xml:lang="el-GR">Επίδομα Τέκνου</label>
+        <label xml:lang="en-GB">Child Allowance</label>
+        <label xml:lang="es-ES">Subvención por hijo</label>
+        <label xml:lang="es-MX">Subvención por hijo</label>
+        <label xml:lang="fi-FI">Lapsilisä</label>
+        <label xml:lang="fr-CA">Allocations pour enfant</label>
+        <label xml:lang="fr-FR">Allocation familiale</label>
+        <label xml:lang="he-IL">קצבת ילד</label>
+        <label xml:lang="hi-IN">बाल भत्ता</label>
+        <label xml:lang="hr-HR">Dječji doplatak</label>
+        <label xml:lang="hu-HU">Családi pótlék</label>
+        <label xml:lang="it-IT">Indennità per figlio</label>
+        <label xml:lang="ja-JP">児童手当</label>
+        <label xml:lang="ko-KR">자녀 수당</label>
+        <label xml:lang="nb-NO">Barnetrygd</label>
+        <label xml:lang="nl-NL">Kinderbijslag</label>
+        <label xml:lang="pl-PL">Dodatek na dziecko</label>
+        <label xml:lang="pt-BR">Dependente para fins de Salário família</label>
+        <label xml:lang="pt-PT">Abono de família</label>
+        <label xml:lang="ro-RO">Alocaţie copil</label>
+        <label xml:lang="ru-RU">Детское пособие</label>
+        <label xml:lang="sk-SK">Prídavky na deti</label>
+        <label xml:lang="sl-SI">Otroški dodatek</label>
+        <label xml:lang="sr-RS">Dečji dodatak</label>
+        <label xml:lang="sv-SE">Barnbidrag</label>
+        <label xml:lang="th-TH">เงินช่วยเหลือบุตร</label>
+        <label xml:lang="tr-TR">Çocuk Ödeneği</label>
+        <label xml:lang="uk-UA">Допомога на дитину</label>
+        <label xml:lang="vi-VN">Phụ cấp con cái</label>
+        <label xml:lang="zh-CN">子女津贴</label>
+        <label xml:lang="zh-TW">子女津貼</label>
+        <label xml:lang="en-US">Child Allowance</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericNumber11" visibility="none">
+        <label>Education Allowance</label>
+        <label xml:lang="ar-SA">بدل تعليم</label>
+        <label xml:lang="bg-BG">Надбавка за образование</label>
+        <label xml:lang="bs-BS">Elaun Pendidikan</label>
+        <label xml:lang="bs-ID">Tunjangan Pendidikan</label>
+        <label xml:lang="cs-CZ">Příspěvky na studium</label>
+        <label xml:lang="cy-GB">Lwfans Addysg</label>
+        <label xml:lang="da-DK">Uddannelsestillæg</label>
+        <label xml:lang="de-CH">Schulgeld</label>
+        <label xml:lang="de-DE">Schulgeld</label>
+        <label xml:lang="el-GR">Επίδομα Εκπαίδευσης</label>
+        <label xml:lang="en-GB">Education Allowance</label>
+        <label xml:lang="es-ES">Subvención para educación</label>
+        <label xml:lang="es-MX">Subvención para educación</label>
+        <label xml:lang="fi-FI">Koulutusraha</label>
+        <label xml:lang="fr-CA">Allocations de formation</label>
+        <label xml:lang="fr-FR">Indemnité d'études</label>
+        <label xml:lang="he-IL">קצבת לימודים</label>
+        <label xml:lang="hi-IN">शिक्षण भत्ता</label>
+        <label xml:lang="hr-HR">Dodatak za obrazovanje</label>
+        <label xml:lang="hu-HU">Tanulmányi támogatás</label>
+        <label xml:lang="it-IT">Indennità per istruzione</label>
+        <label xml:lang="ja-JP">教育手当</label>
+        <label xml:lang="ko-KR">교육 수당</label>
+        <label xml:lang="nb-NO">Studielån</label>
+        <label xml:lang="nl-NL">Onderwijssubsidie</label>
+        <label xml:lang="pl-PL">Dodatek z tytułu nauki</label>
+        <label xml:lang="pt-BR">Salário educação</label>
+        <label xml:lang="pt-PT">Subsídio de educação</label>
+        <label xml:lang="ro-RO">Alocaţie pentru studii</label>
+        <label xml:lang="ru-RU">Пособие на образование</label>
+        <label xml:lang="sk-SK">Prídavky na vzdelanie</label>
+        <label xml:lang="sl-SI">Dodatek za šolanje</label>
+        <label xml:lang="sr-RS">Dodatak za obrazovanje</label>
+        <label xml:lang="sv-SE">Studiemedel</label>
+        <label xml:lang="th-TH">เงินช่วยเหลือการศึกษา</label>
+        <label xml:lang="tr-TR">Eğitim Ödeneği</label>
+        <label xml:lang="uk-UA">Допомога на освіту</label>
+        <label xml:lang="vi-VN">Trợ cấp giáo dục</label>
+        <label xml:lang="zh-CN">教育津贴</label>
+        <label xml:lang="zh-TW">教育津貼</label>
+        <label xml:lang="en-US">Education Allowance</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="15" id="genericString12" visibility="none">
+        <label>Smoker</label>
+        <label xml:lang="ar-SA">مدخن</label>
+        <label xml:lang="bg-BG">Пушач</label>
+        <label xml:lang="bs-BS">Perokok</label>
+        <label xml:lang="bs-ID">Perokok</label>
+        <label xml:lang="cs-CZ">Kuřák</label>
+        <label xml:lang="cy-GB">Ysmygwr</label>
+        <label xml:lang="da-DK">Ryger</label>
+        <label xml:lang="de-CH">Raucher</label>
+        <label xml:lang="de-DE">Raucher</label>
+        <label xml:lang="el-GR">Καπνιστής</label>
+        <label xml:lang="en-GB">Smoker</label>
+        <label xml:lang="es-ES">Fumador</label>
+        <label xml:lang="es-MX">Fumador</label>
+        <label xml:lang="fi-FI">Tupakoija</label>
+        <label xml:lang="fr-CA">Fumeur</label>
+        <label xml:lang="fr-FR">Fumeur</label>
+        <label xml:lang="he-IL">מעשן</label>
+        <label xml:lang="hi-IN">धूम्रपानकर्ता</label>
+        <label xml:lang="hr-HR">Pušač</label>
+        <label xml:lang="hu-HU">Dohányos</label>
+        <label xml:lang="it-IT">Fumatore</label>
+        <label xml:lang="ja-JP">喫煙者</label>
+        <label xml:lang="ko-KR">흡연자</label>
+        <label xml:lang="nb-NO">Røyker</label>
+        <label xml:lang="nl-NL">Roker</label>
+        <label xml:lang="pl-PL">Palacz</label>
+        <label xml:lang="pt-BR">Fumante</label>
+        <label xml:lang="pt-PT">Fumador</label>
+        <label xml:lang="ro-RO">Fumător</label>
+        <label xml:lang="ru-RU">Курящий</label>
+        <label xml:lang="sk-SK">Fajčiar</label>
+        <label xml:lang="sl-SI">Kadilec</label>
+        <label xml:lang="sr-RS">Pušač</label>
+        <label xml:lang="sv-SE">Rökare</label>
+        <label xml:lang="th-TH">ผู้สูบบุหรี่</label>
+        <label xml:lang="tr-TR">Sigara İçen</label>
+        <label xml:lang="uk-UA">Курець</label>
+        <label xml:lang="vi-VN">Người hút thuốc</label>
+        <label xml:lang="zh-CN">吸烟</label>
+        <label xml:lang="zh-TW">吸煙者</label>
+        <label xml:lang="en-US">Smoker</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString10" visibility="none">
+        <label>Grade</label>
+        <label xml:lang="ar-SA">الدرجة</label>
+        <label xml:lang="bg-BG">Степен</label>
+        <label xml:lang="bs-BS">Gred</label>
+        <label xml:lang="bs-ID">Kelas</label>
+        <label xml:lang="cs-CZ">Třída</label>
+        <label xml:lang="cy-GB">Gradd</label>
+        <label xml:lang="da-DK">Klasse</label>
+        <label xml:lang="de-CH">Klasse</label>
+        <label xml:lang="de-DE">Klasse</label>
+        <label xml:lang="el-GR">Βαθμός</label>
+        <label xml:lang="en-GB">Grade</label>
+        <label xml:lang="es-ES">Grado</label>
+        <label xml:lang="es-MX">Grado</label>
+        <label xml:lang="fi-FI">Luokka</label>
+        <label xml:lang="fr-CA">Échelon</label>
+        <label xml:lang="fr-FR">Note</label>
+        <label xml:lang="he-IL">דירוג</label>
+        <label xml:lang="hi-IN">ग्रेड</label>
+        <label xml:lang="hr-HR">Razred</label>
+        <label xml:lang="hu-HU">Fokozat</label>
+        <label xml:lang="it-IT">Livello</label>
+        <label xml:lang="ja-JP">学年</label>
+        <label xml:lang="ko-KR">등급</label>
+        <label xml:lang="nb-NO">Karakter</label>
+        <label xml:lang="nl-NL">Niveau</label>
+        <label xml:lang="pl-PL">Poziom</label>
+        <label xml:lang="pt-BR">Série</label>
+        <label xml:lang="pt-PT">Grau</label>
+        <label xml:lang="ro-RO">Notă</label>
+        <label xml:lang="ru-RU">Уровень</label>
+        <label xml:lang="sk-SK">Stupeň</label>
+        <label xml:lang="sl-SI">Razred</label>
+        <label xml:lang="sr-RS">Stepen</label>
+        <label xml:lang="sv-SE">Nivå</label>
+        <label xml:lang="th-TH">เกรด</label>
+        <label xml:lang="tr-TR">Derece</label>
+        <label xml:lang="uk-UA">Рівень</label>
+        <label xml:lang="vi-VN">Cấp</label>
+        <label xml:lang="zh-CN">等级</label>
+        <label xml:lang="zh-TW">年級</label>
+        <label xml:lang="en-US">Grade</label>
+        <picklist id="GRADE_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericNumber12" visibility="none">
+        <label>Student</label>
+        <label xml:lang="ar-SA">طالب</label>
+        <label xml:lang="bg-BG">Студент</label>
+        <label xml:lang="bs-BS">Pelajar</label>
+        <label xml:lang="bs-ID">Pelajar</label>
+        <label xml:lang="cs-CZ">Student</label>
+        <label xml:lang="cy-GB">Myfyriwr</label>
+        <label xml:lang="da-DK">Studerende</label>
+        <label xml:lang="de-CH">Student</label>
+        <label xml:lang="de-DE">Student</label>
+        <label xml:lang="el-GR">Σπουδαστής</label>
+        <label xml:lang="en-GB">Student</label>
+        <label xml:lang="es-ES">Estudiante</label>
+        <label xml:lang="es-MX">Estudiante</label>
+        <label xml:lang="fi-FI">Opiskelija</label>
+        <label xml:lang="fr-CA">Étudiant</label>
+        <label xml:lang="fr-FR">Étudiant</label>
+        <label xml:lang="he-IL">סטודנט</label>
+        <label xml:lang="hi-IN">विद्यार्थी</label>
+        <label xml:lang="hr-HR">Student</label>
+        <label xml:lang="hu-HU">Tanuló</label>
+        <label xml:lang="it-IT">Studente</label>
+        <label xml:lang="ja-JP">学生</label>
+        <label xml:lang="ko-KR">학생 </label>
+        <label xml:lang="nb-NO">Student</label>
+        <label xml:lang="nl-NL">Student</label>
+        <label xml:lang="pl-PL">Student</label>
+        <label xml:lang="pt-BR">Estudante</label>
+        <label xml:lang="pt-PT">Estudante</label>
+        <label xml:lang="ro-RO">Student</label>
+        <label xml:lang="ru-RU">Учащийся</label>
+        <label xml:lang="sk-SK">Študent</label>
+        <label xml:lang="sl-SI">Študent</label>
+        <label xml:lang="sr-RS">Student</label>
+        <label xml:lang="sv-SE">Student</label>
+        <label xml:lang="th-TH">นักเรียน</label>
+        <label xml:lang="tr-TR">Öğrenci</label>
+        <label xml:lang="uk-UA">Студент</label>
+        <label xml:lang="vi-VN">Sinh viên</label>
+        <label xml:lang="zh-CN">学生</label>
+        <label xml:lang="zh-TW">學生</label>
+        <label xml:lang="en-US">Student</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="genericString13" visibility="none">
+        <label>School</label>
+        <label xml:lang="ar-SA">المدرسة</label>
+        <label xml:lang="bg-BG">Училище</label>
+        <label xml:lang="bs-BS">Sekolah</label>
+        <label xml:lang="bs-ID">Sekolah</label>
+        <label xml:lang="cs-CZ">Škola</label>
+        <label xml:lang="cy-GB">Ysgol</label>
+        <label xml:lang="da-DK">Skole</label>
+        <label xml:lang="de-CH">Schule</label>
+        <label xml:lang="de-DE">Schule</label>
+        <label xml:lang="el-GR">Σχολείο </label>
+        <label xml:lang="en-GB">School</label>
+        <label xml:lang="es-ES">Escuela</label>
+        <label xml:lang="es-MX">Escuela</label>
+        <label xml:lang="fi-FI">Oppilaitos</label>
+        <label xml:lang="fr-CA">École</label>
+        <label xml:lang="fr-FR">École</label>
+        <label xml:lang="he-IL">בית ספר</label>
+        <label xml:lang="hi-IN">विद्यालय</label>
+        <label xml:lang="hr-HR">Škola</label>
+        <label xml:lang="hu-HU">Iskola</label>
+        <label xml:lang="it-IT">Scuola</label>
+        <label xml:lang="ja-JP">学校</label>
+        <label xml:lang="ko-KR">학교</label>
+        <label xml:lang="nb-NO">Skole</label>
+        <label xml:lang="nl-NL">Onderwijsinstelling</label>
+        <label xml:lang="pl-PL">Szkoła</label>
+        <label xml:lang="pt-BR">Escola</label>
+        <label xml:lang="pt-PT">Escola</label>
+        <label xml:lang="ro-RO">Şcoală</label>
+        <label xml:lang="ru-RU">Учебное заведение</label>
+        <label xml:lang="sk-SK">Škola</label>
+        <label xml:lang="sl-SI">Šola</label>
+        <label xml:lang="sr-RS">Obrazovna ustanova</label>
+        <label xml:lang="sv-SE">Skola</label>
+        <label xml:lang="th-TH">สถานศึกษา</label>
+        <label xml:lang="tr-TR">Okul</label>
+        <label xml:lang="uk-UA">Школа</label>
+        <label xml:lang="vi-VN">Trường học</label>
+        <label xml:lang="zh-CN">学校</label>
+        <label xml:lang="zh-TW">學校</label>
+        <label xml:lang="en-US">School</label>
+      </hris-field>
+      <hris-field max-length="256" id="genericNumber13" visibility="both">
+        <label>Is Dependent Challenged</label>
+        <label xml:lang="ar-SA">هل الشخص المعال معاق</label>
+        <label xml:lang="bg-BG">Е зависимо лице с инвалидност</label>
+        <label xml:lang="bs-BS">Ialah Tanggungganan Kurang Upaya</label>
+        <label xml:lang="bs-ID">Tanggungan Cacat</label>
+        <label xml:lang="cs-CZ">Je postižená vyživovaná osoba</label>
+        <label xml:lang="cy-GB">A yw'r dibynnydd yn anabl?</label>
+        <label xml:lang="da-DK">Er medforsikret handicappet</label>
+        <label xml:lang="de-CH">Ist Angehöriger behindert</label>
+        <label xml:lang="de-DE">Ist Angehöriger behindert</label>
+        <label xml:lang="el-GR">Το Εξαρτημένο Μέλος έχει Αναπηρία</label>
+        <label xml:lang="en-GB">Is Dependent Challenged</label>
+        <label xml:lang="es-ES">Es discapacitado dependiente </label>
+        <label xml:lang="es-MX">Es discapacitado dependiente </label>
+        <label xml:lang="fi-FI">Vammainen perheenjäsen</label>
+        <label xml:lang="fr-CA">Est une personne à charge handicapée</label>
+        <label xml:lang="fr-FR">Est handicapé(e) à charge</label>
+        <label xml:lang="he-IL">תלוי בעל מוגבלות</label>
+        <label xml:lang="hi-IN">आश्रित विकलांग है</label>
+        <label xml:lang="hr-HR">Je uzdržavana osoba s posebnim potrebama</label>
+        <label xml:lang="hu-HU">Csökkent munkaképességű-e az eltartott</label>
+        <label xml:lang="it-IT">È persona a carico disabile</label>
+        <label xml:lang="ja-JP">身体障害のある扶養家族</label>
+        <label xml:lang="ko-KR">장애인 부양가족</label>
+        <label xml:lang="nb-NO">Er familiemedlem med funksjonshemming</label>
+        <label xml:lang="nl-NL">Is invalide - familierelatie</label>
+        <label xml:lang="pl-PL">Czy osoba na utrzymaniu jest niepełnosprawna</label>
+        <label xml:lang="pt-BR">Dependente tem incapacidade física ou mental para o trabalho</label>
+        <label xml:lang="pt-PT">É dependente com deficiência</label>
+        <label xml:lang="ro-RO">Persoana dependentă are handicap</label>
+        <label xml:lang="ru-RU">Недееспособный иждивенец</label>
+        <label xml:lang="sk-SK">Má vyživovaná osoba zdravotné postihnutie</label>
+        <label xml:lang="sl-SI">Ali ima vzdrževana oseba posebne potrebe</label>
+        <label xml:lang="sr-RS">Izdržavano lice sa invaliditetom</label>
+        <label xml:lang="sv-SE">Är anhörig funktionsnedsatt</label>
+        <label xml:lang="th-TH">เป็นผู้อยู่ในอุปการะที่ทุพพลภาพ</label>
+        <label xml:lang="tr-TR">Bakmakla Yükümlü Olunan Engellidir</label>
+        <label xml:lang="uk-UA">Чи є утриманець інвалідом</label>
+        <label xml:lang="vi-VN">Là người bị khuyết tật phụ thuộc </label>
+        <label xml:lang="zh-CN">家属是否伤残？</label>
+        <label xml:lang="zh-TW">扶養親屬為身心障礙嗎？</label>
+        <label xml:lang="en-US">Is Dependent Challenged</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string1" visibility="both">
+        <label xml:lang="pt-BR">Deficiência Física</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string2" visibility="both">
+        <label xml:lang="pt-BR">Deficiência Visual</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string3" visibility="both">
+        <label xml:lang="pt-BR">Deficiência Auditiva</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string4" visibility="both">
+        <label xml:lang="pt-BR">Deficiência Mental</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string5" visibility="both">
+        <label xml:lang="pt-BR">Deficiência Intelectual</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string6" visibility="both">
+        <label xml:lang="pt-BR">Reabilitado</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string7" visibility="none">
+        <label xml:lang="pt-BR">Preenche cota de pessoas com deficiência?</label>
+        <picklist id="yesNo_BRA"/>
+      </hris-field>
+      <hris-field max-length="256" id="custom-string8" visibility="both">
+        <label xml:lang="pt-BR">Observação</label>
+      </hris-field>
+    </hris-element>
+    <hris-element id="jobInfo">
+      <label>Job Information</label>
+      <label xml:lang="ar-SA">معلومات الوظيفة</label>
+      <label xml:lang="bg-BG">Информация за длъжност</label>
+      <label xml:lang="bs-BS">Maklumat Kerja</label>
+      <label xml:lang="bs-ID">Informasi Pekerjaan</label>
+      <label xml:lang="cs-CZ">Informace o práci</label>
+      <label xml:lang="cy-GB">Gwybodaeth am y Swydd</label>
+      <label xml:lang="da-DK">Jobinformation</label>
+      <label xml:lang="de-CH">Stelleninformationen</label>
+      <label xml:lang="de-DE">Stelleninformationen</label>
+      <label xml:lang="el-GR">Πληροφορίες Εργασίας </label>
+      <label xml:lang="en-GB">Job Information</label>
+      <label xml:lang="es-ES">Información del puesto</label>
+      <label xml:lang="es-MX">Información del puesto</label>
+      <label xml:lang="fi-FI">Työn tiedot</label>
+      <label xml:lang="fr-CA">Informations sur l'emploi</label>
+      <label xml:lang="fr-FR">Données emploi</label>
+      <label xml:lang="he-IL">נתוני משרה</label>
+      <label xml:lang="hi-IN">जॉब की जानकारी</label>
+      <label xml:lang="hr-HR">Podaci o poslu</label>
+      <label xml:lang="hu-HU">Munkaköradatok</label>
+      <label xml:lang="it-IT">Informazioni lavoro</label>
+      <label xml:lang="ja-JP">職務情報</label>
+      <label xml:lang="ko-KR">직무 정보</label>
+      <label xml:lang="nb-NO">Jobbinformasjon</label>
+      <label xml:lang="nl-NL">Functie-informatie</label>
+      <label xml:lang="pl-PL">Informacje o posadzie</label>
+      <label xml:lang="pt-BR">Informações de trabalho</label>
+      <label xml:lang="pt-PT">Informação de trabalho</label>
+      <label xml:lang="ro-RO">Informaţii post</label>
+      <label xml:lang="ru-RU">Информация о должности</label>
+      <label xml:lang="sk-SK">Informácie o profesii</label>
+      <label xml:lang="sl-SI">Podatki o delovnem mestu</label>
+      <label xml:lang="sr-RS">Informacije o poslu</label>
+      <label xml:lang="sv-SE">Jobbinformation</label>
+      <label xml:lang="th-TH">ข้อมูลงาน</label>
+      <label xml:lang="tr-TR">İş Bilgileri</label>
+      <label xml:lang="uk-UA">Інформація про посаду</label>
+      <label xml:lang="vi-VN">Thông tin công việc</label>
+      <label xml:lang="zh-CN">职位信息</label>
+      <label xml:lang="zh-TW">職位資訊</label>
+      <label xml:lang="en-US">Job Information</label>
+      <hris-section id="jobFieldsList">
+        <label xml:lang="pt-BR">Informações do cargo</label>
+        <label xml:lang="en-US">Job Information</label>
+        <label>Job Information</label>
+        <hris-field max-length="256" id="country-of-company" visibility="view">
+          <label>Country</label>
+          <label xml:lang="ar-SA">الدولة</label>
+          <label xml:lang="bg-BG">Държава</label>
+          <label xml:lang="bs-BS">Negara</label>
+          <label xml:lang="bs-ID">Negara</label>
+          <label xml:lang="cs-CZ">Země</label>
+          <label xml:lang="cy-GB">Gwlad</label>
+          <label xml:lang="da-DK">Land</label>
+          <label xml:lang="de-CH">Land</label>
+          <label xml:lang="de-DE">Land</label>
+          <label xml:lang="el-GR">Χώρα </label>
+          <label xml:lang="en-GB">Country</label>
+          <label xml:lang="es-ES">País</label>
+          <label xml:lang="es-MX">País</label>
+          <label xml:lang="fi-FI">Maa</label>
+          <label xml:lang="fr-CA">Pays</label>
+          <label xml:lang="fr-FR">Pays</label>
+          <label xml:lang="he-IL">ארץ</label>
+          <label xml:lang="hi-IN">देश</label>
+          <label xml:lang="hr-HR">Država</label>
+          <label xml:lang="hu-HU">Ország</label>
+          <label xml:lang="it-IT">Paese</label>
+          <label xml:lang="ja-JP">国</label>
+          <label xml:lang="ko-KR">국가</label>
+          <label xml:lang="nb-NO">Land</label>
+          <label xml:lang="nl-NL">Land</label>
+          <label xml:lang="pl-PL">Kraj</label>
+          <label xml:lang="pt-BR">País</label>
+          <label xml:lang="pt-PT">País</label>
+          <label xml:lang="ro-RO">Ţară</label>
+          <label xml:lang="ru-RU">Страна</label>
+          <label xml:lang="sk-SK">Štát</label>
+          <label xml:lang="sl-SI">Država</label>
+          <label xml:lang="sr-RS">Zemlja</label>
+          <label xml:lang="sv-SE">Land</label>
+          <label xml:lang="th-TH">ประเทศ</label>
+          <label xml:lang="tr-TR">Ülke</label>
+          <label xml:lang="uk-UA">Країна</label>
+          <label xml:lang="vi-VN">Quốc gia</label>
+          <label xml:lang="zh-CN">国家</label>
+          <label xml:lang="zh-TW">國家</label>
+          <label xml:lang="en-US">Country</label>
+          <picklist id="ISOCountryList"/>
+        </hris-field>
+        <hris-field max-length="1" id="fgts-optant" visibility="both">
+          <label>FGTS Recipient (Entitled to Receive Severance Pay)</label>
+          <label xml:lang="ar-SA">مستلم FGTS (مستحق لاستلام دفعة نهاية الخدمة)</label>
+          <label xml:lang="bg-BG">Получател на FGTS (с право да получи обезщетение при прекъсване на трудов договор)</label>
+          <label xml:lang="bs-BS">Penerima FGTS (Layak untuk Menerima Bayaran Pemberhentian)</label>
+          <label xml:lang="bs-ID">Penerima FGTS (Berhak untuk Menerima Uang Pesangon)</label>
+          <label xml:lang="cs-CZ">Příjemce FGTS (nárok na příjem odstupného)</label>
+          <label xml:lang="cy-GB">Derbynnydd FGTS (Hawl i gael Tâl Diswyddo)</label>
+          <label xml:lang="da-DK">FGTS-modtager (berettiget til modtagelse af godtgørelse)</label>
+          <label xml:lang="de-CH">FGTS-Empfänger (abfindungsberechtigt)</label>
+          <label xml:lang="de-DE">FGTS-Empfänger (abfindungsberechtigt)</label>
+          <label xml:lang="el-GR">Παραλήπτης FGTS (Με Δικαίωμα Λήψης Αποζημίωσης Απόλυσης)</label>
+          <label xml:lang="en-GB">FGTS Recipient (Entitled to Receive Severance Pay)</label>
+          <label xml:lang="es-ES">Destinatario FGTS (con derecho a recibir indemnización)</label>
+          <label xml:lang="es-MX">Destinatario FGTS (con derecho a recibir indemnización)</label>
+          <label xml:lang="fi-FI">FGTS vastaanottaja (oikeutettu erorahaan)</label>
+          <label xml:lang="fr-CA">Destinataire FGTS (pouvant recevoir une indemnité)</label>
+          <label xml:lang="fr-FR">Bénéficiaire FGTS (a droit à une indemnité)</label>
+          <label xml:lang="he-IL">מקבל קרן עתודה של פרמיית פיצויים (זכאי לקבל תשלום פיצויים)</label>
+          <label xml:lang="hi-IN">FGTS प्राप्तकर्ता (पृथक्करण वेतन प्राप्त करने हेतु पात्र)</label>
+          <label xml:lang="hr-HR">FGTS primatelj (podoban za primanje otpremnine)</label>
+          <label xml:lang="hu-HU">FGTS-kedvezményezett (végkielégítésre jogosult)</label>
+          <label xml:lang="it-IT">Destinatario FGTS (idoneo a ricevere l'indennità)</label>
+          <label xml:lang="ja-JP">FGTS 受給者 (解雇手当受給資格あり)</label>
+          <label xml:lang="ko-KR">FGTS 수령인(퇴직 수당 수령 대상)</label>
+          <label xml:lang="nb-NO">FGTS-mottaker (berettiget til å motta sluttvederlag)</label>
+          <label xml:lang="nl-NL">Ontvanger FGTS (met recht op ontslagvergoeding)</label>
+          <label xml:lang="pl-PL">Beneficjent FGTS (uprawienie do otrzymania odprawy)</label>
+          <label xml:lang="pt-BR">Optante FGTS</label>
+          <label xml:lang="pt-PT">Optante FGTS</label>
+          <label xml:lang="ro-RO">Destinatar FGTS (cu drept de primire plată compensatorie)</label>
+          <label xml:lang="ru-RU">Получатель FGTS (имеет право на получение выходного пособия)</label>
+          <label xml:lang="sk-SK">Príjemca FGTS (oprávnený poberať odstupné)</label>
+          <label xml:lang="sl-SI">Prejemnik FGTS (upravičen do odpravnine)</label>
+          <label xml:lang="sr-RS">FGTS primalac (ispunjava uslove za prijem otpremnine)</label>
+          <label xml:lang="sv-SE">FGTS-mottagare (berättigad till avgångsersättning)</label>
+          <label xml:lang="th-TH">ผู้รับของ FGTS (มีสิทธิได้รับเงินชดเชย)</label>
+          <label xml:lang="tr-TR">FGTS Alıcısı (Kıdem Tazminatı Almaya Hak Kazanmış)</label>
+          <label xml:lang="uk-UA">Одержувач FGTS (є право на одержання вихідної допомоги)</label>
+          <label xml:lang="vi-VN">Người nhận FGTS (Cho quyền nhận tiền thôi việc)</label>
+          <label xml:lang="zh-CN">FGTS 接收人（有资格领取经济补偿金）</label>
+          <label xml:lang="zh-TW">FGTS 收受人 (有權接受遣散費)</label>
+          <label xml:lang="en-US">FGTS Recipient (Entitled to Receive Severance Pay)</label>
+        </hris-field>
+        <hris-field id="fgts-date" visibility="both">
+          <label>FGTS Date</label>
+          <label xml:lang="ar-SA">تاريخ FGTS</label>
+          <label xml:lang="bg-BG">FGTS Date</label>
+          <label xml:lang="bs-BS">Tarikh FGTS</label>
+          <label xml:lang="bs-ID">Tanggal FGTS</label>
+          <label xml:lang="cs-CZ">Datum FGTS</label>
+          <label xml:lang="cy-GB">Dyddiad FGTS</label>
+          <label xml:lang="da-DK">FGTS dato</label>
+          <label xml:lang="de-CH">FGTS-Datum</label>
+          <label xml:lang="de-DE">FGTS-Datum</label>
+          <label xml:lang="el-GR">Ημ/νία FGTS </label>
+          <label xml:lang="en-GB">FGTS Date</label>
+          <label xml:lang="es-ES">Fecha FGTS</label>
+          <label xml:lang="es-MX">Fecha FGTS</label>
+          <label xml:lang="fi-FI">FGTS pvm</label>
+          <label xml:lang="fr-CA">Date FGTS</label>
+          <label xml:lang="fr-FR">Date FGTS</label>
+          <label xml:lang="he-IL">תאריך קרן עתודה של פרמיית פיצויים</label>
+          <label xml:lang="hi-IN">FGTS दिनांक</label>
+          <label xml:lang="hr-HR">FGTS datum</label>
+          <label xml:lang="hu-HU">FGTS dátuma</label>
+          <label xml:lang="it-IT">Data FGTS</label>
+          <label xml:lang="ja-JP">FGTS 日付</label>
+          <label xml:lang="ko-KR">FGTS 일자</label>
+          <label xml:lang="nb-NO">Dato for FGTS</label>
+          <label xml:lang="nl-NL">FGTS-datum</label>
+          <label xml:lang="pl-PL">Data - fundusz odpraw FGTS</label>
+          <label xml:lang="pt-BR">Data de opção do FGTS</label>
+          <label xml:lang="pt-PT">Data FGTS</label>
+          <label xml:lang="ro-RO">Dată FGTS</label>
+          <label xml:lang="ru-RU">Дата FGTS</label>
+          <label xml:lang="sk-SK">Dátum FGTS</label>
+          <label xml:lang="sl-SI">Datum FGTS</label>
+          <label xml:lang="sr-RS">FGTS datum</label>
+          <label xml:lang="sv-SE">FGTS-datum</label>
+          <label xml:lang="th-TH">วันที่ของ FGTS</label>
+          <label xml:lang="tr-TR">FGTS Tarihi</label>
+          <label xml:lang="uk-UA">FGTS: дата</label>
+          <label xml:lang="vi-VN">Ngày FGTS</label>
+          <label xml:lang="zh-CN">FGTS 日期</label>
+          <label xml:lang="zh-TW">FGTS 日期</label>
+          <label xml:lang="en-US">FGTS Date</label>
+        </hris-field>
+        <hris-field max-length="1" id="retired" visibility="both">
+          <label>Retired</label>
+          <label xml:lang="ar-SA">متقاعد</label>
+          <label xml:lang="bg-BG">Пенсиониран</label>
+          <label xml:lang="bs-BS">Bersara</label>
+          <label xml:lang="bs-ID">Pensiun</label>
+          <label xml:lang="cs-CZ">V důchodu</label>
+          <label xml:lang="cy-GB">Wedi Ymddeol</label>
+          <label xml:lang="da-DK">Pensioneret</label>
+          <label xml:lang="de-CH">Im Ruhestand</label>
+          <label xml:lang="de-DE">Im Ruhestand</label>
+          <label xml:lang="el-GR">Συνταξιούχος </label>
+          <label xml:lang="en-GB">Retired</label>
+          <label xml:lang="es-ES">Jubilado</label>
+          <label xml:lang="es-MX">Jubilado</label>
+          <label xml:lang="fi-FI">Eläke</label>
+          <label xml:lang="fr-CA">Retraité</label>
+          <label xml:lang="fr-FR">Retraité</label>
+          <label xml:lang="he-IL">פרש</label>
+          <label xml:lang="hi-IN">सेवानिवृत्त</label>
+          <label xml:lang="hr-HR">Umirovljen</label>
+          <label xml:lang="hu-HU">Nyugdíjas</label>
+          <label xml:lang="it-IT">Pensionato</label>
+          <label xml:lang="ja-JP">引退</label>
+          <label xml:lang="ko-KR">퇴직</label>
+          <label xml:lang="nb-NO">Pensjonert</label>
+          <label xml:lang="nl-NL">Gepensioneerd</label>
+          <label xml:lang="pl-PL">Emerytowany</label>
+          <label xml:lang="pt-BR">Aposentado</label>
+          <label xml:lang="pt-PT">Reformado</label>
+          <label xml:lang="ro-RO">Pensionat</label>
+          <label xml:lang="ru-RU">Пенсионер</label>
+          <label xml:lang="sk-SK">Na dôchodku</label>
+          <label xml:lang="sl-SI">Upokojen</label>
+          <label xml:lang="sr-RS">U penziji</label>
+          <label xml:lang="sv-SE">Pensionerad</label>
+          <label xml:lang="th-TH">เกษียณ</label>
+          <label xml:lang="tr-TR">Emekli</label>
+          <label xml:lang="uk-UA">Пенсіонер</label>
+          <label xml:lang="vi-VN">Đã nghỉ hưu</label>
+          <label xml:lang="zh-CN">已退休</label>
+          <label xml:lang="zh-TW">已退休</label>
+          <label xml:lang="en-US">Retired</label>
+        </hris-field>
+        <hris-field max-length="20" id="payScaleType" visibility="both" required="true">
+          <label>Pay Scale Type</label>
+          <label xml:lang="ar-SA">نوع سلم الرواتب</label>
+          <label xml:lang="bg-BG">Вид тарифа</label>
+          <label xml:lang="bs-BS">Jenis Skala Gaji</label>
+          <label xml:lang="bs-ID">Jenis Skala Gaji</label>
+          <label xml:lang="cs-CZ">Typ mzdové stupnice</label>
+          <label xml:lang="cy-GB">Math o Raddfa Cyflogau</label>
+          <label xml:lang="da-DK">Lønskalatype</label>
+          <label xml:lang="de-CH">Tarifart</label>
+          <label xml:lang="de-DE">Tarifart</label>
+          <label xml:lang="el-GR">Τύπος Μισθολογικής Κλίμακας</label>
+          <label xml:lang="en-GB">Pay Scale Type</label>
+          <label xml:lang="es-ES">Tipo de escala de remuneración</label>
+          <label xml:lang="es-MX">Tipo de escala de remuneración</label>
+          <label xml:lang="fi-FI">Palkka-asteikon tyyppi</label>
+          <label xml:lang="fr-CA">Type d'échelon</label>
+          <label xml:lang="fr-FR">Type d'échelle de rémunération</label>
+          <label xml:lang="he-IL">סוג של דירוג שכר</label>
+          <label xml:lang="hi-IN">वेतनमान प्रकार</label>
+          <label xml:lang="hr-HR">Tip kolektivnog ugovora</label>
+          <label xml:lang="hu-HU">Bérrendszertípus</label>
+          <label xml:lang="it-IT">Tipo di scala contrattuale</label>
+          <label xml:lang="ja-JP">賃金水準タイプ</label>
+          <label xml:lang="ko-KR">호봉 유형</label>
+          <label xml:lang="nb-NO">Type tariffavtale</label>
+          <label xml:lang="nl-NL">Salaristredetype</label>
+          <label xml:lang="pl-PL">Typ skali płac</label>
+          <label xml:lang="pt-BR">Tipo de tarifa</label>
+          <label xml:lang="pt-PT">Tipo de acordo coletivo</label>
+          <label xml:lang="ro-RO">Tip grilă de salarii</label>
+          <label xml:lang="ru-RU">Тип шкалы заработной платы</label>
+          <label xml:lang="sk-SK">Druh tarify</label>
+          <label xml:lang="sl-SI">Vrsta kolektivne pogodbe</label>
+          <label xml:lang="sr-RS">Tip platnog opsega</label>
+          <label xml:lang="sv-SE">Typ av kollektivavtal</label>
+          <label xml:lang="th-TH">ประเภทสเกลเงินเดือน</label>
+          <label xml:lang="tr-TR">Ücret Skalası Türü</label>
+          <label xml:lang="uk-UA">Тип тарифу</label>
+          <label xml:lang="vi-VN">Loại thang lương</label>
+          <label xml:lang="zh-CN">工资等级类型</label>
+          <label xml:lang="zh-TW">薪級類型</label>
+          <label xml:lang="en-US">Pay Scale Type</label>
+          <picklist id="pay-scale-type" parent-field-id="country-of-company"/>
+        </hris-field>
+        <hris-field max-length="20" id="payScaleArea" visibility="both" required="true">
+          <label>Pay Scale Area</label>
+          <label xml:lang="ar-SA">منطقة سلم الرواتب</label>
+          <label xml:lang="bg-BG">Област на тарифа</label>
+          <label xml:lang="bs-BS">Bidang Skala Gaji</label>
+          <label xml:lang="bs-ID">Area Skala Gaji</label>
+          <label xml:lang="cs-CZ">Oblast mzdové stupnice</label>
+          <label xml:lang="cy-GB">Ardal Graddfa Cyflogau</label>
+          <label xml:lang="da-DK">Lønskalaområde</label>
+          <label xml:lang="de-CH">Tarifgebiet</label>
+          <label xml:lang="de-DE">Tarifgebiet</label>
+          <label xml:lang="el-GR">Περιοχή Μισθολογικής Κλίμακας</label>
+          <label xml:lang="en-GB">Pay Scale Area</label>
+          <label xml:lang="es-ES">Área de escala de remuneración</label>
+          <label xml:lang="es-MX">Área de escala de remuneración</label>
+          <label xml:lang="fi-FI">Palkka-asteikon alue</label>
+          <label xml:lang="fr-CA">Champ d'application</label>
+          <label xml:lang="fr-FR">Zone d'échelle de rémunération</label>
+          <label xml:lang="he-IL">אזור דירוג שכר</label>
+          <label xml:lang="hi-IN">वेतनमान क्षेत्र</label>
+          <label xml:lang="hr-HR">Područje kolektivnog ugovora</label>
+          <label xml:lang="hu-HU">Bérrendszerterület</label>
+          <label xml:lang="it-IT">Area della scala contrattuale</label>
+          <label xml:lang="ja-JP">賃金水準エリア</label>
+          <label xml:lang="ko-KR">호봉 영역</label>
+          <label xml:lang="nb-NO">Tariffområde</label>
+          <label xml:lang="nl-NL">Salaristredegebied</label>
+          <label xml:lang="pl-PL">Obszar na skali płac</label>
+          <label xml:lang="pt-BR">Região do acordo coletivo</label>
+          <label xml:lang="pt-PT">Região do acordo coletivo</label>
+          <label xml:lang="ro-RO">Domeniu grilă de salarii</label>
+          <label xml:lang="ru-RU">Область шкалы заработной платы</label>
+          <label xml:lang="sk-SK">Tarifná oblasť</label>
+          <label xml:lang="sl-SI">Območje kolektivne pogodbe</label>
+          <label xml:lang="sr-RS">Oblast platnog opsega</label>
+          <label xml:lang="sv-SE">Kollektivavtalsområde</label>
+          <label xml:lang="th-TH">พื้นที่สเกลเงินเดือน</label>
+          <label xml:lang="tr-TR">Ücret Skalası Alanı</label>
+          <label xml:lang="uk-UA">Тарифна область</label>
+          <label xml:lang="vi-VN">Phạm vi thang lương</label>
+          <label xml:lang="zh-CN">工资等级范围</label>
+          <label xml:lang="zh-TW">薪級範圍</label>
+          <label xml:lang="en-US">Pay Scale Area</label>
+          <picklist id="pay-scale-area_BRA"/>
+        </hris-field>
+        <hris-field max-length="256" id="contract-type" visibility="both">
+          <label>Contract Type</label>
+          <label xml:lang="ar-SA">نوع العقد</label>
+          <label xml:lang="bg-BG">Вид договор</label>
+          <label xml:lang="bs-BS">Jenis Kontrak</label>
+          <label xml:lang="bs-ID">Jenis Kontrak</label>
+          <label xml:lang="cs-CZ">Typ smlouvy</label>
+          <label xml:lang="cy-GB">Math o Gontract</label>
+          <label xml:lang="da-DK">Kontrakttype</label>
+          <label xml:lang="de-CH">Vertragsart</label>
+          <label xml:lang="de-DE">Vertragsart</label>
+          <label xml:lang="el-GR">Τύπος Σύμβασης </label>
+          <label xml:lang="en-GB">Contract Type</label>
+          <label xml:lang="es-ES">Tipo de contrato</label>
+          <label xml:lang="es-MX">Tipo de contrato</label>
+          <label xml:lang="fi-FI">Sopimustyyppi</label>
+          <label xml:lang="fr-CA">Type de contrat</label>
+          <label xml:lang="fr-FR">Type de contrat</label>
+          <label xml:lang="he-IL">סוג חוזה</label>
+          <label xml:lang="hi-IN">संविदा प्रकार</label>
+          <label xml:lang="hr-HR">Vrsta ugovora</label>
+          <label xml:lang="hu-HU">Szerződéstípus</label>
+          <label xml:lang="it-IT">Tipo di contratto</label>
+          <label xml:lang="ja-JP">契約タイプ</label>
+          <label xml:lang="ko-KR">계약 유형</label>
+          <label xml:lang="nb-NO">Kontrakttype</label>
+          <label xml:lang="nl-NL">Contracttype</label>
+          <label xml:lang="pl-PL">Typ kontraktu</label>
+          <label xml:lang="pt-BR">Tipo de contrato</label>
+          <label xml:lang="pt-PT">Tipo de contrato</label>
+          <label xml:lang="ro-RO">Tip de contract</label>
+          <label xml:lang="ru-RU">Тип контракта</label>
+          <label xml:lang="sk-SK">Druh zmluvy</label>
+          <label xml:lang="sl-SI">Vrsta pogodbe</label>
+          <label xml:lang="sr-RS">Tip ugovora</label>
+          <label xml:lang="sv-SE">Avtalstyp</label>
+          <label xml:lang="th-TH">ประเภทสัญญา</label>
+          <label xml:lang="tr-TR">Sözleşme Türü</label>
+          <label xml:lang="uk-UA">Тип контракту</label>
+          <label xml:lang="vi-VN">Kiểu hợp đồng</label>
+          <label xml:lang="zh-CN">合同类型</label>
+          <label xml:lang="zh-TW">契約類型</label>
+          <label xml:lang="en-US">Contract Type</label>
+          <picklist id="contractType" parent-field-id="country-of-company"/>
+        </hris-field>
+        <hris-field id="custom-date2" visibility="both">
+          <label xml:lang="pt-BR">Data de término do contrato</label>
+        </hris-field>
+        <hris-field max-length="1" id="custom-string5" visibility="both">
+          <label xml:lang="pt-BR">Cláusula assecuratória</label>
+          <picklist id="yesNo_BRA"/>
+        </hris-field>
+        <hris-field max-length="38" id="continued-sickness-pay-period" visibility="none">
+          <label>Continued Sickness Pay Period</label>
+          <label xml:lang="ar-SA">فترة استمرار الراتب في حالة المرض</label>
+          <label xml:lang="bg-BG">Удължен период на болничен</label>
+          <label xml:lang="bs-BS">Tempoh Pembayaran Gaji untuk Sakit Berlanjutan</label>
+          <label xml:lang="bs-ID">Periode Pembayaran Gaji untuk Sakit Berkelanjutan</label>
+          <label xml:lang="cs-CZ">Období souvislé výplaty nemocenských dávek</label>
+          <label xml:lang="cy-GB">Cyfnod Tâl Salwch Parhaol</label>
+          <label xml:lang="da-DK">Lønperiode ved fortsat sygdom</label>
+          <label xml:lang="de-CH">Zeitraum für Entgeltfortzahlung bei Krankheit</label>
+          <label xml:lang="de-DE">Zeitraum für Entgeltfortzahlung bei Krankheit</label>
+          <label xml:lang="el-GR">Περίοδος Συνεχιζόμενης Ασθένειας Μετ'Αποδοχών </label>
+          <label xml:lang="en-GB">Continued Sickness Pay Period</label>
+          <label xml:lang="es-ES">Período de remuneración con baja por enfermedad de larga duración</label>
+          <label xml:lang="es-MX">Período de remuneración con baja por enfermedad de larga duración</label>
+          <label xml:lang="fi-FI">Pitkittyvän sairauden palkanmaksukausi</label>
+          <label xml:lang="fr-CA">Période d'indemnité maladie continue</label>
+          <label xml:lang="fr-FR">Période de maintien de la rémunération (maladie)</label>
+          <label xml:lang="he-IL">תקופת תשלום של מחלה מתמשכת</label>
+          <label xml:lang="hi-IN">निरंतर चिकित्सा भुगतान अवधि</label>
+          <label xml:lang="hr-HR">Razdoblje plaće u slučaju stalne bolesti</label>
+          <label xml:lang="hu-HU">Folyamatos táppénz időszaka</label>
+          <label xml:lang="it-IT">Periodo di retribuzione malattia prolungata</label>
+          <label xml:lang="ja-JP">継続疾病手当期間</label>
+          <label xml:lang="ko-KR">연속 병가 수당 지급 기간</label>
+          <label xml:lang="nb-NO">Fortsatt sykepengeperiode</label>
+          <label xml:lang="nl-NL">Loondoorbetalingsperiode bij ziekte</label>
+          <label xml:lang="pl-PL">Okres wynagrodzenia w trakcie ciągłego zwolnienia</label>
+          <label xml:lang="pt-BR">Período de pagamento em caso de doença contínua</label>
+          <label xml:lang="pt-PT">Período de pagamento continuado de subsídio de doença</label>
+          <label xml:lang="ro-RO">Perioadă de plată continuă pentru boală</label>
+          <label xml:lang="ru-RU">Период продолжающейся выплаты зарплаты в случае болезни</label>
+          <label xml:lang="sk-SK">Výplatné obdobie pokračujúcej nemoci</label>
+          <label xml:lang="sl-SI">Obdobje neprekinjenega izplačevanja v primeru bolezni</label>
+          <label xml:lang="sr-RS">Dugotrajna bolest - period plata </label>
+          <label xml:lang="sv-SE">Fortsatt sjukpenningsperiod</label>
+          <label xml:lang="th-TH">ระยะเวลาของการจ่ายเงินชดเชยการเจ็บป่วยที่ต่อเนื่อง</label>
+          <label xml:lang="tr-TR">Devam Eden Hastalık Ödeme Dönemi</label>
+          <label xml:lang="uk-UA">Період подовження оплачування лікарняного листа</label>
+          <label xml:lang="vi-VN">Kỳ thanh toán do bệnh được tiếp tục</label>
+          <label xml:lang="zh-CN">持续病假的工资支付周期</label>
+          <label xml:lang="zh-TW">持續生病給付期間</label>
+          <label xml:lang="en-US">Continued Sickness Pay Period</label>
+        </hris-field>
+        <hris-field max-length="256" id="continued-sickness-pay-measure" visibility="none">
+          <label>Continued Sickness Pay Measure</label>
+          <label xml:lang="ar-SA">قياس فترة استمرار الراتب في حالة المرض</label>
+          <label xml:lang="bg-BG">Удължена мярка на болничен</label>
+          <label xml:lang="bs-BS">Perhitungan Pembayaran Gaji untuk Sakit Berlanjutan</label>
+          <label xml:lang="bs-ID">Perhitungan Pembayaran Gaji untuk Sakit Berkelanjutan </label>
+          <label xml:lang="cs-CZ">Úroveň souvislé výplaty nemocenských dávek</label>
+          <label xml:lang="cy-GB">Mesur Tâl Salwch Parhaol</label>
+          <label xml:lang="da-DK">Lønmåltal ved fortsat sygdom</label>
+          <label xml:lang="de-CH">Einheit für Entgeltfortzahlung bei Krankheit</label>
+          <label xml:lang="de-DE">Einheit für Entgeltfortzahlung bei Krankheit</label>
+          <label xml:lang="el-GR">Υπολογισμός Συνεχιζόμενης Ασθένειας Μετ'Αποδοχών </label>
+          <label xml:lang="en-GB">Continued Sickness Pay Measure</label>
+          <label xml:lang="es-ES">Medida de remuneración con baja por enfermedad de larga duración</label>
+          <label xml:lang="es-MX">Medida de remuneración con baja por enfermedad de larga duración</label>
+          <label xml:lang="fi-FI">Pitkittyvän sairauden palkkamenettely</label>
+          <label xml:lang="fr-CA">Mesure d'indemnité maladie continue</label>
+          <label xml:lang="fr-FR">Mesure de maintien de la rémunération (maladie)</label>
+          <label xml:lang="he-IL">אמצעי תשלום של מחלה מתמשכת</label>
+          <label xml:lang="hi-IN">निरंतर चिकित्सा भुगतान उपाय</label>
+          <label xml:lang="hr-HR">Mjera plaće u slučaju stalne bolesti</label>
+          <label xml:lang="hu-HU">Folyamatos táppénz mérőszáma</label>
+          <label xml:lang="it-IT">Indicatore di retribuzione malattia prolungata</label>
+          <label xml:lang="ja-JP">継続疾病手当メジャー</label>
+          <label xml:lang="ko-KR">연속 병가 수당 지급 단위</label>
+          <label xml:lang="nb-NO">Fortsatt sykepengemål</label>
+          <label xml:lang="nl-NL">Loondoorbetalingsregeling bij ziekte</label>
+          <label xml:lang="pl-PL">Jednostka okresu wynagrodzenia w trakcie ciągłego zwolnienia</label>
+          <label xml:lang="pt-BR">Forma de pagamento em caso de doença contínua</label>
+          <label xml:lang="pt-PT">Medida de pagamento continuado de subsídio de doença</label>
+          <label xml:lang="ro-RO">Măsură de plată continuă pentru boală</label>
+          <label xml:lang="ru-RU">Измерение продолжающейся выплаты зарплаты в случае болезни</label>
+          <label xml:lang="sk-SK">Ukazovteľ platby pokračujúcej nemoci</label>
+          <label xml:lang="sl-SI">Ukrep neprekinjenega izplačevanja v primeru bolezni</label>
+          <label xml:lang="sr-RS">Dugotrajna bolest - mera plate</label>
+          <label xml:lang="sv-SE">Mått på fortsatt sjukpenning</label>
+          <label xml:lang="th-TH">มาตรการจ่ายเงินชดเชยการเจ็บป่วยที่ต่อเนื่อง</label>
+          <label xml:lang="tr-TR">Devam Eden Hastalık Ödeme Ölçümü</label>
+          <label xml:lang="uk-UA">Захід подовження оплачування лікарняного листа</label>
+          <label xml:lang="vi-VN">Phương thức thanh toán do bệnh được tiếp tục</label>
+          <label xml:lang="zh-CN">持续病假的工资支付方法</label>
+          <label xml:lang="zh-TW">持續生病給付計量</label>
+          <label xml:lang="en-US">Continued Sickness Pay Measure</label>
+          <picklist id="periodIndicator"/>
+        </hris-field>
+        <hris-field max-length="1" id="emp-relationship" visibility="both">
+          <label>Employment Relationship</label>
+          <label xml:lang="ar-SA">علاقة التوظيف</label>
+          <label xml:lang="bg-BG">Трудови взаимоотношения</label>
+          <label xml:lang="bs-BS">Perhubungan Pekerjaan</label>
+          <label xml:lang="bs-ID">Hubungan Kerja </label>
+          <label xml:lang="cs-CZ">Zaměstnanecký vztah</label>
+          <label xml:lang="cy-GB">Perthynas Cyflogaeth</label>
+          <label xml:lang="da-DK">Ansættelsesrelation</label>
+          <label xml:lang="de-CH">Beschäftigungsverhältnis</label>
+          <label xml:lang="de-DE">Beschäftigungsverhältnis</label>
+          <label xml:lang="el-GR">Σχέση Απασχόλησης </label>
+          <label xml:lang="en-GB">Employment Relationship</label>
+          <label xml:lang="es-ES">Relación de empleo</label>
+          <label xml:lang="es-MX">Relación de empleo</label>
+          <label xml:lang="fi-FI">Työsuhde</label>
+          <label xml:lang="fr-CA">Nature du contrat de travail</label>
+          <label xml:lang="fr-FR">Nature du contrat de travail</label>
+          <label xml:lang="he-IL">קשר העסקה</label>
+          <label xml:lang="hi-IN">रोज़गार संबंध</label>
+          <label xml:lang="hr-HR">Radni odnos</label>
+          <label xml:lang="hu-HU">Foglalkoztatási viszony</label>
+          <label xml:lang="it-IT">Rapporto di lavoro</label>
+          <label xml:lang="ja-JP">雇用関係</label>
+          <label xml:lang="ko-KR">고용 관계</label>
+          <label xml:lang="nb-NO">Ansettelsesforhold</label>
+          <label xml:lang="nl-NL">Werkrelatie</label>
+          <label xml:lang="pl-PL">Stosunek pracy</label>
+          <label xml:lang="pt-BR">Tipo de regime trabalhista</label>
+          <label xml:lang="pt-PT">Relação de trabalho</label>
+          <label xml:lang="ro-RO">Raport de muncă</label>
+          <label xml:lang="ru-RU">Трудовые отношения</label>
+          <label xml:lang="sk-SK">Pracovný vzťah</label>
+          <label xml:lang="sl-SI">Delovno razmerje</label>
+          <label xml:lang="sr-RS">Radni odnos</label>
+          <label xml:lang="sv-SE">Anställningsrelation</label>
+          <label xml:lang="th-TH">ความสัมพันธ์ในการจ้างงาน</label>
+          <label xml:lang="tr-TR">İstihdam İlişkisi</label>
+          <label xml:lang="uk-UA">Відносини працевлаштування</label>
+          <label xml:lang="vi-VN">Mối quan hệ việc làm</label>
+          <label xml:lang="zh-CN">雇佣关系</label>
+          <label xml:lang="zh-TW">雇用關係</label>
+          <label xml:lang="en-US">Employment Relationship</label>
+          <picklist id="employmentRelationship"/>
+        </hris-field>
+        <hris-field max-length="1" id="custom-string14" visibility="both">
+          <label xml:lang="pt-BR">Tipo de Regime Previdenciário</label>
+          <picklist id="regPrev"/>
+        </hris-field>
+        <hris-field max-length="10" id="custom-long5" visibility="both">
+          <label xml:lang="pt-BR">Admissão de Trabalhador - Registro Preliminar</label>
+        </hris-field>
+        <hris-field max-length="1" id="custom-string13" visibility="both">
+          <label xml:lang="pt-BR">Cadastramento inicial de vínculo</label>
+          <picklist id="yesNo_BRA"/>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string6" visibility="both">
+          <label xml:lang="pt-BR">Código do Cargo</label>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string7" visibility="both">
+          <label xml:lang="pt-BR">Código da Função</label>
+        </hris-field>
+        <hris-field max-length="256" id="worker-category" visibility="both">
+          <label>Worker Category</label>
+          <label xml:lang="ar-SA">فئة العامل</label>
+          <label xml:lang="bg-BG">Трудова категория</label>
+          <label xml:lang="bs-BS">Kategori Pekerja</label>
+          <label xml:lang="bs-ID">Kategori Pekerja </label>
+          <label xml:lang="cs-CZ">Kategorie pracovníka</label>
+          <label xml:lang="cy-GB">Categori Gweithiwr</label>
+          <label xml:lang="da-DK">Arbejderkategori</label>
+          <label xml:lang="de-CH">Beschäftigtenkategorie</label>
+          <label xml:lang="de-DE">Beschäftigtenkategorie</label>
+          <label xml:lang="el-GR">Κατηγορία Εργάτη </label>
+          <label xml:lang="en-GB">Worker Category</label>
+          <label xml:lang="es-ES">Categoría de trabajador</label>
+          <label xml:lang="es-MX">Categoría de trabajador</label>
+          <label xml:lang="fi-FI">Työntekijäluokka</label>
+          <label xml:lang="fr-CA">Catégorie de travailleur</label>
+          <label xml:lang="fr-FR">Catégorie d'employé</label>
+          <label xml:lang="he-IL">קטגוריית עובד</label>
+          <label xml:lang="hi-IN">कर्मी श्रेणी</label>
+          <label xml:lang="hr-HR">Kategorija radnika</label>
+          <label xml:lang="hu-HU">Dolgozókategória</label>
+          <label xml:lang="it-IT">Categoria di lavoratore</label>
+          <label xml:lang="ja-JP">労働者カテゴリ</label>
+          <label xml:lang="ko-KR">근무자 범주</label>
+          <label xml:lang="nb-NO">Arbeiderkategori</label>
+          <label xml:lang="nl-NL">Werknemercategorie</label>
+          <label xml:lang="pl-PL">Kategoria pracownika</label>
+          <label xml:lang="pt-BR">Categoria do trabalhador</label>
+          <label xml:lang="pt-PT">Categoria de trabalhador</label>
+          <label xml:lang="ro-RO">Categorie muncitor</label>
+          <label xml:lang="ru-RU">Категория работника</label>
+          <label xml:lang="sk-SK">Kategória pracovníka</label>
+          <label xml:lang="sl-SI">Kategorija delavca</label>
+          <label xml:lang="sr-RS">Kategorija radnika</label>
+          <label xml:lang="sv-SE">Kategori för anställd</label>
+          <label xml:lang="th-TH">หมวดผู้ปฏิบัติงาน</label>
+          <label xml:lang="tr-TR">İşçi Kategorisi</label>
+          <label xml:lang="uk-UA">Категорія працівника</label>
+          <label xml:lang="vi-VN">Danh mục nhân viên</label>
+          <label xml:lang="zh-CN">工作人员类别</label>
+          <label xml:lang="zh-TW">工作者類別</label>
+          <label xml:lang="en-US">Worker Category</label>
+          <picklist id="workerCategory"/>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string8" visibility="both">
+          <label xml:lang="pt-BR">Salário base</label>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string10" visibility="both">
+          <label xml:lang="pt-BR">Descrição do Salário por Tarefa ou Variável</label>
+        </hris-field>
+        <hris-field max-length="256" id="harmful-agent-exposure" visibility="both">
+          <label>Harmful Agent Exposure Code</label>
+          <label xml:lang="ar-SA">رمز التعرض للعوامل الضارة</label>
+          <label xml:lang="bg-BG">Код за излагане на вредни вещества</label>
+          <label xml:lang="bs-BS">Kod Pendedahan Ejen Berbahaya</label>
+          <label xml:lang="bs-ID">Kode Pengeksposan Agen Berbahaya</label>
+          <label xml:lang="cs-CZ">Expoziční kód škodlivého činitele</label>
+          <label xml:lang="cy-GB">Cod Cysylltiad â Chyfrwng Peryglus</label>
+          <label xml:lang="da-DK">Kode for skadelig eksponering</label>
+          <label xml:lang="de-CH">Belastungsexpositionscode</label>
+          <label xml:lang="de-DE">Belastungsexpositionscode</label>
+          <label xml:lang="el-GR">Κωδικός Κινδύνου Συντελεστή Επικινδυνότητας </label>
+          <label xml:lang="en-GB">Harmful Agent Exposure Code</label>
+          <label xml:lang="es-ES">Código de exposición al agente perjudicial</label>
+          <label xml:lang="es-MX">Código de exposición al agente perjudicial</label>
+          <label xml:lang="fi-FI">Haitalliselle aineelle altistumisen koodi</label>
+          <label xml:lang="fr-CA">Code d'exposition de l'agent nuisible</label>
+          <label xml:lang="fr-FR">Code d'exposition à des agents nocifs</label>
+          <label xml:lang="he-IL">קוד חשיפה לחומר מסוכן</label>
+          <label xml:lang="hi-IN">जोखिमपूर्ण एजेंट एक्सपोज़र कोड</label>
+          <label xml:lang="hr-HR">Šifra izloženosti štetnim sredstvima</label>
+          <label xml:lang="hu-HU">Dolgozót ért káros hatás kódja</label>
+          <label xml:lang="it-IT">Codice per esposizione ad agenti pericolosi</label>
+          <label xml:lang="ja-JP">有害物質ばく露コード</label>
+          <label xml:lang="ko-KR">유해인자 노출 코드</label>
+          <label xml:lang="nb-NO">Kode for utsettelse for skadelige midler</label>
+          <label xml:lang="nl-NL">Blootstellingscode schadelijke agens</label>
+          <label xml:lang="pl-PL">Kod ekspozycji na substancję niebezpieczną</label>
+          <label xml:lang="pt-BR">Código de exposição do agente prejudicial</label>
+          <label xml:lang="pt-PT">Código de exposição a substâncias perigosas</label>
+          <label xml:lang="ro-RO">Cod de expunere la agenţi dăunători</label>
+          <label xml:lang="ru-RU">Код воздействия токсичных веществ</label>
+          <label xml:lang="sk-SK">Kód vystavenia škodlivej látke</label>
+          <label xml:lang="sl-SI">Koda izpostavljenosti škodljivi snovi</label>
+          <label xml:lang="sr-RS">Šifra izloženosti štetnim agensima</label>
+          <label xml:lang="sv-SE">Kod för exponering av skadliga ämnen</label>
+          <label xml:lang="th-TH">รหัสความเสี่ยงต่อสารอันตราย</label>
+          <label xml:lang="tr-TR">Zararlı Madde Maruziyeti Kodu</label>
+          <label xml:lang="uk-UA">Код ризику застосування шкідливої речовини</label>
+          <label xml:lang="vi-VN">Mã ảnh hưởng của tác nhân gây hại</label>
+          <label xml:lang="zh-CN">有害药剂暴露代码</label>
+          <label xml:lang="zh-TW">有害因子外曝危險代碼</label>
+          <label xml:lang="en-US">Harmful Agent Exposure Code</label>
+          <picklist id="harmfulAgentExposureCode"/>
+        </hris-field>
+        <hris-field max-length="256" id="commitment-indicator" visibility="both">
+          <label>Commitment Indicator</label>
+          <label xml:lang="ar-SA">مؤشر الالتزام</label>
+          <label xml:lang="bg-BG">Индикатор за задължение</label>
+          <label xml:lang="bs-BS">Penunjuk Komitment</label>
+          <label xml:lang="bs-ID">Indikator Komitmen </label>
+          <label xml:lang="cs-CZ">Indikátor závazku</label>
+          <label xml:lang="cy-GB">Dangosydd Ymrwymiad</label>
+          <label xml:lang="da-DK">Engagementsindikator</label>
+          <label xml:lang="de-CH">Beschäftigungsverhältniscode</label>
+          <label xml:lang="de-DE">Beschäftigungsverhältniscode</label>
+          <label xml:lang="el-GR">Δείκτης Δέσμευσης </label>
+          <label xml:lang="en-GB">Commitment Indicator</label>
+          <label xml:lang="es-ES">Indicador de compromiso</label>
+          <label xml:lang="es-MX">Indicador de compromiso</label>
+          <label xml:lang="fi-FI">Sitoumustunnus</label>
+          <label xml:lang="fr-CA">Code d'engagement</label>
+          <label xml:lang="fr-FR">Code d'engagement</label>
+          <label xml:lang="he-IL">סמן מחויבות</label>
+          <label xml:lang="hi-IN">प्रतिबद्धता संकेतक</label>
+          <label xml:lang="hr-HR">Pokazatelj obveze</label>
+          <label xml:lang="hu-HU">Elkötelezettség kódja</label>
+          <label xml:lang="it-IT">Indicatore per categoria di lavoratore</label>
+          <label xml:lang="ja-JP">コミットメント区分</label>
+          <label xml:lang="ko-KR">약정 지시자</label>
+          <label xml:lang="nb-NO">Innsatsindikator</label>
+          <label xml:lang="nl-NL">Indicator toezegging</label>
+          <label xml:lang="pl-PL">Kod relacji</label>
+          <label xml:lang="pt-BR">Código do vínculo</label>
+          <label xml:lang="pt-PT">Indicador de compromisso</label>
+          <label xml:lang="ro-RO">Indicator de angajament</label>
+          <label xml:lang="ru-RU">Индикатор трудовых отношений</label>
+          <label xml:lang="sk-SK">Znak záväzku</label>
+          <label xml:lang="sl-SI">Indikator obveznosti</label>
+          <label xml:lang="sr-RS">Šifra radnog odnosa</label>
+          <label xml:lang="sv-SE">Åtagandeindikator</label>
+          <label xml:lang="th-TH">ตัวบ่งชี้ข้อตกลง</label>
+          <label xml:lang="tr-TR">Taahhüt Göstergesi</label>
+          <label xml:lang="uk-UA">Індикатор обліго</label>
+          <label xml:lang="vi-VN">Chỉ báo cam kết</label>
+          <label xml:lang="zh-CN">承诺标识</label>
+          <label xml:lang="zh-TW">承約指示碼</label>
+          <label xml:lang="en-US">Commitment Indicator</label>
+          <picklist id="commitmentIndicator"/>
+        </hris-field>
+        <hris-field max-length="1" id="permit-indicator" visibility="both">
+          <label>Underage Apprentice Permit</label>
+          <label xml:lang="ar-SA">تصريح تدريب لمن هم دون السن</label>
+          <label xml:lang="bg-BG">Разрешение за непълнолетен чирак</label>
+          <label xml:lang="bs-BS">Permit Pelatih Bawah Umur</label>
+          <label xml:lang="bs-ID">Pemegang Izin di Bawah Umur</label>
+          <label xml:lang="cs-CZ">Nezletilý učeň – povolení</label>
+          <label xml:lang="cy-GB">Trwydded Prentis Dan Oed</label>
+          <label xml:lang="da-DK">Tilladelse til mindreårig lærling</label>
+          <label xml:lang="de-CH">Genehmigung minderjähriger Auszubildender</label>
+          <label xml:lang="de-DE">Genehmigung minderjähriger Auszubildender</label>
+          <label xml:lang="el-GR">Άδεια Ανήλικου Μαθητευόμενου</label>
+          <label xml:lang="en-GB">Underage Apprentice Permit</label>
+          <label xml:lang="es-ES">Permiso de aprendiz menor de edad</label>
+          <label xml:lang="es-MX">Permiso de aprendiz menor de edad</label>
+          <label xml:lang="fi-FI">Alaikäisen harjoittelijan lupa</label>
+          <label xml:lang="fr-CA">Permis pour apprenti mineur</label>
+          <label xml:lang="fr-FR">Permis d'apprenti mineur</label>
+          <label xml:lang="he-IL">רישיון מתמחה קטין</label>
+          <label xml:lang="hi-IN">अवयस्क प्रशिक्षु परमिट</label>
+          <label xml:lang="hr-HR">Dopuštenje za premladog naučnika</label>
+          <label xml:lang="hu-HU">Engedély korhatár alatti ipari tanuló számára</label>
+          <label xml:lang="it-IT">Permesso per apprendista minorenne</label>
+          <label xml:lang="ja-JP">未成年の実習生許可</label>
+          <label xml:lang="ko-KR">미성년자 수습직 허가</label>
+          <label xml:lang="nb-NO">Tillatelse for mindreårig lærlig</label>
+          <label xml:lang="nl-NL">Vergunning minderjarige leerwerker </label>
+          <label xml:lang="pl-PL">Zezwolenie dla niepełnoletniego praktykanta</label>
+          <label xml:lang="pt-BR">Autorização de aprendiz</label>
+          <label xml:lang="pt-PT">Autorização de aprendiz menor</label>
+          <label xml:lang="ro-RO">Permis pentru ucenic minor</label>
+          <label xml:lang="ru-RU">Несовершеннолетний стажер</label>
+          <label xml:lang="sk-SK">Povolenie pre neplnoletého učňa</label>
+          <label xml:lang="sl-SI">Dovoljenje za mladoletnega vajenca</label>
+          <label xml:lang="sr-RS">Dozvola za maloletnog praktikanta</label>
+          <label xml:lang="sv-SE">Tillstånd för minderårig lärling</label>
+          <label xml:lang="th-TH">ใบอนุญาตสำหรับผู้ฝึกงานที่อายุไม่ถึงเกณฑ์</label>
+          <label xml:lang="tr-TR">Yaşı Küçük Çırak İzni</label>
+          <label xml:lang="uk-UA">Дозвіл на навчання неповнолітнього</label>
+          <label xml:lang="vi-VN">Giấy phép người tập sự vị thành niên </label>
+          <label xml:lang="zh-CN">未成年学徒许可证</label>
+          <label xml:lang="zh-TW">未成年學徒許可</label>
+          <label xml:lang="en-US">Underage Apprentice Permit</label>
+        </hris-field>
+        <hris-field max-length="1" id="pcfm" visibility="both">
+          <label>Provisional Certificate in Financial Movements (PCFM)</label>
+          <label xml:lang="ar-SA">شهادة مؤقتة في الحركات المالية (PCFM)</label>
+          <label xml:lang="bg-BG">Provisional Certificate in Financial Movements (PCFM)</label>
+          <label xml:lang="bs-BS">Sijil Sementara dalam Pergerakan Kewangan (PCFM)</label>
+          <label xml:lang="bs-ID">Sertifikat Sementara dalam Pergerakan Keuangan </label>
+          <label xml:lang="cs-CZ">Předběžné osvědčení ve finančních operacích</label>
+          <label xml:lang="cy-GB">Tystysgrif Dros Dro mewn Symudiadau Ariannol (PCFM)</label>
+          <label xml:lang="da-DK">Midlertidig attest i finansielle bevægelser (PCFM)</label>
+          <label xml:lang="de-CH">Vorläufige Bescheinigung für Finanzbewegungen (PCFM)</label>
+          <label xml:lang="de-DE">Vorläufige Bescheinigung für Finanzbewegungen (PCFM)</label>
+          <label xml:lang="el-GR">Προσωρινό Πιστοποιητικό σε Οικονομικές Κινήσεις (PCFM)</label>
+          <label xml:lang="en-GB">Provisional Certificate in Financial Movements (PCFM)</label>
+          <label xml:lang="es-ES">Certificado profesional de movimientos financieros (PCFM)</label>
+          <label xml:lang="es-MX">Certificado profesional de movimientos financieros (PCFM)</label>
+          <label xml:lang="fi-FI">Tilapäinen rahaliikennemaksu (PCFM)</label>
+          <label xml:lang="fr-CA">Certificat provisoire dans les mouvements financiers (PCFM)</label>
+          <label xml:lang="fr-FR">Certificat provisoire de mouvements financiers (PCFM)</label>
+          <label xml:lang="he-IL">תעודה זמנית בתנועות פיננסיות (PCFM)</label>
+          <label xml:lang="hi-IN">वित्तीय गतिविधियों में अस्थायी प्रमाणपत्र (PCFM)</label>
+          <label xml:lang="hr-HR">Privremena potvrda u financijskim kretanjima (PFCM)</label>
+          <label xml:lang="hu-HU">Ideiglenes tanúsítvány pénzügyi mozgásokban (PCFM)</label>
+          <label xml:lang="it-IT">Contributo provvisorio per movimenti finanziari (Provisional Certificate in Financial Movements, PCFM)</label>
+          <label xml:lang="ja-JP">資金移動の仮証書 (PCFM)</label>
+          <label xml:lang="ko-KR">PCFM(Provisional Certificate in Financial Movements)</label>
+          <label xml:lang="nb-NO">Provisional Certificate in Financial Movements (PCFM)</label>
+          <label xml:lang="nl-NL">Voorlopige bijdrage aan financiële transacties (PCFM)</label>
+          <label xml:lang="pl-PL">Zaświadczenie tymczasowe na potrzeby przesunięć finansowych (PCFM)</label>
+          <label xml:lang="pt-BR">Contribuição provisória sobre movimentação financeira (CPMF)</label>
+          <label xml:lang="pt-PT">Certificado provisório em movimentos financeiros (PCFM)</label>
+          <label xml:lang="ro-RO">Certificat provizoriu pentru mişcări financiare (PCFM)</label>
+          <label xml:lang="ru-RU">Временное свидетельство о финансовых перемещениях (PCFM)</label>
+          <label xml:lang="sk-SK">Predbežný certifikát vo finančných pohyboch (PCFM)</label>
+          <label xml:lang="sl-SI">Začasni certifikat za finančne transakcije (PCFM)</label>
+          <label xml:lang="sr-RS">Privremeni porez na finansijske transakcije (PCFM)</label>
+          <label xml:lang="sv-SE">Provisional Certificate in Financial Movements (PCFM)</label>
+          <label xml:lang="th-TH">ใบอนุญาตชั่วคราวเพื่อการโยกย้ายทางการเงิน (PCFM)</label>
+          <label xml:lang="tr-TR">Mali Hareketlerde Geçici Sertifika (PCFM)</label>
+          <label xml:lang="uk-UA">Тимчасовий сертифікат руху фінансів (PCFM)</label>
+          <label xml:lang="vi-VN">Chứng chỉ tạm thời trong chuyển tài chính (PCFM)</label>
+          <label xml:lang="zh-CN">财务变动临时证明 (PCFM)</label>
+          <label xml:lang="zh-TW">財務調動臨時證明 (PCFM)</label>
+          <label xml:lang="en-US">Provisional Certificate in Financial Movements (PCFM)</label>
+        </hris-field>
+        <hris-field max-length="1" id="health-risk" visibility="both">
+          <label>Health Risk</label>
+          <label xml:lang="ar-SA">مخاطرة صحية</label>
+          <label xml:lang="bg-BG">Риск за здравето</label>
+          <label xml:lang="bs-BS">Risiko Kesihatan</label>
+          <label xml:lang="bs-ID">Risiko Kesehatan </label>
+          <label xml:lang="cs-CZ">Zdravotní riziko</label>
+          <label xml:lang="cy-GB">Risg Iechyd</label>
+          <label xml:lang="da-DK">Helbredsrisiko</label>
+          <label xml:lang="de-CH">Gesundheitsgefährdung</label>
+          <label xml:lang="de-DE">Gesundheitsgefährdung</label>
+          <label xml:lang="el-GR">Κίνδυνος για την Υγεία </label>
+          <label xml:lang="en-GB">Health Risk</label>
+          <label xml:lang="es-ES">Riesgo de salud</label>
+          <label xml:lang="es-MX">Riesgo de salud</label>
+          <label xml:lang="fi-FI">Terveysriski</label>
+          <label xml:lang="fr-CA">Risque de santé</label>
+          <label xml:lang="fr-FR">Risque sanitaire</label>
+          <label xml:lang="he-IL">סיכון בריאותי</label>
+          <label xml:lang="hi-IN">स्वास्थ्य जोखिम</label>
+          <label xml:lang="hr-HR">Zdravstveni rizik</label>
+          <label xml:lang="hu-HU">Egészségügyi kockázat</label>
+          <label xml:lang="it-IT">Rischio per la salute</label>
+          <label xml:lang="ja-JP">健康上のリスク</label>
+          <label xml:lang="ko-KR">건강 위험</label>
+          <label xml:lang="nb-NO">Helserisiko</label>
+          <label xml:lang="nl-NL">Gezondheidsrisico</label>
+          <label xml:lang="pl-PL">Ryzyko dla zdrowia</label>
+          <label xml:lang="pt-BR">Insalubridade</label>
+          <label xml:lang="pt-PT">Risco para a saúde</label>
+          <label xml:lang="ro-RO">Risc pentru sănătate</label>
+          <label xml:lang="ru-RU">Риск для здоровья</label>
+          <label xml:lang="sk-SK">Ohrozenie zdravia</label>
+          <label xml:lang="sl-SI">Tveganje za zdravje</label>
+          <label xml:lang="sr-RS">Zdravstveni rizik</label>
+          <label xml:lang="sv-SE">Hälsorisk</label>
+          <label xml:lang="th-TH">ความเสี่ยงด้านสุขภาพ</label>
+          <label xml:lang="tr-TR">Sağlık Riski</label>
+          <label xml:lang="uk-UA">Ризик для здоров'я</label>
+          <label xml:lang="vi-VN">Rủi ro sức khỏe</label>
+          <label xml:lang="zh-CN">健康风险</label>
+          <label xml:lang="zh-TW">健康風險</label>
+          <label xml:lang="en-US">Health Risk</label>
+        </hris-field>
+        <hris-field max-length="1" id="hazard" visibility="both">
+          <label>Hazard</label>
+          <label xml:lang="ar-SA">خطر</label>
+          <label xml:lang="bg-BG">Опасност</label>
+          <label xml:lang="bs-BS">Bahaya</label>
+          <label xml:lang="bs-ID">Bahaya </label>
+          <label xml:lang="cs-CZ">Nebezpečí</label>
+          <label xml:lang="cy-GB">Perygl</label>
+          <label xml:lang="da-DK">Fare</label>
+          <label xml:lang="de-CH">Gefahr</label>
+          <label xml:lang="de-DE">Gefahr</label>
+          <label xml:lang="el-GR">Κίνδυνος </label>
+          <label xml:lang="en-GB">Hazard</label>
+          <label xml:lang="es-ES">Peligro</label>
+          <label xml:lang="es-MX">Peligro</label>
+          <label xml:lang="fi-FI">Riski</label>
+          <label xml:lang="fr-CA">Danger</label>
+          <label xml:lang="fr-FR">Danger</label>
+          <label xml:lang="he-IL">סיכון</label>
+          <label xml:lang="hi-IN">जोखिम</label>
+          <label xml:lang="hr-HR">Rizik</label>
+          <label xml:lang="hu-HU">Veszély</label>
+          <label xml:lang="it-IT">Pericolo</label>
+          <label xml:lang="ja-JP">危険有害性</label>
+          <label xml:lang="ko-KR">유해성</label>
+          <label xml:lang="nb-NO">Fare</label>
+          <label xml:lang="nl-NL">Gevaar</label>
+          <label xml:lang="pl-PL">Niebezpieczeństwo</label>
+          <label xml:lang="pt-BR">Periculosidade</label>
+          <label xml:lang="pt-PT">Perigo</label>
+          <label xml:lang="ro-RO">Pericol</label>
+          <label xml:lang="ru-RU">Опасность</label>
+          <label xml:lang="sk-SK">Ohrozenie</label>
+          <label xml:lang="sl-SI">Nevarnost</label>
+          <label xml:lang="sr-RS">Opasnost</label>
+          <label xml:lang="sv-SE">Fara</label>
+          <label xml:lang="th-TH">ภัยอันตราย</label>
+          <label xml:lang="tr-TR">Tehlike</label>
+          <label xml:lang="uk-UA">Небезпека</label>
+          <label xml:lang="vi-VN">Nguy hiểm</label>
+          <label xml:lang="zh-CN">危险</label>
+          <label xml:lang="zh-TW">危險</label>
+          <label xml:lang="en-US">Hazard</label>
+        </hris-field>
+        <hris-field max-length="1" id="mandatory-range" visibility="both">
+          <label>Mandatory Range</label>
+          <label xml:lang="ar-SA">نطاق إلزامي</label>
+          <label xml:lang="bg-BG">Задължителен обхват</label>
+          <label xml:lang="bs-BS">Julat Mandatori</label>
+          <label xml:lang="bs-ID">Rentang Kewajiban</label>
+          <label xml:lang="cs-CZ">Závazné rozmezí</label>
+          <label xml:lang="cy-GB">Ystod Gorfodol</label>
+          <label xml:lang="da-DK">Obligatorisk område</label>
+          <label xml:lang="de-CH">Obligatorischer Bereich</label>
+          <label xml:lang="de-DE">Obligatorischer Bereich</label>
+          <label xml:lang="el-GR">Υποχρεωτικό Εύρος </label>
+          <label xml:lang="en-GB">Mandatory Range</label>
+          <label xml:lang="es-ES">Rango obligatorio</label>
+          <label xml:lang="es-MX">Rango obligatorio</label>
+          <label xml:lang="fi-FI">Pakollinen tietue</label>
+          <label xml:lang="fr-CA">Plage obligatoire</label>
+          <label xml:lang="fr-FR">Plage obligatoire</label>
+          <label xml:lang="he-IL">טווח חובה</label>
+          <label xml:lang="hi-IN">अनिवार्य सीमा</label>
+          <label xml:lang="hr-HR">Obvezni raspon</label>
+          <label xml:lang="hu-HU">Kötelező tartomány</label>
+          <label xml:lang="it-IT">Registrazione pause obbligatoria</label>
+          <label xml:lang="ja-JP">必須範囲</label>
+          <label xml:lang="ko-KR">필수 범위</label>
+          <label xml:lang="nb-NO">Obligatorisk område</label>
+          <label xml:lang="nl-NL">Verplicht bereik</label>
+          <label xml:lang="pl-PL">Obowiązkowa przerwa</label>
+          <label xml:lang="pt-BR">Intervalo obrigatório</label>
+          <label xml:lang="pt-PT">Intervalo obrigatório</label>
+          <label xml:lang="ro-RO">Interval obligatoriu</label>
+          <label xml:lang="ru-RU">Обязательный диапазон</label>
+          <label xml:lang="sk-SK">Povinný rozsah</label>
+          <label xml:lang="sl-SI">Obvezen razpon</label>
+          <label xml:lang="sr-RS">Obavezna evidencija o pauzama</label>
+          <label xml:lang="sv-SE">Obligatorisk pauspost</label>
+          <label xml:lang="th-TH">บันทึกเวลาหยุดพักงานแบบบังคับ</label>
+          <label xml:lang="tr-TR">Zorunlu Aralık</label>
+          <label xml:lang="uk-UA">Обов'язковий діапазон</label>
+          <label xml:lang="vi-VN">Phạm vi bắt buộc</label>
+          <label xml:lang="zh-CN">强制性范围</label>
+          <label xml:lang="zh-TW">強制範圍</label>
+          <label xml:lang="en-US">Mandatory Range</label>
+        </hris-field>
+        <hris-field id="fgts-percent" visibility="none">
+          <label>FGTS Percentage</label>
+          <label xml:lang="ar-SA">النسبة المئوية لـ FGTS</label>
+          <label xml:lang="bg-BG">FGTS Percentage</label>
+          <label xml:lang="bs-BS">Peratusan FGTS</label>
+          <label xml:lang="bs-ID">Persen FGTS </label>
+          <label xml:lang="cs-CZ">Procenta FGTS</label>
+          <label xml:lang="cy-GB">Canran FGTS</label>
+          <label xml:lang="da-DK">FGTS procent</label>
+          <label xml:lang="de-CH">FGTS-Prozentsatz</label>
+          <label xml:lang="de-DE">FGTS-Prozentsatz</label>
+          <label xml:lang="el-GR">Ποσοστό FGTS </label>
+          <label xml:lang="en-GB">FGTS Percentage</label>
+          <label xml:lang="es-ES">Porcentaje FGTS</label>
+          <label xml:lang="es-MX">Porcentaje FGTS</label>
+          <label xml:lang="fi-FI">FGTS prosentti</label>
+          <label xml:lang="fr-CA">Pourcentage FGTS</label>
+          <label xml:lang="fr-FR">Pourcentage FGTS</label>
+          <label xml:lang="he-IL">אחוז קרן עתודה של פרמיית פיצויים</label>
+          <label xml:lang="hi-IN">FGTS प्रतिशत</label>
+          <label xml:lang="hr-HR">FGTS postotak</label>
+          <label xml:lang="hu-HU">FGTS-százalék</label>
+          <label xml:lang="it-IT">Percentuale FGTS</label>
+          <label xml:lang="ja-JP">FGTS 率</label>
+          <label xml:lang="ko-KR">FGTS 백분율</label>
+          <label xml:lang="nb-NO">Prosent for FGTS</label>
+          <label xml:lang="nl-NL">FGTS-percentage</label>
+          <label xml:lang="pl-PL">Wartość procentowa - fundusz odpraw FGTS</label>
+          <label xml:lang="pt-BR">Percentual do FGTS</label>
+          <label xml:lang="pt-PT">Percentagem FGTS</label>
+          <label xml:lang="ro-RO">Procent FGTS</label>
+          <label xml:lang="ru-RU">Процент FGTS</label>
+          <label xml:lang="sk-SK">Pecento FGTS</label>
+          <label xml:lang="sl-SI">Odstotek FGTS</label>
+          <label xml:lang="sr-RS">FGTS procenat</label>
+          <label xml:lang="sv-SE">FGTS-procentsats</label>
+          <label xml:lang="th-TH">เปอร์เซ็นต์ของ FGTS</label>
+          <label xml:lang="tr-TR">FGTS Yüzdesi</label>
+          <label xml:lang="uk-UA">FGTS: відсоток</label>
+          <label xml:lang="vi-VN">Tỷ lệ FGTS </label>
+          <label xml:lang="zh-CN">FGTS 百分比</label>
+          <label xml:lang="zh-TW">FGTS 百分比</label>
+          <label xml:lang="en-US">FGTS Percentage</label>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string2" visibility="both">
+          <label xml:lang="pt-BR">Contribuição Sindical</label>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string3" visibility="both">
+          <label xml:lang="pt-BR">Contribuição Assistencial</label>
+        </hris-field>
+        <hris-field max-length="25" id="custom-string4" visibility="both">
+          <label xml:lang="pt-BR">Mensalidade Sindical</label>
+          <picklist id="sindicatos"/>
+        </hris-field>
+        <hris-field id="custom-long1" visibility="both">
+          <label xml:lang="pt-BR">Valor</label>
+        </hris-field>
+        <hris-field max-length="1" id="custom-string21" visibility="both">
+          <label xml:lang="pt-BR">Hipótese legal para contratação de trabalhador temporário</label>
+          <picklist id="hipLeg"/>
+        </hris-field>
+        <hris-field max-length="256" id="custom-string22" visibility="both">
+          <label xml:lang="pt-BR">Justificativa da hipótese legal</label>
+        </hris-field>
+        <hris-field max-length="1" id="custom-string23" visibility="both">
+          <label xml:lang="pt-BR">Tipo de inclusão de contrato</label>
+          <picklist id="tpInclContr"/>
+        </hris-field>
+        <hris-field max-length="1" id="included-challenged-person-quota" visibility="both">
+          <label xml:lang="pt-BR">Preenche cota de pessoas com deficiência</label>
+          <picklist id="yesNo_BRA"/>
+        </hris-field>
+      </hris-section>
+      <hris-section id="timeOffRelatedFields">
+        <label xml:lang="en-DEBUG">Time Information</label>
+        <label xml:lang="pt-BR">Informações de Tempo</label>
+        <label xml:lang="en-US">Time Information</label>
+        <label>Time Information</label>
+        <hris-field max-length="1" id="custom-string24" visibility="both">
+          <label xml:lang="pt-BR">Unidade de Pagamento</label>
+          <picklist id="tpJornada"/>
+        </hris-field>
+      </hris-section>
+    </hris-element>
+  </country>
+ </country-specific-fields>
