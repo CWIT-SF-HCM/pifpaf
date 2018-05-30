@@ -13980,7 +13980,7 @@
       <label xml:lang="en-US">Place Of Birth</label>
       <picklist id="CIDADES_BRA" parent-field-id="region-of-birth"/>
     </hris-field>
-    <hris-field max-length="128" id="birth-name" visibility="both" required="true">
+    <hris-field max-length="128" id="birth-name" visibility="none">
       <label>Birth Name</label>
       <label xml:lang="ar-SA">اسم الميلاد</label>
       <label xml:lang="bg-BG">Рождено име</label>
@@ -14024,7 +14024,7 @@
       <label xml:lang="zh-TW">出生姓名</label>
       <label xml:lang="en-US">Birth Name</label>
     </hris-field>
-    <hris-field max-length="128" id="custom-string14" visibility="both">
+    <hris-field max-length="128" id="custom-string14" visibility="none">
       <label xml:lang="en-DEBUG">Nome da Mãe</label>
       <label xml:lang="pt-BR">Nome do Pai</label>
       <label xml:lang="en-US">Nome do Pai</label>
@@ -14389,7 +14389,7 @@
       <label xml:lang="en-US">Suffix</label>
       <picklist id="namesuffix"/>
     </hris-field>
-    <hris-field max-length="128" id="first-name-alt1" visibility="both">
+    <hris-field max-length="128" id="first-name-alt1" visibility="none">
       <label>First Name Alt1</label>
       <label xml:lang="ar-SA">الاسم الأول Alt1</label>
       <label xml:lang="bg-BG">Собствено име Alt1</label>
@@ -14696,6 +14696,7 @@
       <label xml:lang="zh-CN">显示姓名</label>
       <label xml:lang="zh-TW">顯示姓名</label>
       <label xml:lang="en-US">Display Name</label>
+      <trigger-rule event="onChange" rule="CWIT_FIELD_DISPLAYNAME_ONCHANGE"/>
     </hris-field>
     <hris-field max-length="128" id="formal-name" visibility="none">
       <label>Formal Name</label>
@@ -15494,7 +15495,7 @@
       <label xml:lang="zh-TW">國籍</label>
       <label xml:lang="en-US">Nationality</label>
     </hris-field>
-    <hris-field max-length="128" id="second-nationality" visibility="both">
+    <hris-field max-length="128" id="second-nationality" visibility="none">
       <label>Second Nationality</label>
       <label xml:lang="ar-SA">الجنسية الثانية</label>
       <label xml:lang="bg-BG">Втора националност</label>
@@ -15538,7 +15539,7 @@
       <label xml:lang="zh-TW">第二國籍</label>
       <label xml:lang="en-US">Second Nationality</label>
     </hris-field>
-    <hris-field max-length="128" id="third-nationality" visibility="both">
+    <hris-field max-length="128" id="third-nationality" visibility="none">
       <label>Third Nationality</label>
       <label xml:lang="ar-SA">الجنسية الثالثة</label>
       <label xml:lang="bg-BG">Трета националност</label>
@@ -15779,40 +15780,40 @@
       <label xml:lang="en-US">Challenge Status</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string13" visibility="none">
+    <hris-field max-length="256" id="custom-string13" visibility="both">
       <label xml:lang="en-DEBUG">Deficiência Física</label>
       <label xml:lang="pt-BR">Deficiência Física</label>
       <label xml:lang="en-US">Deficiência Física</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string11" visibility="none">
+    <hris-field max-length="256" id="custom-string11" visibility="both">
       <label xml:lang="pt-BR">Deficiência Visual</label>
       <label xml:lang="en-DEBUG">Deficiência Visual</label>
       <label xml:lang="en-US">Deficiência Visual</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string12" visibility="none">
+    <hris-field max-length="256" id="custom-string12" visibility="both">
       <label xml:lang="en-DEBUG">Deficiência Auditiva</label>
       <label xml:lang="pt-BR">Deficiência Auditiva</label>
       <label xml:lang="en-US">Deficiência Auditiva</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field id="custom-long1" visibility="none">
+    <hris-field id="custom-long1" visibility="both">
       <label xml:lang="en-DEBUG">Deficiência Mental</label>
       <label xml:lang="pt-BR">Deficiência Mental</label>
       <label xml:lang="en-US">Deficiência Mental</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="80" id="custom-string3" visibility="none">
+    <hris-field max-length="80" id="custom-string3" visibility="both">
       <label xml:lang="pt-BR">Deficiência Intelectual</label>
       <label xml:lang="en-US">Deficiência Intelectual</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string18" visibility="none">
+    <hris-field max-length="256" id="custom-string18" visibility="both">
       <label xml:lang="pt-BR">Reabilitado</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string6" visibility="none">
+    <hris-field max-length="256" id="custom-string6" visibility="both">
       <label xml:lang="pt-BR">Preenche cota de pessoas com deficiência</label>
       <label>Preenche cota de pessoas com deficiência</label>
       <label xml:lang="en-US">Preenche cota de pessoas com deficiência</label>
@@ -15821,13 +15822,13 @@
     <hris-field max-length="256" id="custom-string7" visibility="none">
       <label xml:lang="pt-BR">Observação</label>
     </hris-field>
-    <hris-field max-length="256" id="custom-string9" visibility="none">
+    <hris-field max-length="256" id="custom-string9" visibility="both">
       <label xml:lang="pt-BR">Utilizou FGTS para aquisição de imóvel ?</label>
       <label>Utilizou FGTS para aquisição de imóvel ?</label>
       <label xml:lang="en-US">Utilizou FGTS para aquisição de imóvel ?</label>
       <picklist id="yesNo_BRA"/>
     </hris-field>
-    <hris-field max-length="256" id="custom-string10" visibility="none">
+    <hris-field max-length="256" id="custom-string10" visibility="both">
       <label xml:lang="pt-BR">Paga aluguel ?</label>
       <label>Paga aluguel ?</label>
       <label xml:lang="en-US">Paga aluguel ?</label>
@@ -18791,6 +18792,10 @@
     <label xml:lang="zh-TW">雇用詳細資訊</label>
     <label xml:lang="en-US">Employment Details</label>
     <trigger-rule event="onSave" rule="CheckDismissalProtection"/>
+    <trigger-rule event="onSave" rule="CWIT_COMPINF_TERMINATE_ONSAVE"/>
+    <hris-field max-length="256" id="custom-string1" visibility="both">
+      <label xml:lang="pt-BR">Nome no crachá</label>
+    </hris-field>
     <hris-field max-length="256" id="company" visibility="both" required="true">
       <label>New Assignment Company</label>
       <label xml:lang="pt-BR">Nova atribuição de Empresa</label>
@@ -20028,7 +20033,9 @@
   <hris-element id="jobInfo">
     <label>Job Information</label>
     <label xml:lang="pt-BR">Informações de Trabalho</label>
-    <trigger-rule event="onPostSave" rule="EVENT_Term"/>
+    <label xml:lang="en-US">Job Information</label>
+    <trigger-rule event="onSave" rule="CWIT_SET_EVENT_JOBINFO"/>
+    <trigger-rule event="onPostSave" rule="SAP_EVENT_TERM"/>
     <hris-section id="positionInfoList">
       <label xml:lang="en-DEBUG">Position Information</label>
       <label xml:lang="pt-BR">Informações da Posição</label>
@@ -20077,7 +20084,7 @@
         <label xml:lang="zh-CN">职位</label>
         <label xml:lang="zh-TW">職位</label>
         <label xml:lang="en-US">Position</label>
-        <trigger-rule event="onChange" rule="FIELD_POSITION_ONCHANGE"/>
+        <trigger-rule event="onChange" rule="CWIT_FIELD_POSITION_ONCHANGE"/>
       </hris-field>
       <hris-field id="positionEntryDate" visibility="both">
         <label>Position Entry Date</label>
@@ -20216,6 +20223,7 @@
         <label xml:lang="zh-CN">公司</label>
         <label xml:lang="zh-TW">公司</label>
         <label xml:lang="en-US">Company</label>
+      <field-criteria destinationFieldValue="company" sourceFieldName="LegalEntity"/>
       </hris-field>
       <hris-field max-length="128" id="division" visibility="both">
         <label>Division</label>
@@ -20260,6 +20268,7 @@
         <label xml:lang="zh-CN">分部</label>
         <label xml:lang="zh-TW">事業部</label>
         <label xml:lang="en-US">Division</label>
+      <field-criteria destinationFieldValue="company" sourceFieldName="cust_Empresa.internalId"/>
       </hris-field>
       <hris-field max-length="256" id="business-unit" visibility="both">
         <label>Business Unit</label>
@@ -22581,6 +22590,7 @@
       </hris-field>
       <hris-field max-length="256" id="custom-string19" visibility="both">
         <label xml:lang="pt-BR">Tipo de admissão</label>
+        <label xml:lang="en-US">Tipo de admissão</label>
         <picklist id="tpadmissao"/>
       </hris-field>
       <hris-field max-length="10" id="custom-string15" visibility="both">
@@ -22648,6 +22658,7 @@
       </hris-field>
       <hris-field max-length="256" id="custom-string20" visibility="both">
         <label xml:lang="pt-BR">CNPJ do Sindicato representativo da categoria</label>
+        <label xml:lang="en-US">CNPJ do Sindicato</label>
       </hris-field>
       <hris-field max-length="20" id="payScaleArea" visibility="both" required="true">
         <label>Pay Scale Area</label>
@@ -23055,6 +23066,7 @@
       </hris-field>
       <hris-field max-length="2" id="custom-string28" visibility="both">
         <label xml:lang="pt-BR">Motivo do desligamento</label>
+        <label xml:lang="en-US">Motivo do desligamento</label>
         <picklist id="codMotDesl"/>
       </hris-field>
       <hris-field max-length="128" id="timeInPayScaleLevel" visibility="none">
@@ -23191,6 +23203,7 @@
       </hris-field>
       <hris-field max-length="2" id="custom-string27" visibility="both">
         <label xml:lang="pt-BR">Motivo de afastamento temporário</label>
+        <label xml:lang="en-US">Motivo de afastamento temporário</label>
         <picklist id="codMotAfast"/>
       </hris-field>
       <hris-field id="attachment-id" visibility="none">
@@ -23250,6 +23263,7 @@
       <label>Time Information</label>
       <hris-field max-length="1" id="custom-string26" visibility="both">
         <label xml:lang="pt-BR">Tipo de contrato em tempo parcial</label>
+        <label xml:lang="en-US">Tipo de contrato em tempo parcial</label>
         <picklist id="tmpParc"/>
       </hris-field>
       <hris-field max-length="256" id="standard-hours" visibility="both" maximumFractionDigits="2">
@@ -23298,10 +23312,12 @@
       </hris-field>
       <hris-field max-length="1" id="custom-string24" visibility="both">
         <label xml:lang="pt-BR">Tipo de Jornada</label>
+        <label xml:lang="en-US">Tipo de Jornada</label>
         <picklist id="tpJornada"/>
       </hris-field>
       <hris-field max-length="256" id="custom-string25" visibility="both">
         <label xml:lang="pt-BR">Descrição do tipo de jornada</label>
+        <label xml:lang="en-US">Descrição do tipo de jornada</label>
       </hris-field>
       <hris-field max-length="256" id="workingDaysPerWeek" visibility="both">
         <label>Working Days Per Week</label>
@@ -23350,14 +23366,17 @@
       <hris-field id="holiday-calendar-code" visibility="both">
         <label>Holiday Calendar</label>
         <label xml:lang="pt-BR">Calendário de Feriados</label>
+        <label xml:lang="en-US">Holiday Calendar</label>
       </hris-field>
       <hris-field id="workschedule-code" visibility="both">
         <label>Work Schedule</label>
         <label xml:lang="pt-BR">Plano de Horário de Trabalho</label>
+        <label xml:lang="en-US">Work Schedule</label>
       </hris-field>
       <hris-field id="time-type-profile-code" visibility="both">
         <label>Time Profile</label>
         <label xml:lang="pt-BR">Perfil de tempos</label>
+        <label xml:lang="en-US">Time Profile</label>
       </hris-field>
       <hris-field id="time-recording-profile-code" visibility="none">
         <label>Time Recording Profile</label>
@@ -23450,6 +23469,10 @@
       <hris-field id="custom-double1" visibility="none">
         <label xml:lang="pt-BR">Percentual Horas Trab.</label>
         <label xml:lang="en-US">Percentual Horas Trab.</label>
+      </hris-field>
+      <hris-field id="time-recording-variant" visibility="both">
+        <label xml:lang="en-US">Time Record Variant</label>
+        <label xml:lang="pt-BR">Time Record Variant</label>
       </hris-field>
     </hris-section>
   </hris-element>
@@ -24063,7 +24086,7 @@
       <label xml:lang="zh-TW">具備享有福利資格</label>
       <label xml:lang="en-US">Is Eligible For Benefit</label>
     </hris-field>
-    <hris-field id="is-eligible-for-car" visibility="both">
+    <hris-field id="is-eligible-for-car" visibility="none">
       <label>Is Eligible For Car</label>
       <label xml:lang="ar-SA">مؤهل للحصول على سيارة</label>
       <label xml:lang="bg-BG">Избираем за лек автомобил</label>
@@ -24599,6 +24622,7 @@
     <label xml:lang="zh-CN">薪酬</label>
     <label xml:lang="zh-TW">薪酬</label>
     <label xml:lang="en-US">Compensation</label>
+    <trigger-rule event="onSave" rule="CWIT_RN_REMUNERACAO"/>
     <hris-field id="pay-component" visibility="both" required="true">
       <label>Pay Component</label>
       <label xml:lang="ar-SA">مكون الراتب</label>
@@ -26593,9 +26617,6 @@
   </element-permission>
   <dg-filters>
     <permission-group-filter>
-      <hris-element-ref refid="compInfo">
-        <hris-field-ref refid="pay-group"/>
-      </hris-element-ref>
       <hris-element-ref refid="jobInfo">
         <hris-field-ref refid="business-unit"/>
         <hris-field-ref refid="cost-center"/>
@@ -26609,6 +26630,9 @@
         <hris-field-ref refid="division"/>
         <hris-field-ref refid="company" ref-field="countryOfRegistration"/>
         <hris-field-ref refid="department" ref-field="name"/>
+      </hris-element-ref>
+      <hris-element-ref refid="compInfo">
+        <hris-field-ref refid="pay-group"/>
       </hris-element-ref>
     </permission-group-filter>
   </dg-filters>
