@@ -1,0 +1,5 @@
+"[OPERATOR]","externalCode","externalName","cust_logradouro","cust_bairro","cust_localidade","cust_uf","cust_tplogradouro","mdfSystemEffectiveStartDate"
+"Supported operators: Delimit, Clear and Delete","CEP","externalName","logradouro","bairro","localidade","uf","tplogradouro","Data de Início"
+"","00000-000","","Rua alksdjalksd","aklsdj","SP","SP","0","01/01/1900"
+"","02737-040","","Rua Emilio Lambert","Itaberaba","São Paulo","SP","","01/01/1900"
+"","30350-577","","Avenida Raja Gabaglia - de 3387 a 4343 - lado ímpar","Santa Lúcia","Belo Horizonte","MF","","01/01/1900"
